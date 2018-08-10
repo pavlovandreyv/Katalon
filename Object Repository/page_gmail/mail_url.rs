@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>mail_url</name>
+   <tag></tag>
+   <elementGuidId>9b0da6a0-a7ac-401a-b8a4-e29f650ca02b</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://10.100.70.20/edo/Account/Confirm?actionName=register&amp;actionUser=autoui1&amp;actionKey=c5bbd1d1-6972-494b-ac0a-742c3514f2f5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-saferedirecturl</name>
+      <type>Main</type>
+      <value>https://www.google.com/url?hl=ru&amp;q=http://10.100.70.20/edo/Account/Confirm?actionName%3Dregister%26actionUser%3Dautoui1%26actionKey%3Dc5bbd1d1-6972-494b-ac0a-742c3514f2f5&amp;source=gmail&amp;ust=1533893183913000&amp;usg=AFQjCNE_udODXAyaTlsU9wlM-nSsz9CBgw</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>перейдите по ссылке</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;:lx&quot;)/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

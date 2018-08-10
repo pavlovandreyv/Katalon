@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Активация учетки в gmail письме</description>
+   <name>Activation_gmail</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d394bc0f-ca65-44a9-9e02-18b5367a623e</testCaseGuid>
+</TestCaseEntity>

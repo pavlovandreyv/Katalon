@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Authorization,Firefox 61.0,\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F,2018-08-09 17:12:02,2018-08-09 17:12:11,"9,586s",INCOMPLETE
+,,,,,,
+Test Cases/Base/Authorization,Firefox 61.0,,2018-08-09 17:12:02,2018-08-09 17:12:11,"9,389s",FAILED
+openBrowser,Firefox 61.0,Переход на тестовый стенд,2018-08-09 17:12:02,2018-08-09 17:12:06,"3,979s",PASSED
+maximizeWindow,Firefox 61.0,Максимальный экран браузера,2018-08-09 17:12:06,2018-08-09 17:12:06,"0,025s",PASSED
+verifyElementPresent,Firefox 61.0,"Проверка наличия поля ""Имя пользователя""",2018-08-09 17:12:06,2018-08-09 17:12:11,"5,151s",FAILED

@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,,,2018-08-09 08:40:35,2018-08-09 08:40:36,"0,446s",ERROR
+,,,,,,
+Test Cases/Base/Activation,,Активация нового пользователя,2018-08-09 08:40:36,2018-08-09 08:40:36,"0,203s",ERROR
+callTestCase,,,2018-08-09 08:40:36,2018-08-09 08:40:36,"0,003s",PASSED

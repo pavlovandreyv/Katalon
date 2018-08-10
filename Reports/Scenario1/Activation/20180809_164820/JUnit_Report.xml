@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Activation" time="68" tests="0" failures="1" errors="0">
+   <testsuite name="Activation" tests="0" failures="1" errors="0" time="68" timestamp="2018-08-09 16:49:15" hostname="ex64 - ex64" id="Test Suites/Scenario1/Activation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Activation\\20180809_164820"/>
+         <property name="logFiles" value="T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Activation\\20180809_164820\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ex64 - ex64"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.20.109"/>
+         <property name="sessionId" value="f7e32b0e-2fdf-4cd3-9f80-9a0d2af89f0e"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Base/Activation" classname="Test Cases/Base/Activation" status="FAILED">
+         <failure type="FAILED" message="Unable to verify object 'Object Repository/page_administration/page_activation/message_pass' is present (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11148, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f7e32b0e-2fdf-4cd3-9f80-9a0d2af89f0e
+*** Element info: {Using=xpath, value=//div[(text() = 'Регистрация пользователя подтверждена.' or . = 'Регистрация пользователя подтверждена.')]})"/>
+         <system-out><![CDATA[2018-08-09 16:49:15 - [TEST_CASE][FAILED] - Test Cases/Base/Activation: Test Cases/Base/Activation FAILED because (of) Unable to verify object 'Object Repository/page_administration/page_activation/message_pass' is present (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11148, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f7e32b0e-2fdf-4cd3-9f80-9a0d2af89f0e
+*** Element info: {Using=xpath, value=//div[(text() = 'Регистрация пользователя подтверждена.' or . = 'Регистрация пользователя подтверждена.')]})
+
+2018-08-09 16:49:16 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base/Authorization' successfully
+
+2018-08-09 16:49:16 - [TEST_CASE][PASSED] - Test Cases/Base/Authorization: Test Cases/Base/Authorization
+
+2018-08-09 16:49:16 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.100.70.20/edo'
+
+2018-08-09 16:49:22 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.20/edo'
+
+2018-08-09 16:49:22 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-09 16:49:22 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-09 16:49:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/page_authorization/input_login' is present
+
+2018-08-09 16:49:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:49:22 - [MESSAGE][PASSED] - Object 'Object Repository/page_authorization/input_login' is present
+
+2018-08-09 16:49:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/page_authorization/input_password' is present
+
+2018-08-09 16:49:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:49:22 - [MESSAGE][PASSED] - Object 'Object Repository/page_authorization/input_password' is present
+
+2018-08-09 16:49:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/page_authorization/button_come' is present
+
+2018-08-09 16:49:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:49:22 - [MESSAGE][PASSED] - Object 'Object Repository/page_authorization/button_come' is present
+
+2018-08-09 16:49:22 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/page_authorization/button_comeEP' is present
+
+2018-08-09 16:49:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/page_authorization/button_comeEP' is present
+
+2018-08-09 16:49:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/page_authorization/a_registry' is present
+
+2018-08-09 16:49:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/page_authorization/a_registry' is present
+
+2018-08-09 16:49:23 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/page_authorization/a_passwordRecovery' is present
+
+2018-08-09 16:49:23 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:49:23 - [MESSAGE][PASSED] - Object 'Object Repository/page_authorization/a_passwordRecovery' is present
+
+2018-08-09 16:49:23 - [TEST_STEP][PASSED] - setText: Text 'aaermolin' is set on object 'Object Repository/page_authorization/input_login'
+
+2018-08-09 16:49:23 - [MESSAGE][PASSED] - Text 'aaermolin' is set on object 'Object Repository/page_authorization/input_login'
+
+2018-08-09 16:49:23 - [TEST_STEP][PASSED] - setText: Text 'Gfhjkm1' is set on object 'Object Repository/page_authorization/input_password'
+
+2018-08-09 16:49:23 - [MESSAGE][PASSED] - Text 'Gfhjkm1' is set on object 'Object Repository/page_authorization/input_password'
+
+2018-08-09 16:49:23 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_authorization/button_come' is clicked on
+
+2018-08-09 16:49:28 - [MESSAGE][PASSED] - Object: 'Object Repository/page_authorization/button_come' is clicked on
+
+2018-08-09 16:49:28 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/page_home/span_myTasks' is present
+
+2018-08-09 16:49:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:49:53 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/span_myTasks' is present
+
+2018-08-09 16:49:53 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/page_home/span_administration' is present
+
+2018-08-09 16:49:53 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:49:54 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/span_administration' is present
+
+2018-08-09 16:49:54 - [TEST_STEP][PASSED] - verifyElementPresent: Object 'Object Repository/page_home/span_exit' is present
+
+2018-08-09 16:49:54 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:49:54 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/span_exit' is present
+
+2018-08-09 16:49:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base/Authorization' successfully
+
+2018-08-09 16:49:54 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_home/span_administration' is clicked on
+
+2018-08-09 16:49:59 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/span_administration' is clicked on
+
+2018-08-09 16:49:59 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_administration/page_activation/user' is clicked on
+
+2018-08-09 16:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/page_administration/page_activation/user' is clicked on
+
+2018-08-09 16:50:11 - [TEST_STEP][PASSED] - setText: Text 'autoui12' is set on object 'Object Repository/page_administration/page_activation/input_user'
+
+2018-08-09 16:50:11 - [MESSAGE][PASSED] - Text 'autoui12' is set on object 'Object Repository/page_administration/page_activation/input_user'
+
+2018-08-09 16:50:11 - [TEST_STEP][PASSED] - sendKeys: Keys 'ENTER + ' sent to object: 'Object Repository/page_administration/page_activation/input_user'
+
+2018-08-09 16:50:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/page_administration/page_activation/input_user'
+
+2018-08-09 16:50:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_administration/page_activation/input_workGroup' is clicked on
+
+2018-08-09 16:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/page_administration/page_activation/input_workGroup' is clicked on
+
+2018-08-09 16:50:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_administration/page_activation/item_iz44fz' is clicked on
+
+2018-08-09 16:50:11 - [MESSAGE][PASSED] - Object: 'Object Repository/page_administration/page_activation/item_iz44fz' is clicked on
+
+2018-08-09 16:50:11 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_administration/page_activation/button_save' is clicked on
+
+2018-08-09 16:50:12 - [MESSAGE][PASSED] - Object: 'Object Repository/page_administration/page_activation/button_save' is clicked on
+
+2018-08-09 16:50:12 - [TEST_STEP][FAILED] - verifyElementPresent: Unable to verify object 'Object Repository/page_administration/page_activation/message_pass' is present (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11148, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f7e32b0e-2fdf-4cd3-9f80-9a0d2af89f0e
+*** Element info: {Using=xpath, value=//div[(text() = 'Регистрация пользователя подтверждена.' or . = 'Регистрация пользователя подтверждена.')]})
+
+2018-08-09 16:50:12 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-08-09 16:50:23 - [MESSAGE][WARNING] - Cannot take screenshot
+
+2018-08-09 16:50:23 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/page_administration/page_activation/message_pass' is present (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11148, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f7e32b0e-2fdf-4cd3-9f80-9a0d2af89f0e
+*** Element info: {Using=xpath, value=//div[(text() = 'Регистрация пользователя подтверждена.' or . = 'Регистрация пользователя подтверждена.')]})]]></system-out>
+         <system-err><![CDATA[2018-08-09 16:49:15 - [TEST_CASE][FAILED] - Test Cases/Base/Activation: Test Cases/Base/Activation FAILED because (of) Unable to verify object 'Object Repository/page_administration/page_activation/message_pass' is present (Root cause: org.openqa.selenium.WebDriverException: Failed to decode response from marionette
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 11148, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: f7e32b0e-2fdf-4cd3-9f80-9a0d2af89f0e
+*** Element info: {Using=xpath, value=//div[(text() = 'Регистрация пользователя подтверждена.' or . = 'Регистрация пользователя подтверждена.')]})]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-09 16:49:15 - [TEST_SUITE][INCOMPLETE] - Activation: null]]></system-out>
+      <system-err><![CDATA[2018-08-09 16:49:15 - [TEST_SUITE][INCOMPLETE] - Activation: null]]></system-err>
+   </testsuite>
+</testsuites>

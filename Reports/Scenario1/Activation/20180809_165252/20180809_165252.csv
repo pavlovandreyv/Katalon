@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Activation,Firefox 61.0,\u0410\u043A\u0442\u0438\u0432\u0430\u0446\u0438\u044F \u0443\u0447\u0435\u0442\u043A\u0438,2018-08-09 16:54:45,2018-08-09 16:54:51,"6,537s",INCOMPLETE
+,,,,,,
+Test Cases/Base/Activation,Firefox 61.0,Активация нового пользователя,2018-08-09 16:54:45,2018-08-09 16:54:51,"6,291s",FAILED
+callTestCase,Firefox 61.0,Авторизация администратором,2018-08-09 16:54:45,2018-08-09 16:54:51,"6,054s",FAILED

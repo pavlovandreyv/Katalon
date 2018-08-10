@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description>Авторизация</description>
+   <name>Authorization</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-08-09T17:08:39</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>d889f8b6-84aa-4198-a490-f7a0889cc7dd</testSuiteGuid>
+   <testCaseLink>
+      <guid>1e9cf9e2-c745-43f3-8c36-15c6e2a71a70</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Base/Authorization</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1313ffd6-fb3e-49cf-9eec-b8bc03ef40a4</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>a78455d6-428b-44b2-b2b4-62c0ed56db40</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

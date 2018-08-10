@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Активация нового пользователя</description>
+   <name>Activation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd12035d-5b15-46a6-afad-27da7636053b</testCaseGuid>
+</TestCaseEntity>

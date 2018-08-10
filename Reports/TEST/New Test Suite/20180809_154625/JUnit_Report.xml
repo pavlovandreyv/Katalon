@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="305" tests="0" failures="1" errors="0">
+   <testsuite name="New Test Suite" tests="0" failures="1" errors="0" time="305" timestamp="2018-08-09 15:46:26" hostname="ex64 - ex64" id="Test Suites/TEST/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="T:\\Katalon Studio\\E1\\Reports\\TEST\\New Test Suite\\20180809_154625"/>
+         <property name="logFiles" value="T:\\Katalon Studio\\E1\\Reports\\TEST\\New Test Suite\\20180809_154625\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ex64 - ex64"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.0.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.20.109"/>
+         <property name="sessionId" value="51cbdd7e-41c6-4680-9f65-91e26ddcf3ef"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Base/Activation" classname="Test Cases/Base/Activation" status="FAILED">
+         <failure type="FAILED" message="Unable to open browser with url: 'http://10.100.70.20/edo' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9460, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51cbdd7e-41c6-4680-9f65-91e26ddcf3ef)"/>
+         <system-out><![CDATA[2018-08-09 15:46:27 - [TEST_CASE][FAILED] - Test Cases/Base/Activation: Test Cases/Base/Activation FAILED because (of) Unable to open browser with url: 'http://10.100.70.20/edo' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9460, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51cbdd7e-41c6-4680-9f65-91e26ddcf3ef)
+
+2018-08-09 15:46:27 - [TEST_STEP][FAILED] - callTestCase: Unable to call Test Case with id 'Test Cases/Base/Authorization' (Root cause: Call Test Case 'Test Cases/Base/Authorization' failed)
+
+2018-08-09 15:46:27 - [TEST_CASE][FAILED] - Test Cases/Base/Authorization: Test Cases/Base/Authorization FAILED because (of) Unable to open browser with url: 'http://10.100.70.20/edo' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9460, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51cbdd7e-41c6-4680-9f65-91e26ddcf3ef)
+
+2018-08-09 15:46:27 - [TEST_STEP][FAILED] - openBrowser: Unable to open browser with url: 'http://10.100.70.20/edo' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9460, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51cbdd7e-41c6-4680-9f65-91e26ddcf3ef)
+
+2018-08-09 15:51:31 - [MESSAGE][FAILED] - Unable to open browser with url: 'http://10.100.70.20/edo' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9460, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51cbdd7e-41c6-4680-9f65-91e26ddcf3ef)
+
+2018-08-09 15:51:31 - [MESSAGE][FAILED] - Unable to call Test Case with id 'Test Cases/Base/Authorization' (Root cause: Call Test Case 'Test Cases/Base/Authorization' failed)]]></system-out>
+         <system-err><![CDATA[2018-08-09 15:46:27 - [TEST_CASE][FAILED] - Test Cases/Base/Activation: Test Cases/Base/Activation FAILED because (of) Unable to open browser with url: 'http://10.100.70.20/edo' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9460, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51cbdd7e-41c6-4680-9f65-91e26ddcf3ef)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-09 15:46:26 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Base/Activation FAILED because (of) Unable to open browser with url: 'http://10.100.70.20/edo' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9460, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51cbdd7e-41c6-4680-9f65-91e26ddcf3ef)]]></system-out>
+      <system-err><![CDATA[2018-08-09 15:46:26 - [TEST_SUITE][FAILED] - New Test Suite: Test Cases/Base/Activation FAILED because (of) Unable to open browser with url: 'http://10.100.70.20/edo' (Root cause: org.openqa.selenium.TimeoutException: Timeout loading page after 300000ms
+Build info: version: '3.7.1', revision: '8a0099a', time: '2017-11-06T21:07:36.161Z'
+System info: host: 'EX64', ip: '192.168.20.109', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_102'
+Driver info: com.kms.katalon.core.webui.driver.firefox.CGeckoDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 61.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:headless: false, moz:processID: 9460, moz:profile: C:\Users\ex64\AppData\Local..., moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: XP, platformName: XP, platformVersion: 6.1, proxy: Proxy(direct), rotatable: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}}
+Session ID: 51cbdd7e-41c6-4680-9f65-91e26ddcf3ef)]]></system-err>
+   </testsuite>
+</testsuites>
