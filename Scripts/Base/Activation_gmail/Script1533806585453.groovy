@@ -30,23 +30,30 @@ WebUI.setText(findTestObject('page_gmail/input_email'), 'test.cognitive@gmail.co
 WebUiBuiltInKeywords.click(findTestObject('page_gmail/span_next'))
 
 'Проверка достпности поля пароля'
-WebUI.verifyElementPresent(findTestObject('page_gmail/input_password'), 0)
+WebUI.waitForElementClickable(findTestObject('page_gmail/input_password'), 2)
 
 'Ввод пароля'
 WebUiBuiltInKeywords.setText(findTestObject('page_gmail/input_password'), 'TestDepartment2016')
 
 '//to do: переделать. Ожидание 1 секунда (без этого валится с ошибкой)'
-WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+not_run: WebUI.delay(1, FailureHandling.STOP_ON_FAILURE)
+
+WebUiBuiltInKeywords.waitForElementClickable(findTestObject('page_gmail/span_next'), 2)
+
+WebUiBuiltInKeywords.click(findTestObject('page_gmail/span_next'))
 
 'Далее'
-WebUiBuiltInKeywords.sendKeys(findTestObject('page_gmail/input_password'), Keys.chord(Keys.ENTER))
+not_run: WebUiBuiltInKeywords.sendKeys(findTestObject('page_gmail/input_password'), Keys.chord(Keys.ENTER))
 
 'Открыть письмо с активационной ссылкой'
 WebUiBuiltInKeywords.click(findTestObject('page_gmail/mail'))
 
-'Перейти по ссылке активации пользователя'
-WebUiBuiltInKeywords.click(findTestObject('page_gmail/mail_url'))
+'Получить url активационной ссылки для перехода внутри 1й вкладки'
+url_activation = WebUiBuiltInKeywords.getAttribute(findTestObject('page_gmail/mail_url'), 'href')
 
-'Проверка успешной активации'
-WebUiBuiltInKeywords.waitForPageLoad(10, FailureHandling.STOP_ON_FAILURE)
+'Перейти по ссылке активации пользователя'
+WebUiBuiltInKeywords.navigateToUrl(url_activation)
+
+'Проверка успешного перехода по url'
+WebUiBuiltInKeywords.verifyElementPresent(findTestObject('page_gmail/message_pass'), 0)
 

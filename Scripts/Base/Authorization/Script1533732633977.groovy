@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Переход на тестовый стенд'
-WebUiBuiltInKeywords.openBrowser(findTestData('Excel/Server').getValue('Server', 1))
+WebUiBuiltInKeywords.openBrowser(GlobalVariable.Server)
 
 'Максимальный экран браузера'
 WebUI.maximizeWindow()

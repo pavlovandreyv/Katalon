@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>act_menu</name>
+   <tag></tag>
+   <elementGuidId>73ba8805-dd7e-4c3a-9377-024ce144aa2a</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dx-menu-item-popout-container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;search-result-table-fd434753-5aa5-4d93-858d-b9bc0c5ee47b&quot;)/div[@class=&quot;dx-datagrid&quot;]/div[@class=&quot;dx-datagrid-rowsview dx-datagrid-nowrap dx-scrollable dx-scrollable-customizable-scrollbars dx-scrollable-both dx-scrollable-simulated dx-visibility-change-handler&quot;]/div[@class=&quot;dx-scrollable-wrapper&quot;]/div[@class=&quot;dx-scrollable-container&quot;]/div[@class=&quot;dx-scrollable-content&quot;]/div[@class=&quot;dx-datagrid-content&quot;]/table[@class=&quot;dx-datagrid-table dx-datagrid-table-fixed&quot;]/tbody[1]/tr[@class=&quot;dx-row dx-data-row dx-column-lines&quot;]/td[9]/div[@class=&quot;dx-actions-menu dx-widget dx-visibility-change-handler dx-collection dx-menu-base dx-menu&quot;]/div[@class=&quot;dx-menu-horizontal&quot;]/ul[@class=&quot;dx-menu-items-container&quot;]/li[@class=&quot;dx-menu-item-wrapper&quot;]/div[@class=&quot;dx-item dx-menu-item dx-menu-item-has-icon dx-menu-item-has-submenu dx-state-hover&quot;]/div[@class=&quot;dx-item-content dx-menu-item-content&quot;]/span[@class=&quot;dx-menu-item-popout-container&quot;]</value>
+   </webElementProperties>
+</WebElementEntity>

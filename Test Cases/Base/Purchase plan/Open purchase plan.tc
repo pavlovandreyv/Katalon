@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Открытие плана закупок</description>
+   <name>Open purchase plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b5aea7b1-b358-4485-b3a2-f2fdbe9865a8</testCaseGuid>
+</TestCaseEntity>

@@ -4,6 +4,12 @@
    <name>a_plan2018</name>
    <tag></tag>
    <elementGuidId>41d67d04-ee81-473b-b61a-b2bd783041c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/edo/Search/DocumentView/17501' and (text() = '2021' or . = '2021')]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -39,7 +45,7 @@
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>2018</value>
+      <value>2021</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

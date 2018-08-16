@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 61.0,,2018-08-16 16:37:42,2018-08-16 16:37:54,"11,988s",FAILED
+,,,,,,
+Test Cases/Base/Create budget,Firefox 61.0,Регистрация бюджета,2018-08-16 16:37:42,2018-08-16 16:37:53,"11,388s",FAILED
+callTestCase,Firefox 61.0,Авторизация,2018-08-16 16:37:42,2018-08-16 16:37:51,"8,693s",FAILED

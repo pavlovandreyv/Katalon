@@ -4,4 +4,9 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Адрес тестового сервера</description>
+      <initValue>findTestData('Excel/Server').getValue('Server', 1)</initValue>
+      <name>Server</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

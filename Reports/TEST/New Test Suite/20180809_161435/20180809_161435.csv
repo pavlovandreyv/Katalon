@@ -1,5 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
-New Test Suite,Firefox 61.0,,2018-08-09 16:14:37,2018-08-09 16:15:56,"1m - 19,369s",FAILED
-,,,,,,
-Test Cases/Base/Activation,Firefox 61.0,Активация нового пользователя,2018-08-09 16:14:37,2018-08-09 16:15:56,"1m - 18,774s",FAILED
-callTestCase,Firefox 61.0,Авторизация администратором,2018-08-09 16:14:37,2018-08-09 16:15:56,"1m - 18,554s",FAILED

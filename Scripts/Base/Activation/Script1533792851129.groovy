@@ -30,17 +30,28 @@ WebUI.click(findTestObject('page_home/span_administration'))
 WebUI.click(findTestObject('page_administration/page_activation/user'))
 
 'В поле поиска пользователей вводится логин пользователя'
-WebUiBuiltInKeywords.setText(findTestObject('page_administration/page_activation/input_user'), findTestData('Excel/User').getValue(
-        'Фамилия', 1))
+WebUiBuiltInKeywords.setText(findTestObject('page_administration/page_activation/input_user'), GlobalVariable.Suname_new)
 
-'Выбор пользователя для активации. Клик "Enter"'
-WebUiBuiltInKeywords.sendKeys(findTestObject('page_administration/page_activation/input_user'), Keys.chord(Keys.ENTER))
+'Выбор активируемого пользователя'
+WebUI.sendKeys(findTestObject('page_administration/page_activation/input_user'), Keys.chord(Keys.ENTER))
 
-'Фокусировка в поле редактирвоания рабочих групп'
-WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'))
+'Развернуть список рабочих групп'
+WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
 
-'Включение пользователя в рабочую группу'
-WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/item_iz44fz'), FailureHandling.STOP_ON_FAILURE)
+'Выбор рабочей группы'
+WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/item_IZ44fz'), FailureHandling.STOP_ON_FAILURE)
+
+'Развернуть список рабочих групп'
+WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+
+'Выбор рабочей группы'
+WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/item_approve44fz'), FailureHandling.STOP_ON_FAILURE)
+
+'Развернуть список рабочих групп'
+WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+
+'Выбор рабочей группы'
+WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/item_agreement44fz'), FailureHandling.STOP_ON_FAILURE)
 
 'Активация пользователя'
 WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/button_save'))

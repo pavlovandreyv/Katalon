@@ -4,6 +4,12 @@
    <name>message_pass</name>
    <tag></tag>
    <elementGuidId>65419e3d-96a1-4513-b9f2-dd265ec3c048</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@class = 'alert alert-success']</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -14,18 +20,18 @@
       <value>div</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
       <value>alert alert-success</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Регистрация пользователя подтверждена.</value>
+      <value>Действие &quot;Регистрация пользователя&quot; успешно подтверждено. Ожидайте активации вашей учетной записи, руководителем организации autoui65 User Interface.Перейти на страницу входа.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>

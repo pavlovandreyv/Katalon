@@ -8,8 +8,8 @@
       <TestSuiteRunConfiguration>
          <configuration>
             <groupName>Web Desktop</groupName>
-            <profileName>Administrator</profileName>
-            <runConfigurationId>Firefox</runConfigurationId>
+            <profileName>New user</profileName>
+            <runConfigurationId>IE</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/TEST/New Test Suite</testSuiteEntity>

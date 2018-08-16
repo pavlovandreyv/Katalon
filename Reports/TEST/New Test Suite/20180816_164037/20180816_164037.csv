@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Firefox 61.0,,2018-08-16 16:40:39,2018-08-16 16:41:13,"34,227s",FAILED
+,,,,,,
+Test Cases/Base/Purchase plan/Route approval,Firefox 61.0,Постановка плана закупок на маршрут утверждения,2018-08-16 16:40:39,2018-08-16 16:41:13,"33,687s",FAILED
+callTestCase,Firefox 61.0,Авторизация исполнителем заказчика,2018-08-16 16:40:39,2018-08-16 16:40:51,"11,889s",PASSED
+callTestCase,Firefox 61.0,Открыть определенный план закупок,2018-08-16 16:40:51,2018-08-16 16:41:02,"10,670s",PASSED
+click,Firefox 61.0,"Нажать на кнопку ""На утверждение""",2018-08-16 16:41:02,2018-08-16 16:41:03,"1,144s",PASSED
+waitForElementNotVisible,Firefox 61.0,"Ожидание скрытия перекрывающих кнопку ""Ок"" элементов",2018-08-16 16:41:03,2018-08-16 16:41:04,"0,635s",PASSED
+click,Firefox 61.0,"Нажать на кнопку ""ОК""",2018-08-16 16:41:04,2018-08-16 16:41:04,"0,296s",PASSED
+waitForElementNotVisible,Firefox 61.0,Проверка успешности операции,2018-08-16 16:41:04,2018-08-16 16:41:11,"6,598s",FAILED

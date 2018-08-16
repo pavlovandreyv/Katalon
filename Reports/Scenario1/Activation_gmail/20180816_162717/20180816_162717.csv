@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Activation_gmail,Firefox 61.0,\u0410\u043A\u0442\u0438\u0432\u0430\u0446\u0438\u044F \u0443\u0447\u0435\u0442\u043A\u0438 \u0432 gmail \u043F\u043E\u0447\u0442\u0435,2018-08-16 16:28:04,2018-08-16 16:29:54,"1m - 50,260s",FAILED
+,,,,,,
+Test Cases/Base/Activation_gmail,Firefox 61.0,Активация учетки в gmail письме,2018-08-16 16:28:04,2018-08-16 16:29:54,"1m - 49,704s",FAILED
+openBrowser,Firefox 61.0,"Открытие формы авторизации на gmail
+",2018-08-16 16:28:05,2018-08-16 16:28:10,"5,221s",PASSED
+setText,Firefox 61.0,"Ввод email
+",2018-08-16 16:28:10,2018-08-16 16:28:10,"0,260s",PASSED
+click,Firefox 61.0,Далее,2018-08-16 16:28:10,2018-08-16 16:28:11,"0,309s",PASSED
+waitForElementClickable,Firefox 61.0,Проверка достпности поля пароля,2018-08-16 16:28:11,2018-08-16 16:28:11,"0,071s",PASSED
+setText,Firefox 61.0,Ввод пароля,2018-08-16 16:28:11,2018-08-16 16:28:11,"0,339s",PASSED
+delay,Firefox 61.0,//to do: переделать. Ожидание 1 секунда (без этого валится с ошибкой),2018-08-16 16:28:11,2018-08-16 16:28:11,"0,003s",NOT_RUN
+waitForElementClickable,Firefox 61.0,,2018-08-16 16:28:11,2018-08-16 16:28:11,"0,035s",PASSED
+click,Firefox 61.0,,2018-08-16 16:28:11,2018-08-16 16:28:16,"4,602s",PASSED
+sendKeys,Firefox 61.0,Далее,2018-08-16 16:28:16,2018-08-16 16:28:16,"0,001s",NOT_RUN
+click,Firefox 61.0,Открыть письмо с активационной ссылкой,2018-08-16 16:28:16,2018-08-16 16:28:16,"0,341s",PASSED
+"Statement - url_activation = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(page_gmail/mail_url), ""href"")",Firefox 61.0,Получить url активационной ссылки для перехода внутри 1й вкладки,2018-08-16 16:28:16,2018-08-16 16:28:17,"0,629s",PASSED
+navigateToUrl,Firefox 61.0,Перейти по ссылке активации пользователя,2018-08-16 16:28:17,2018-08-16 16:28:51,"34,096s",PASSED
+verifyElementPresent,Firefox 61.0,Проверка успешного перехода по url,2018-08-16 16:28:51,2018-08-16 16:29:52,"1m - 1,210s",FAILED

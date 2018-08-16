@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,IE 11,,2018-08-16 15:17:45,2018-08-16 15:18:52,"1m - 6,274s",FAILED
+,,,,,,
+Test Cases/Base/Purchase plan/Appruval route purchase plan,IE 11,Утверждение плана закупок согласно маршруту,2018-08-16 15:17:45,2018-08-16 15:18:51,"1m - 5,520s",FAILED
+callTestCase,IE 11,,2018-08-16 15:17:46,2018-08-16 15:17:59,"13,288s",PASSED
+click,IE 11,,2018-08-16 15:17:59,2018-08-16 15:18:03,"3,550s",PASSED
+click,IE 11,,2018-08-16 15:18:03,2018-08-16 15:18:06,"3,747s",PASSED
+click,IE 11,,2018-08-16 15:18:06,2018-08-16 15:18:08,"1,343s",PASSED
+click,IE 11,,2018-08-16 15:18:08,2018-08-16 15:18:09,"1,257s",PASSED
+callTestCase,IE 11,,2018-08-16 15:18:09,2018-08-16 15:18:12,"2,913s",PASSED
+click,IE 11,,2018-08-16 15:18:12,2018-08-16 15:18:13,"1,096s",PASSED
+waitForElementNotPresent,IE 11,,2018-08-16 15:18:13,2018-08-16 15:18:23,"9,523s",PASSED
+callTestCase,IE 11,,2018-08-16 15:18:23,2018-08-16 15:18:46,"23,491s",PASSED
+click,IE 11,,2018-08-16 15:18:46,2018-08-16 15:18:48,"2,004s",PASSED
+click,IE 11,,2018-08-16 15:18:48,2018-08-16 15:18:49,"0,884s",FAILED

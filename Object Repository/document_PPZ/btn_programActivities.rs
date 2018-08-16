@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_programActivities</name>
+   <tag></tag>
+   <elementGuidId>ee3d12dc-40e0-40d2-a31c-0aad2f7cf934</elementGuidId>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>MerPlanKod</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default show-dict-btn</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-url</name>
+      <type>Main</type>
+      <value>/edo/Dictionary/GetJson?dictionaryName=Целевые программы и мероприятия&amp;selectionLevel=2&amp;showCodeColumn=False</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-fields</name>
+      <type>Main</type>
+      <value>&amp;dictFieldsInfo={&quot;DictionaryFieldInfoList&quot;:[{&quot;EditName&quot;:&quot;MerPlanKod&quot;,&quot;DictColumnName&quot;:&quot;code&quot;,&quot;ShowAsDisplayText&quot;:false,&quot;DictColumnWidth&quot;:&quot;&quot;,&quot;ShowAsDictionaryColumn&quot;:false},{&quot;EditName&quot;:&quot;MerPlan&quot;,&quot;DictColumnName&quot;:&quot;Наименование мероприятия&quot;,&quot;ShowAsDisplayText&quot;:true,&quot;DictColumnWidth&quot;:&quot;70&quot;,&quot;ShowAsDictionaryColumn&quot;:true}]}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent-id</name>
+      <type>Main</type>
+      <value>ProgPlankod</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dict-name</name>
+      <type>Main</type>
+      <value>Целевые программы и мероприятия</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-subdictionary-name</name>
+      <type>Main</type>
+      <value>Мероприятие программы</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>...</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;MerPlanKod&quot;)</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Регистрация плана закупок</description>
+   <name>Create purchase plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5925130-7bb7-480f-96a0-257a5086f75a</testCaseGuid>
+</TestCaseEntity>

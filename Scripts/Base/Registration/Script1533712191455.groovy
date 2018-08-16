@@ -22,7 +22,7 @@ import org.openqa.selenium.Keys as Keys
 import java.lang.StringIndexOutOfBoundsException as StringIndexOutOfBoundsException
 
 'Переход на тестовый стенд'
-WebUI.openBrowser(findTestData('Excel/Server').getValue('Server', 1))
+WebUI.openBrowser(GlobalVariable.Server)
 
 'Максимальный экран браузера'
 WebUI.maximizeWindow()
@@ -34,50 +34,43 @@ WebUI.click(findTestObject('page_authorization/a_registry'))
 WebUI.click(findTestObject('page_registration/organization'))
 
 'Вводится значние в поле поиска организаций'
-WebUI.setText(findTestObject('page_registration/input_organization'), findTestData('Excel/User').getValue('Организация', 
-        1))
+WebUI.setText(findTestObject('page_registration/input_organization'), GlobalVariable.Organization)
 
 'Выбор найденной организации кликом на Enter'
 WebUI.sendKeys(findTestObject('page_registration/input_organization'), Keys.chord(Keys.ENTER))
 
-'Установка чекбокса смены руководителя'
-WebUI.click(findTestObject('page_registration/input_ChangeChief'))
+'Проверка необходимости в смене руководителя'
+if (GlobalVariable.ChangeChief) {
+    'Установка чекбокса смены руководителя'
+    WebUI.click(findTestObject('page_registration/input_ChangeChief'), FailureHandling.CONTINUE_ON_FAILURE)
+}
 
 'Ввод фамилии'
-WebUI.setText(findTestObject('page_registration/input_FirstName'), findTestData('Excel/User').getValue('Имя', 1))
+WebUI.setText(findTestObject('page_registration/input_FirstName'), GlobalVariable.Name)
 
 'Ввод имени'
-WebUI.setText(findTestObject('page_registration/input_LastName'), findTestData('Excel/User').getValue('Фамилия', 1))
+WebUI.setText(findTestObject('page_registration/input_LastName'), GlobalVariable.Surname)
 
 'Ввод отчества'
-WebUI.setText(findTestObject('page_registration/input_MiddleName'), findTestData('Excel/User').getValue('Отчество', 1))
+WebUI.setText(findTestObject('page_registration/input_MiddleName'), GlobalVariable.Patronymic)
 
 'Ввод должности'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Position'), findTestData('Excel/User').getValue('Должность', 
-        1))
+WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Position'), GlobalVariable.Position)
 
 'Ввод электронной почты'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Email'), findTestData('Excel/User').getValue('E-mail', 
-        1))
+WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Email'), GlobalVariable.Email)
 
 'Ввод телефона'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Phone'), findTestData('Excel/User').getValue('Телефон', 
-        1))
+WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Phone'), GlobalVariable.Phone)
 
 'Ввод логина'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Login'), findTestData('Excel/User').getValue('Логин', 
-        1))
+WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Login'), GlobalVariable.Login)
 
 'Ввод пароля'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Password'), findTestData('Excel/User').getValue('Пароль', 
-        1))
+WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_Password'), GlobalVariable.Password)
 
 'Ввод дублирующего пароля'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_PasswordConfirm'), findTestData('Excel/User').getValue(
-        'Пароль', 1))
-
-'//to do: убрать'
-WebUI.delay(5)
+WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_PasswordConfirm'), GlobalVariable.Password)
 
 'Завершение регистрации нового пользователя'
 WebUI.click(findTestObject('page_registration/button_registration'))
