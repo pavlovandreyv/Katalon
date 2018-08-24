@@ -4,7 +4,7 @@
    <name>Create purchase plan</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-16T16:27:17</lastRun>
+   <lastRun>2018-08-24T09:39:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>

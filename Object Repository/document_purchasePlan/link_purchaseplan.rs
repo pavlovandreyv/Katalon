@@ -6,6 +6,10 @@
    <elementGuidId>1a4ed613-9726-4c51-8ad7-3529fab16151</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[contains(text(),'2019')]</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//a[(text() = '2019' or . = '2019')]</value>
       </entry>

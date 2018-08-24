@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//div[@class = 'alert alert-success']</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class = 'alert alert-success' or @class = 'alert alert-danger']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

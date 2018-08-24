@@ -29,5 +29,5 @@ WebUI.acceptAlert()
 WebUiBuiltInKeywords.click(findTestObject('my_tasks/radio_certificate'))
 
 'Завершить выбор сертификата'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Dialog/btn_OK'))
+WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Alert/btn_OK'))
 

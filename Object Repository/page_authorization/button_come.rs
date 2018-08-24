@@ -9,8 +9,12 @@
          <key>BASIC</key>
          <value>//*[(text() = 'Войти' or . = 'Войти')]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[contains(text(),'Войти')]</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

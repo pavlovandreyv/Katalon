@@ -4,7 +4,7 @@
    <name>Authorization</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-10T10:53:49</lastRun>
+   <lastRun>2018-08-24T09:39:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
@@ -16,17 +16,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Base/Authorization</testCaseId>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>1313ffd6-fb3e-49cf-9eec-b8bc03ef40a4</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>a78455d6-428b-44b2-b2b4-62c0ed56db40</variableId>
-      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

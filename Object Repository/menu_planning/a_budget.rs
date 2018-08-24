@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_budget</name>
+   <tag></tag>
+   <elementGuidId>852b0591-f636-4927-b8b6-e1660558c56d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/edo/Search/Search?searchType=Organizations&amp;searchBlock=%D0%91%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%D1%8B' and (text() = '
+                            Бюджеты
+                        ' or . = '
+                            Бюджеты
+                        ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class,'search-menu-tabs')]//a[contains(text(),'Бюджеты')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/edo/Search/Search?searchType=Organizations&amp;searchBlock=%D0%91%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%D1%8B</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>waitingDialog.show('Поиск');</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            Бюджеты
+                        </value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ext-element-1&quot;)/div[@class=&quot;page-body&quot;]/div[@class=&quot;container flex-container&quot;]/div[1]/div[@class=&quot;search-menu-tabs&quot;]/ul[@class=&quot;nav nav-tabs tabs-left&quot;]/li[@class=&quot;active&quot;]/a[1]</value>
+   </webElementProperties>
+</WebElementEntity>

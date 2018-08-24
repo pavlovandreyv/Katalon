@@ -7,7 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//div[@class = 'modal-backdrop fade' and @ref_element = 'Object Repository/DOCUMENT/btn_attachFile']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class = 'modal-backdrop fade']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -18,5 +22,12 @@
       <name>class</name>
       <type>Main</type>
       <value>modal-backdrop fade</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
    </webElementProperties>
 </WebElementEntity>

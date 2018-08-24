@@ -4,7 +4,17 @@
    <name>span_monitoringAudit</name>
    <tag></tag>
    <elementGuidId>f2281594-6f87-4aef-8d45-b9a3a5696bd6</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Мониторинг, аудит' or . = 'Мониторинг, аудит')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[contains(@class,'nav navbar-nav')]//span[contains(text(),'Мониторинг, аудит')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

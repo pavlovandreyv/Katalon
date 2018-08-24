@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Создание позиции ППГ</description>
+   <name>Create position PPG</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>e5c7b2d4-b414-4905-9aa7-74210e99bddd</testCaseGuid>
+</TestCaseEntity>

@@ -4,7 +4,17 @@
    <name>span_contracts</name>
    <tag></tag>
    <elementGuidId>9a6dc266-5de2-41d7-b7f2-f9232e212ff3</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Контракты/ Договоры' or . = 'Контракты/ Договоры')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[contains(@class,'nav navbar-nav')]//span[contains(text(),'Контракты/ Договоры')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

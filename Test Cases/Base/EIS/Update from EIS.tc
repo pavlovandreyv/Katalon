@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Обновление статусов на Е1 после публикации сущности на ЕИС</description>
+   <name>Update from EIS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>1d23ca4d-e5ef-4873-82da-34c82fc9607e</testCaseGuid>
+</TestCaseEntity>

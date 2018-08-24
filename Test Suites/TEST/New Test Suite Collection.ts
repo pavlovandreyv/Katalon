@@ -9,10 +9,10 @@
          <configuration>
             <groupName>Web Desktop</groupName>
             <profileName>New user</profileName>
-            <runConfigurationId>IE</runConfigurationId>
+            <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/TEST/New Test Suite</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Scenario1/Activation_gmail</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

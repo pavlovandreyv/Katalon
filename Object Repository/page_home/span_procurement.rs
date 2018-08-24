@@ -4,7 +4,17 @@
    <name>span_procurement</name>
    <tag></tag>
    <elementGuidId>785ecacc-e304-42bc-9905-05437d9ff46a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Осуществление закупок' or . = 'Осуществление закупок')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[contains(@class,'nav navbar-nav')]//span[contains(text(),'Осуществление закупок')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

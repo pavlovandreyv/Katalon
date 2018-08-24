@@ -19,14 +19,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+'Ожидание меню Планирование'
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_home/span_planning'), 60)
+
 'Перейти по меню Планирование\r\n'
 WebUI.click(findTestObject('page_home/span_planning'))
 
-'Перейти по меню План закупок'
-WebUiBuiltInKeywords.click(findTestObject('page_planning/a_purchasePlan'))
+'Ожидание доступности меню План закупок'
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_planning/a_purchasePlan'), 60)
 
-'Перейти по меню Актуальные'
-WebUiBuiltInKeywords.click(findTestObject('document_purchasePlan/menu_actual'))
+'Перейти по меню План закупок'
+WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_purchasePlan'))
+
+'Ожидание доступности Плана закупок'
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_planning/special_purchasePlanYear'), 60)
 
 'Изменить год плана закупок на определенный'
 new_budgetYear = WebUI.modifyObjectProperty(findTestObject('document_purchasePlan/link_purchaseplan'), 'text', 'equals', 

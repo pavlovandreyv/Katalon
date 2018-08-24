@@ -4,7 +4,7 @@
    <name>Create position purchase plan</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-16T10:39:42</lastRun>
+   <lastRun>2018-08-24T09:39:12</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -15,6 +15,6 @@
       <guid>2fa20c24-4831-4d1f-aed3-4c3be84b1320</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Base/Create position purchase plan</testCaseId>
+      <testCaseId>Test Cases/Base/Purchase plan/Create position purchase plan</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

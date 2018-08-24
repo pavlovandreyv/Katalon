@@ -99,4 +99,39 @@
       <initValue>false</initValue>
       <name>ChangeChief</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Способ определения поставщика</description>
+      <initValue>'Открытый конкурс'</initValue>
+      <name>MethodSuppler</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Обоснование способа определения поставщика</description>
+      <initValue>'п. 1.1 ФЗ 44'</initValue>
+      <name>RationaleMethodSupplier</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Обоснование метода</description>
+      <initValue>'ТЗ п.1.'</initValue>
+      <name>RathionaleMethod</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Сумма ППГ</description>
+      <initValue>'10000'</initValue>
+      <name>AmountPPG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Планируемый срок (сроки отдельных этапов) поставки товаров (выполнения работ, оказания услуг)</description>
+      <initValue>'23.08.2018'</initValue>
+      <name>PlannedPerod</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Планируемый срок исполнения</description>
+      <initValue>'22.08.2018'</initValue>
+      <name>PlannedPerformance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Плангируемый срок размещения</description>
+      <initValue>'21.08.2018'</initValue>
+      <name>PlannedPlacement</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

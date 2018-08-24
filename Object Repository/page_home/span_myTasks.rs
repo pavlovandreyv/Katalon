@@ -4,7 +4,17 @@
    <name>span_myTasks</name>
    <tag></tag>
    <elementGuidId>797ea5e7-fb69-4f97-b20a-f46498143687</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Мои задачи' or . = 'Мои задачи')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[contains(@class,'nav navbar-nav')]//span[contains(text(),'Мои задачи')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

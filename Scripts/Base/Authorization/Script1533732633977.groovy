@@ -19,29 +19,17 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Переход на тестовый стенд'
+'Открывается браузер'
 WebUiBuiltInKeywords.openBrowser(GlobalVariable.Server)
+
+'Очищаются куки'
+WebUI.deleteAllCookies()
+
+'Обновление странички'
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
 'Максимальный экран браузера'
 WebUI.maximizeWindow()
-
-'Проверка наличия поля "Имя пользователя"'
-WebUI.verifyElementPresent(findTestObject('page_authorization/input_login'), 0)
-
-'Проверка наличия поля "Пароль"'
-WebUI.verifyElementPresent(findTestObject('page_authorization/input_password'), 0)
-
-'Проверка наличия кнопки "Войти"'
-WebUI.verifyElementPresent(findTestObject('page_authorization/button_come'), 0)
-
-'Проверка наличия кнопки "Войти по ЭП"'
-WebUI.verifyElementPresent(findTestObject('page_authorization/button_comeEP'), 0)
-
-'Проверка наличия ссылки "Регистрация"'
-WebUI.verifyElementPresent(findTestObject('page_authorization/a_registry'), 0)
-
-'Проверка наличия ссылки "Восстановление пароля"'
-WebUI.verifyElementPresent(findTestObject('page_authorization/a_passwordRecovery'), 0)
 
 'Ввод логина'
 WebUiBuiltInKeywords.setText(findTestObject('page_authorization/input_login'), GlobalVariable.Login)
@@ -52,12 +40,6 @@ WebUiBuiltInKeywords.setText(findTestObject('page_authorization/input_password')
 'Клик по кнопке "Войти"'
 WebUiBuiltInKeywords.click(findTestObject('page_authorization/button_come'))
 
-'Проверка наличия меню "Мои задачи"'
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('page_home/span_myTasks'), 0)
-
-'Проверка наличия меню "Администрирование"'
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('page_home/span_administration'), 0)
-
 'Проверка наличия кнопки "Выход"'
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('page_home/span_exit'), 0)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_home/span_exit'), 60)
 

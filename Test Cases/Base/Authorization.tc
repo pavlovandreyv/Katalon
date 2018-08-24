@@ -5,18 +5,4 @@
    <tag>authorization</tag>
    <comment></comment>
    <testCaseGuid>2594e025-b4e9-44a9-a726-2af14570b307</testCaseGuid>
-   <variable>
-      <defaultValue>[:]</defaultValue>
-      <description></description>
-      <id>1313ffd6-fb3e-49cf-9eec-b8bc03ef40a4</id>
-      <masked>false</masked>
-      <name>login</name>
-   </variable>
-   <variable>
-      <defaultValue>findTestData('Excel/Authorization').getValue(2, 4)</defaultValue>
-      <description></description>
-      <id>a78455d6-428b-44b2-b2b4-62c0ed56db40</id>
-      <masked>false</masked>
-      <name>password</name>
-   </variable>
 </TestCaseEntity>

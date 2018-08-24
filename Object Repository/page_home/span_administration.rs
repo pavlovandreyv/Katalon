@@ -4,7 +4,17 @@
    <name>span_administration</name>
    <tag></tag>
    <elementGuidId>a324f809-c997-4803-ac7f-cd1bc024c925</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Администрирование' or . = 'Администрирование')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//ul[contains(@class,'nav navbar-nav')]//span[contains(text(),'Администрирование')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

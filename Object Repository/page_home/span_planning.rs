@@ -4,7 +4,17 @@
    <name>span_planning</name>
    <tag></tag>
    <elementGuidId>5c254ddd-353a-428f-87a6-b39f4f4561fe</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(@class, &quot;navbar navbar-default&quot;)]//span[contains(text(), &quot;Планирование&quot;)]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(text() = 'Планирование' or . = 'Планирование')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

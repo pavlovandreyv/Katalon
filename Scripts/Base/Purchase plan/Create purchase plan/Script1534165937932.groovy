@@ -26,20 +26,20 @@ WebUI.callTestCase(findTestCase('Base/Authorization'), [:], FailureHandling.STOP
 WebUI.click(findTestObject('page_home/span_planning'))
 
 'Перейти к плану закупок'
-WebUiBuiltInKeywords.click(findTestObject('page_planning/a_purchasePlan'))
+WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_purchasePlan'))
 
 'Сформировать новый план закупок'
-WebUiBuiltInKeywords.click(findTestObject('page_planning/btn_newPurchasePlan'))
+WebUiBuiltInKeywords.click(findTestObject('menu_planning/btn_newPurchasePlan'))
 
 'Изменить год формирования плана закупок'
-new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('page_planning/page_year/radio_budgetYear'), 'value', 
+new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('menu_planning/page_year/radio_budgetYear'), 'value', 
     'equals', GlobalVariable.BudgetYear, true)
 
 'Установить год формирования плана закупок'
 WebUiBuiltInKeywords.check(new_budgetYear)
 
 'Выбрать год формирования плана закупок'
-WebUiBuiltInKeywords.click(findTestObject('page_planning/page_year/button_OK'))
+WebUiBuiltInKeywords.click(findTestObject('menu_planning/page_year/button_OK'))
 
 'Раскрыть адресную книгу выбора ответственного исполнителя'
 WebUiBuiltInKeywords.click(findTestObject('document_purchasePlan/button_otv'))

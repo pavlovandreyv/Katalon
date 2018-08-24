@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Постановка плана закупок на маршрут утверждения</description>
+   <name>Routing PG</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d28c5246-b06b-4cbe-a092-eb67d88d57a9</testCaseGuid>
+</TestCaseEntity>

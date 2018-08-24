@@ -6,12 +6,11 @@
    <elementGuidId>7fc8a709-8bfc-46a4-992f-d306f80e2263</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class=&quot;x-mask x-border-box&quot;]</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//*[@class='x-mask x-border-box']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

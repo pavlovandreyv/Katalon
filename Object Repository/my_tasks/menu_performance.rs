@@ -4,7 +4,17 @@
    <name>menu_performance</name>
    <tag></tag>
    <elementGuidId>015dfb62-ac90-4555-8f73-598f15db4be7</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@href = '/edo/Performer']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@href = '/edo/Performer'][contains(text(), 'На исполнении')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -21,7 +31,7 @@
       <value>/edo/Performer</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>not equal</matchCondition>
       <name>text</name>
       <type>Main</type>

@@ -28,20 +28,20 @@ WebUI.callTestCase(findTestCase('Base/Authorization'), [:], FailureHandling.STOP
 WebUiBuiltInKeywords.click(findTestObject('page_home/span_planning'))
 
 'Нажать на кнопку "Сформировать бюджет"'
-WebUiBuiltInKeywords.click(findTestObject('page_planning/a_newBudget'))
+WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_newBudget'))
 
 'Изменить год бюджета'
-new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('page_planning/page_year/radio_budgetYear'), 'value', 
+new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('menu_planning/page_year/radio_budgetYear'), 'value', 
     'equals', GlobalVariable.BudgetYear, true)
 
 'Выбрать бюджет'
 WebUiBuiltInKeywords.check(new_budgetYear)
 
 'Нажать кнопку подтверждения формирования бюджета'
-WebUiBuiltInKeywords.click(findTestObject('page_planning/page_year/button_OK'))
+WebUiBuiltInKeywords.click(findTestObject('menu_planning/page_year/button_OK'))
 
 'Проверка доступности кнопки выбора источника финансирования'
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('document_budget/btn_sourceFinancing'), 0)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('document_budget/btn_sourceFinancing'), 60)
 
 'Раскрыть справочник выбора источника финансирования'
 WebUI.click(findTestObject('document_budget/btn_sourceFinancing'))
@@ -61,8 +61,11 @@ WebUiBuiltInKeywords.click(findTestObject('document_budget/btn_KBK'))
 'Ввести искомое значение КБК'
 WebUiBuiltInKeywords.setText(findTestObject('document_budget/dictionary_KBK/find_KBK'), GlobalVariable.KBK)
 
+'Нажать на кнопку "Найти"'
+WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Dictionary_check/btn_find'))
+
 'Проверка наличия чекбокса выбора КБК'
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('document_budget/dictionary_KBK/check_KBK'), 0)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('document_budget/dictionary_KBK/check_KBK'), 60)
 
 'Установить чек на первом найденном значении'
 WebUiBuiltInKeywords.click(findTestObject('document_budget/dictionary_KBK/check_KBK'))
@@ -70,15 +73,24 @@ WebUiBuiltInKeywords.click(findTestObject('document_budget/dictionary_KBK/check_
 'Выбрать КБК и закрыть справочник'
 WebUiBuiltInKeywords.click(findTestObject('document_budget/dictionary_KBK/btn_select'))
 
+'Ожидание: модальный контрол'
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/modal_Budget'), 60)
+
+'Ожидание: модальный контрол'
+WebUiBuiltInKeywords.waitForElementNotPresent(findTestObject('special/modal_Budget'), 60)
+
 'Ввести сумму лимита'
 WebUiBuiltInKeywords.setText(findTestObject('document_budget/input_limitAmount'), GlobalVariable.limitAmount)
 
-'Ожидание отсутствия перекрывающего элемента кнопки "Сохранить"'
+'Ожидание перехода маски в определенный статус'
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/x-mask x-border-box2'), 60)
+
+'Ожидание недоступности маски, перекрывающей "Сохранить"'
 WebUI.waitForElementNotPresent(findTestObject('special/modal-backdrop fade'), 60)
 
 'Нажать кнопку "Сохранить" бюджет'
 WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/btn_save'))
 
 'Проверка успешного завершения регистрации бюджета'
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('DOCUMENT/btn_edit'), 0)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/btn_edit'), 60)
 
