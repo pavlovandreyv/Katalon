@@ -31,16 +31,16 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_planning/a_purch
 'Перейти по меню План закупок'
 WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_purchasePlan'))
 
-'Ожидание доступности Плана закупок'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_planning/special_purchasePlanYear'), 60)
+'Изменить значение реквизита документа'
+new_object = WebUI.modifyObjectProperty(findTestObject('DOCUMENT/object'), 'text', 'equals', GlobalVariable.BudgetYear, 
+    true)
 
-'Изменить год плана закупок на определенный'
-new_budgetYear = WebUI.modifyObjectProperty(findTestObject('document_purchasePlan/link_purchaseplan'), 'text', 'equals', 
-    GlobalVariable.BudgetYear, true)
+'Ожидание доступности документа с определенным значением'
+WebUiBuiltInKeywords.waitForElementPresent(new_object, 60)
 
-'Скопировать url плана закупок, для перехода внутри одной вкладки'
-url_purchase = WebUiBuiltInKeywords.getAttribute(new_budgetYear, 'href')
+'Скопировать url, для перехода внутри одной вкладки'
+url_object = WebUiBuiltInKeywords.getAttribute(new_object, 'href')
 
 'Перейти по скопированному url'
-WebUI.navigateToUrl(url_purchase)
+WebUI.navigateToUrl(url_object)
 

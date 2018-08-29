@@ -4,7 +4,7 @@
    <name>Create schedule plan</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-08-24T09:39:12</lastRun>
+   <lastRun>2018-08-28T13:44:30</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>

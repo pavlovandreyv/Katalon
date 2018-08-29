@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create position plan schedule,Firefox 61.0,\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043F\u043E\u0437\u0438\u0446\u0438\u0438 \u043F\u043B\u0430\u043D-\u0433\u0440\u0430\u0444\u0438\u043A\u0430,2018-08-28 14:05:33,2018-08-28 14:08:04,"2m - 30,703s",FAILED
+,,,,,,
+Test Cases/Base/Schedule plan/Create position plan schedule,Firefox 61.0,Создание позиции план графика,2018-08-28 14:05:33,2018-08-28 14:08:04,"2m - 30,151s",FAILED
+callTestCase,Firefox 61.0,Авторизоваться исполнителем заказчика,2018-08-28 14:05:34,2018-08-28 14:05:49,"15,079s",PASSED
+callTestCase,Firefox 61.0,Открыть определенный план закупок,2018-08-28 14:05:49,2018-08-28 14:05:58,"8,580s",PASSED
+click,Firefox 61.0,Перейти на вкладку позиции плана закупок,2018-08-28 14:05:58,2018-08-28 14:05:58,"0,251s",PASSED
+"Statement - url_ppz1 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(document_purchasePlan/PPZ/a_urlPPZ), ""text"", ""equals"", NameObjectPurchase, true)",Firefox 61.0,Изменить название закупки на определенный в профиле,2018-08-28 14:05:58,2018-08-28 14:05:58,"0,016s",PASSED
+"Statement - url_ppz2 = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(url_ppz1, ""href"")",Firefox 61.0,Получить url ППГ для перехода внутри 1й вкладки,2018-08-28 14:05:58,2018-08-28 14:08:01,"2m - 3,650s",FAILED

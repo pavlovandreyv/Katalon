@@ -134,4 +134,24 @@
       <initValue>'21.08.2018'</initValue>
       <name>PlannedPlacement</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Адрес доставки</description>
+      <initValue>'г. Чебоксары, ул. Ярославская, 27'</initValue>
+      <name>Address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Путь до файла1</description>
+      <initValue>'\\Test Data\\file\\file1.jpeg'</initValue>
+      <name>File1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Путь до файла2</description>
+      <initValue>'\\Test Data\\file\\file2.txt'</initValue>
+      <name>File2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Путь до файла3</description>
+      <initValue>'\\Test Data\\file\\file3.rtf'</initValue>
+      <name>File3</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

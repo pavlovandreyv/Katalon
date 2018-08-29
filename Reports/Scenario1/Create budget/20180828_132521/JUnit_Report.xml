@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create budget" time="58" tests="1" failures="0" errors="0">
+   <testsuite name="Create budget" tests="1" failures="0" errors="0" time="58" timestamp="2018-08-28 13:28:13" hostname="ex64 - ex64" id="Test Suites/Scenario1/Create budget">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Create budget\\20180828_132521"/>
+         <property name="logFiles" value="T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Create budget\\20180828_132521\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ex64 - ex64"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.20.109"/>
+         <property name="sessionId" value="ef1f43ed-2582-49b3-b7eb-2184658cd697"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Base/Create budget" classname="Test Cases/Base/Create budget" status="PASSED">
+         <system-out><![CDATA[2018-08-28 13:28:13 - [TEST_CASE][PASSED] - Test Cases/Base/Create budget: Test Cases/Base/Create budget
+
+2018-08-28 13:28:13 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base/Authorization' successfully
+
+2018-08-28 13:28:14 - [TEST_CASE][PASSED] - Test Cases/Base/Authorization: Test Cases/Base/Authorization
+
+2018-08-28 13:28:14 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.20.68/edo'
+
+2018-08-28 13:28:23 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.20.68/edo'
+
+2018-08-28 13:28:23 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-08-28 13:28:23 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-08-28 13:28:23 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-08-28 13:28:25 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-08-28 13:28:25 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-28 13:28:25 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-28 13:28:25 - [TEST_STEP][PASSED] - setText: Text 'autoui22' is set on object 'Object Repository/page_authorization/input_login'
+
+2018-08-28 13:28:25 - [MESSAGE][PASSED] - Text 'autoui22' is set on object 'Object Repository/page_authorization/input_login'
+
+2018-08-28 13:28:25 - [TEST_STEP][PASSED] - setText: Text 'Gfhjkm123' is set on object 'Object Repository/page_authorization/input_password'
+
+2018-08-28 13:28:25 - [MESSAGE][PASSED] - Text 'Gfhjkm123' is set on object 'Object Repository/page_authorization/input_password'
+
+2018-08-28 13:28:25 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_authorization/button_come' is clicked on
+
+2018-08-28 13:28:29 - [MESSAGE][PASSED] - Object: 'Object Repository/page_authorization/button_come' is clicked on
+
+2018-08-28 13:28:29 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/page_home/span_exit' is present
+
+2018-08-28 13:28:29 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/span_exit' is present
+
+2018-08-28 13:28:29 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base/Authorization' successfully
+
+2018-08-28 13:28:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_home/span_planning' is clicked on
+
+2018-08-28 13:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/page_home/span_planning' is clicked on
+
+2018-08-28 13:28:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/menu_planning/a_newBudget' is clicked on
+
+2018-08-28 13:28:32 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_planning/a_newBudget' is clicked on
+
+2018-08-28 13:28:32 - [TEST_STEP][PASSED] - Statement - new_budgetYear = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(menu_planning/page_year/radio_budgetYear), "value", "equals", BudgetYear, true): Modify property of object successfully
+
+2018-08-28 13:28:32 - [MESSAGE][PASSED] - Modify property of object successfully
+
+2018-08-28 13:28:32 - [TEST_STEP][PASSED] - check: Object 'Object Repository/menu_planning/page_year/radio_budgetYear' is checked
+
+2018-08-28 13:28:36 - [MESSAGE][PASSED] - Object 'Object Repository/menu_planning/page_year/radio_budgetYear' is checked
+
+2018-08-28 13:28:36 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/menu_planning/page_year/button_OK' is clicked on
+
+2018-08-28 13:28:36 - [MESSAGE][PASSED] - Object: 'Object Repository/menu_planning/page_year/button_OK' is clicked on
+
+2018-08-28 13:28:36 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/document_budget/btn_sourceFinancing' is present
+
+2018-08-28 13:28:39 - [MESSAGE][PASSED] - Object 'Object Repository/document_budget/btn_sourceFinancing' is present
+
+2018-08-28 13:28:39 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/document_budget/btn_sourceFinancing' is clicked on
+
+2018-08-28 13:28:39 - [MESSAGE][PASSED] - Object: 'Object Repository/document_budget/btn_sourceFinancing' is clicked on
+
+2018-08-28 13:28:39 - [TEST_STEP][PASSED] - setText: Text 'Бюджетные средства' is set on object 'Object Repository/document_budget/dictionary_sourceFinancing/find_sourceFinancing'
+
+2018-08-28 13:28:40 - [MESSAGE][PASSED] - Text 'Бюджетные средства' is set on object 'Object Repository/document_budget/dictionary_sourceFinancing/find_sourceFinancing'
+
+2018-08-28 13:28:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/document_budget/dictionary_sourceFinancing/el_sourceFinancing' is clicked on
+
+2018-08-28 13:28:40 - [MESSAGE][PASSED] - Object: 'Object Repository/document_budget/dictionary_sourceFinancing/el_sourceFinancing' is clicked on
+
+2018-08-28 13:28:40 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/document_budget/dictionary_sourceFinancing/btn_select' is clicked on
+
+2018-08-28 13:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/document_budget/dictionary_sourceFinancing/btn_select' is clicked on
+
+2018-08-28 13:28:41 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/document_budget/btn_KBK' is clicked on
+
+2018-08-28 13:28:41 - [MESSAGE][PASSED] - Object: 'Object Repository/document_budget/btn_KBK' is clicked on
+
+2018-08-28 13:28:41 - [TEST_STEP][PASSED] - setText: Text '30301138930090059244' is set on object 'Object Repository/document_budget/dictionary_KBK/find_KBK'
+
+2018-08-28 13:28:51 - [MESSAGE][PASSED] - Text '30301138930090059244' is set on object 'Object Repository/document_budget/dictionary_KBK/find_KBK'
+
+2018-08-28 13:28:51 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DOCUMENT/Dictionary_check/btn_find' is clicked on
+
+2018-08-28 13:28:51 - [MESSAGE][PASSED] - Object: 'Object Repository/DOCUMENT/Dictionary_check/btn_find' is clicked on
+
+2018-08-28 13:28:51 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/document_budget/dictionary_KBK/check_KBK' is present
+
+2018-08-28 13:28:55 - [MESSAGE][PASSED] - Object 'Object Repository/document_budget/dictionary_KBK/check_KBK' is present
+
+2018-08-28 13:28:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/document_budget/dictionary_KBK/check_KBK' is clicked on
+
+2018-08-28 13:28:56 - [MESSAGE][PASSED] - Object: 'Object Repository/document_budget/dictionary_KBK/check_KBK' is clicked on
+
+2018-08-28 13:28:56 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/document_budget/dictionary_KBK/btn_select' is clicked on
+
+2018-08-28 13:28:56 - [MESSAGE][PASSED] - Object: 'Object Repository/document_budget/dictionary_KBK/btn_select' is clicked on
+
+2018-08-28 13:28:56 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/special/modal_Budget' located by 'By.xpath: //div[contains(@class,'modal fade in')][contains(@style,'display: block')]' is not present after '60' second(s)
+
+2018-08-28 13:28:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/special/modal_Budget' located by 'By.xpath: //div[contains(@class,'modal fade in')][contains(@style,'display: block')]' is not present after '60' second(s)
+
+2018-08-28 13:28:56 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/special/modal fade' is present
+
+2018-08-28 13:28:57 - [MESSAGE][PASSED] - Object 'Object Repository/special/modal fade' is present
+
+2018-08-28 13:28:57 - [TEST_STEP][PASSED] - setText: Text '1000000' is set on object 'Object Repository/document_budget/input_limitAmount'
+
+2018-08-28 13:28:57 - [MESSAGE][PASSED] - Text '1000000' is set on object 'Object Repository/document_budget/input_limitAmount'
+
+2018-08-28 13:28:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/special/x-mask x-border-box2' is present
+
+2018-08-28 13:28:57 - [MESSAGE][PASSED] - Object 'Object Repository/special/x-mask x-border-box2' is present
+
+2018-08-28 13:28:57 - [TEST_STEP][PASSED] - waitForElementNotPresent: Web element with id: 'Object Repository/special/modal-backdrop fade' located by 'By.xpath: //div[@class = 'modal-backdrop fade']' is not present after '60' second(s)
+
+2018-08-28 13:28:57 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/special/modal-backdrop fade' located by 'By.xpath: //div[@class = 'modal-backdrop fade']' is not present after '60' second(s)
+
+2018-08-28 13:28:57 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/DOCUMENT/btn_save' is clicked on
+
+2018-08-28 13:28:57 - [MESSAGE][PASSED] - Object: 'Object Repository/DOCUMENT/btn_save' is clicked on
+
+2018-08-28 13:28:57 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/DOCUMENT/btn_edit' is present
+
+2018-08-28 13:29:09 - [MESSAGE][PASSED] - Object 'Object Repository/DOCUMENT/btn_edit' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-28 13:28:13 - [TEST_SUITE][PASSED] - Create budget: Test Cases/Base/Create budget]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

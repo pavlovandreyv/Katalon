@@ -99,5 +99,5 @@ WebUiBuiltInKeywords.setText(findTestObject('document_PPZ/input_conformity'), Gl
 WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/btn_save'))
 
 'Проверить доступность кнопки "Редактировать" в качестве подтверждения успешной регистрации документа'
-WebUiBuiltInKeywords.verifyElementPresent(findTestObject('DOCUMENT/btn_edit'), 0)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/btn_edit'), 60)
 

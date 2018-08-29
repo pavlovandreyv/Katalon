@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Route_appruval PZ" time="333" tests="0" failures="1" errors="0">
+   <testsuite name="Route_appruval PZ" tests="0" failures="1" errors="0" time="333" timestamp="2018-08-28 13:53:58" hostname="ex64 - ex64" id="Test Suites/Scenario1/Route_appruval PZ">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Route_appruval PZ\\20180828_134429"/>
+         <property name="logFiles" value="T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Route_appruval PZ\\20180828_134429\\execution0.log, T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Route_appruval PZ\\20180828_134429\\IEDriverServer.log"/>
+         <property name="attachments" value="T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Route_appruval PZ\\20180828_134429\\1535453969222.png"/>
+         <property name="hostName" value="ex64 - ex64"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="IE 11"/>
+         <property name="hostAddress" value="192.168.20.109"/>
+         <property name="sessionId" value="fbc140f7-ced1-40b5-84ca-05151f171c18"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Base/Purchase plan/Route_appruval PZ" classname="Test Cases/Base/Purchase plan/Route_appruval PZ" status="FAILED">
+         <failure type="FAILED" message="Unable to click on object 'Object Repository/my_tasks/act_menu' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/my_tasks/act_menu' located by 'By.xpath: //div[contains(@class,'dx-datagrid-content')]//span[contains(@class,'dx-menu-item-popout-container')]' not found)"/>
+         <system-out><![CDATA[2018-08-28 13:53:59 - [TEST_CASE][FAILED] - Test Cases/Base/Purchase plan/Route_appruval PZ: Test Cases/Base/Purchase plan/Route_appruval PZ FAILED because (of) Unable to click on object 'Object Repository/my_tasks/act_menu' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/my_tasks/act_menu' located by 'By.xpath: //div[contains(@class,'dx-datagrid-content')]//span[contains(@class,'dx-menu-item-popout-container')]' not found)
+
+2018-08-28 13:53:59 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/Base/Authorization' successfully
+
+2018-08-28 13:53:59 - [TEST_CASE][PASSED] - Test Cases/Base/Authorization: Test Cases/Base/Authorization
+
+2018-08-28 13:53:59 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://10.100.70.20/edo'
+
+2018-08-28 13:54:09 - [MESSAGE][PASSED] - Browser is opened with url: 'http://10.100.70.20/edo'
+
+2018-08-28 13:54:09 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-08-28 13:54:09 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-08-28 13:54:09 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-08-28 13:54:12 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-08-28 13:54:12 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-28 13:54:12 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-28 13:54:12 - [TEST_STEP][PASSED] - setText: Text 'autoui202' is set on object 'Object Repository/page_authorization/input_login'
+
+2018-08-28 13:54:13 - [MESSAGE][PASSED] - Text 'autoui202' is set on object 'Object Repository/page_authorization/input_login'
+
+2018-08-28 13:54:13 - [TEST_STEP][PASSED] - setText: Text 'Gfhjkm123' is set on object 'Object Repository/page_authorization/input_password'
+
+2018-08-28 13:54:14 - [MESSAGE][PASSED] - Text 'Gfhjkm123' is set on object 'Object Repository/page_authorization/input_password'
+
+2018-08-28 13:54:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_authorization/button_come' is clicked on
+
+2018-08-28 13:54:17 - [MESSAGE][PASSED] - Object: 'Object Repository/page_authorization/button_come' is clicked on
+
+2018-08-28 13:54:17 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/page_home/span_exit' is present
+
+2018-08-28 13:54:18 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/span_exit' is present
+
+2018-08-28 13:54:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Base/Authorization' successfully
+
+2018-08-28 13:54:18 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/my_tasks/act_menu' is not present after 60 second(s)
+
+2018-08-28 13:56:03 - [MESSAGE][WARNING] - Object 'Object Repository/my_tasks/act_menu' is not present after 60 second(s)
+
+2018-08-28 13:56:03 - [TEST_STEP][FAILED] - click: Unable to click on object 'Object Repository/my_tasks/act_menu' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/my_tasks/act_menu' located by 'By.xpath: //div[contains(@class,'dx-datagrid-content')]//span[contains(@class,'dx-menu-item-popout-container')]' not found)
+
+2018-08-28 13:59:29 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/my_tasks/act_menu' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/my_tasks/act_menu' located by 'By.xpath: //div[contains(@class,'dx-datagrid-content')]//span[contains(@class,'dx-menu-item-popout-container')]' not found)
+[[ATTACHMENT|T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Route_appruval PZ\\20180828_134429\\1535453969222.png]]]]></system-out>
+         <system-err><![CDATA[2018-08-28 13:53:59 - [TEST_CASE][FAILED] - Test Cases/Base/Purchase plan/Route_appruval PZ: Test Cases/Base/Purchase plan/Route_appruval PZ FAILED because (of) Unable to click on object 'Object Repository/my_tasks/act_menu' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/my_tasks/act_menu' located by 'By.xpath: //div[contains(@class,'dx-datagrid-content')]//span[contains(@class,'dx-menu-item-popout-container')]' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-28 13:53:58 - [TEST_SUITE][FAILED] - Route_appruval PZ: Test Cases/Base/Purchase plan/Route_appruval PZ FAILED because (of) Unable to click on object 'Object Repository/my_tasks/act_menu' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/my_tasks/act_menu' located by 'By.xpath: //div[contains(@class,'dx-datagrid-content')]//span[contains(@class,'dx-menu-item-popout-container')]' not found)]]></system-out>
+      <system-err><![CDATA[2018-08-28 13:53:58 - [TEST_SUITE][FAILED] - Route_appruval PZ: Test Cases/Base/Purchase plan/Route_appruval PZ FAILED because (of) Unable to click on object 'Object Repository/my_tasks/act_menu' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/my_tasks/act_menu' located by 'By.xpath: //div[contains(@class,'dx-datagrid-content')]//span[contains(@class,'dx-menu-item-popout-container')]' not found)]]></system-err>
+   </testsuite>
+</testsuites>

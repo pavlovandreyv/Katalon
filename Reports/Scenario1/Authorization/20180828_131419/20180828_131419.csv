@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Authorization,Firefox 61.0,\u0410\u0432\u0442\u043E\u0440\u0438\u0437\u0430\u0446\u0438\u044F,2018-08-28 13:16:30,2018-08-28 13:16:46,"16,700s",PASSED
+,,,,,,
+Test Cases/Base/Authorization,Firefox 61.0,,2018-08-28 13:16:30,2018-08-28 13:16:46,"16,163s",PASSED
+openBrowser,Firefox 61.0,Открывается браузер,2018-08-28 13:16:30,2018-08-28 13:16:38,"7,486s",PASSED
+deleteAllCookies,Firefox 61.0,Очищаются куки,2018-08-28 13:16:38,2018-08-28 13:16:38,"0,025s",PASSED
+refresh,Firefox 61.0,Обновление странички,2018-08-28 13:16:38,2018-08-28 13:16:40,"2,362s",PASSED
+maximizeWindow,Firefox 61.0,Максимальный экран браузера,2018-08-28 13:16:40,2018-08-28 13:16:40,"0,125s",PASSED
+setText,Firefox 61.0,Ввод логина,2018-08-28 13:16:40,2018-08-28 13:16:41,"0,349s",PASSED
+setText,Firefox 61.0,Ввод пароля,2018-08-28 13:16:41,2018-08-28 13:16:41,"0,242s",PASSED
+click,Firefox 61.0,"Клик по кнопке ""Войти""",2018-08-28 13:16:41,2018-08-28 13:16:44,"3,135s",PASSED
+waitForElementPresent,Firefox 61.0,"Проверка наличия кнопки ""Выход""",2018-08-28 13:16:44,2018-08-28 13:16:44,"0,077s",PASSED

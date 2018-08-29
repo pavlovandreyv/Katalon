@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Route_appruval PZ,IE 11,\u0423\u0442\u0432\u0435\u0440\u0436\u0434\u0435\u043D\u0438\u0435 \u041F\u043B\u0430\u043D\u0430 \u0437\u0430\u043A\u0443\u043F\u043E\u043A,2018-08-28 13:53:58,2018-08-28 13:59:32,"5m - 33,124s",FAILED
+,,,,,,
+Test Cases/Base/Purchase plan/Route_appruval PZ,IE 11,Утверждение ПЗ,2018-08-28 13:53:59,2018-08-28 13:59:31,"5m - 32,340s",FAILED
+callTestCase,IE 11,Авторизация утверждающим,2018-08-28 13:53:59,2018-08-28 13:54:18,"18,527s",PASSED
+waitForElementPresent,IE 11,Ожидание доступность меню действий,2018-08-28 13:54:18,2018-08-28 13:56:03,"1m - 45,406s",PASSED
+click,IE 11,Развернуть меню действия Утверждения,2018-08-28 13:56:03,2018-08-28 13:59:29,"3m - 25,880s",FAILED

@@ -105,6 +105,24 @@ WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Dictionary_check/btn_select'
 'Ввести значение в поле "Сумма ППГ"'
 WebUiBuiltInKeywords.setText(findTestObject('document_PPG/input_amountPPG'), GlobalVariable.AmountPPG)
 
+'Перейти на вкладку "Дополнительные сведения"'
+WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Toolbar_vertical/menu_additionalInfo'))
+
+'Ожидание доступности кнопки "Банковское сопровождение контракта"'
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('document_PPG/btn_bankSupportContract'), 60)
+
+'Раскрыть справочник поля "Банковское сопровождение контракта"'
+WebUiBuiltInKeywords.click(findTestObject('document_PPG/btn_bankSupportContract'))
+
+'Ожидание доступности значения из справочника'
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/Dictionary_check/check_item'), 60)
+
+'Выбрать первое в списке значение из справочника'
+WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Dictionary_check/check_item'))
+
+'Завершить выбор из справочника'
+WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Dictionary_check/btn_select'))
+
 'Перейти на вкладку "График осуществления закупки"'
 WebUiBuiltInKeywords.click(findTestObject('document_PPG/a_purchaseSchedule'))
 

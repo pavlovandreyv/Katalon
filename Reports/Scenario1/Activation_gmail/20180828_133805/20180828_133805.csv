@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Activation_gmail,Firefox 61.0,\u0410\u043A\u0442\u0438\u0432\u0430\u0446\u0438\u044F \u0443\u0447\u0435\u0442\u043A\u0438 \u0432 gmail \u043F\u043E\u0447\u0442\u0435,2018-08-28 13:39:26,2018-08-28 13:39:46,"19,251s",PASSED
+,,,,,,
+Test Cases/Base/Activation_gmail,Firefox 61.0,Активация учетки в gmail письме,2018-08-28 13:39:27,2018-08-28 13:39:45,"18,735s",PASSED
+openBrowser,Firefox 61.0,"Открытие формы авторизации на gmail
+",2018-08-28 13:39:27,2018-08-28 13:39:33,"6,191s",PASSED
+setText,Firefox 61.0,"Ввод email
+",2018-08-28 13:39:33,2018-08-28 13:39:34,"0,406s",PASSED
+sendKeys,Firefox 61.0,Далее,2018-08-28 13:39:34,2018-08-28 13:39:34,"0,109s",PASSED
+waitForElementPresent,Firefox 61.0,Проверка доступности поля пароля,2018-08-28 13:39:34,2018-08-28 13:39:34,"0,575s",PASSED
+setText,Firefox 61.0,Ввод пароля,2018-08-28 13:39:34,2018-08-28 13:39:34,"0,118s",PASSED
+sendKeys,Firefox 61.0,Далее,2018-08-28 13:39:34,2018-08-28 13:39:35,"0,059s",PASSED
+click,Firefox 61.0,Открыть письмо с активационной ссылкой,2018-08-28 13:39:35,2018-08-28 13:39:39,"4,564s",PASSED
+"Statement - url_activation = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.getAttribute(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(page_gmail/mail_url), ""href"")",Firefox 61.0,Получить url активационной ссылки для перехода внутри 1й вкладки,2018-08-28 13:39:39,2018-08-28 13:39:40,"0,669s",PASSED
+navigateToUrl,Firefox 61.0,Перейти по ссылке активации пользователя,2018-08-28 13:39:40,2018-08-28 13:39:43,"3,390s",PASSED
+waitForElementPresent,Firefox 61.0,Проверка успешного перехода по url,2018-08-28 13:39:43,2018-08-28 13:39:43,"0,061s",PASSED

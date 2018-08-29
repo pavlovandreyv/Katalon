@@ -37,13 +37,16 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_planning/a_actua
 'Перейти по меню Актуальные'
 WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_actual'))
 
-'Изменить год плана графика на определенный'
-new_budgetYear = WebUI.modifyObjectProperty(findTestObject('document_purchasePlan/link_purchaseplan'), 'text', 'equals', 
-    GlobalVariable.BudgetYear, true)
+'Изменить значение реквизита документа'
+new_object = WebUI.modifyObjectProperty(findTestObject('DOCUMENT/object'), 'text', 'equals', GlobalVariable.BudgetYear, 
+    true)
 
-'Скопировать url план графика, для перехода внутри одной вкладки'
-url_purchase = WebUiBuiltInKeywords.getAttribute(new_budgetYear, 'href')
+'Ожидание доступности документа с определенным значением'
+WebUiBuiltInKeywords.waitForElementPresent(new_object, 60)
+
+'Скопировать url, для перехода внутри одной вкладки'
+url_object = WebUiBuiltInKeywords.getAttribute(new_object, 'href')
 
 'Перейти по скопированному url'
-WebUI.navigateToUrl(url_purchase)
+WebUI.navigateToUrl(url_object)
 

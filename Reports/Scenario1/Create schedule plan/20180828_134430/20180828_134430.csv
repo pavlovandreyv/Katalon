@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create schedule plan,Firefox 61.0,\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043F\u043B\u0430\u043D-\u0433\u0440\u0430\u0444\u0438\u043A\u0430,2018-08-28 14:03:05,2018-08-28 14:05:32,"2m - 27,494s",FAILED
+,,,,,,
+Test Cases/Base/Schedule plan/Create schedule plan,Firefox 61.0,Регистрация план-графика,2018-08-28 14:03:05,2018-08-28 14:05:32,"2m - 26,808s",FAILED
+callTestCase,Firefox 61.0,Авторизация исполнителем заказчика,2018-08-28 14:03:05,2018-08-28 14:03:21,"15,485s",PASSED
+click,Firefox 61.0,"Перейти в Планирование
+",2018-08-28 14:03:21,2018-08-28 14:03:23,"2,228s",PASSED
+click,Firefox 61.0,Перейти к план графику,2018-08-28 14:03:23,2018-08-28 14:03:25,"2,115s",PASSED
+click,Firefox 61.0,Сформировать новый план график,2018-08-28 14:03:25,2018-08-28 14:03:26,"0,462s",PASSED
+"Statement - new_budgetYear = com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.modifyObjectProperty(com.kms.katalon.core.testobject.ObjectRepository.findTestObject(menu_planning/page_year/radio_budgetYear), ""value"", ""equals"", BudgetYear, true)",Firefox 61.0,Изменить год формирования план-графика,2018-08-28 14:03:26,2018-08-28 14:03:26,"0,018s",PASSED
+check,Firefox 61.0,Установить год формирования план-графика,2018-08-28 14:03:26,2018-08-28 14:03:26,"0,535s",PASSED
+click,Firefox 61.0,Выбрать год формирования план-графика,2018-08-28 14:03:26,2018-08-28 14:03:26,"0,285s",PASSED
+click,Firefox 61.0,Раскрыть адресную книгу выбора ответственного исполнителя,2018-08-28 14:03:26,2018-08-28 14:05:30,"2m - 3,094s",FAILED

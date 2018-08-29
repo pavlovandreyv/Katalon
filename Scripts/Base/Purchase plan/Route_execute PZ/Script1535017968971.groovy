@@ -27,7 +27,7 @@ WebUI.callTestCase(findTestCase('Base/Authorization'), [:], FailureHandling.STOP
 WebUI.callTestCase(findTestCase('Base/Purchase plan/Open purchase plan'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Отправить ПЗ в ЕИС'
-WebUI.callTestCase(findTestCase('Base/EIS/Send to EIS'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Base/EIS/Send to EIS'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Ожидание доступности следущего контрола'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/Toolbar_vertical/menu_route'), 60)

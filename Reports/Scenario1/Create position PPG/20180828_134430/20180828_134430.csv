@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+Create position PPG,Firefox 61.0,\u0421\u043E\u0437\u0434\u0430\u043D\u0438\u0435 \u043F\u043E\u0437\u0438\u0446\u0438\u0438 \u041F\u041F\u0413,2018-08-28 14:08:05,2018-08-28 14:11:33,"3m - 27,803s",FAILED
+,,,,,,
+Test Cases/Base/Schedule plan/Create position PPG,Firefox 61.0,Создание позиции ППГ,2018-08-28 14:08:05,2018-08-28 14:11:32,"3m - 27,270s",FAILED
+callTestCase,Firefox 61.0,Авторизоваться исполнителем заказчика,2018-08-28 14:08:06,2018-08-28 14:08:21,"15,382s",PASSED
+callTestCase,Firefox 61.0,Открыть определенный план график,2018-08-28 14:08:21,2018-08-28 14:11:30,"3m - 9,401s",FAILED

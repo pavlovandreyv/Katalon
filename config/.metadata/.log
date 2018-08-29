@@ -395,3 +395,235 @@ WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; p
 WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 08 Aug 2018 13:49:10 -0000". Invalid 'expires' attribute: Wed, 08 Aug 2018 13:49:10 -0000
 рту 08, 2018 3:49:05 PM org.apache.http.client.protocol.ResponseProcessCookies processCookies
 WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 08 Aug 2038 12:49:10 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 08 Aug 2038 12:49:10 -0000
+katalon.versionNumber=5.6.1
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+Warning: NLS unused message: ACTIVATED_PROP_NAME in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATE_INFO_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_CODE_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_COLLECT_FAIL_MESSAGE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: DIA_TITLE_FUNCTIONS_INTRODUCTION in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ERR_CONSOLE_MODE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: REQUEST_CODE_PROP_NAME in: com.kms.katalon.constants.messages
+!SESSION 2018-08-24 10:08:57.626 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  T:\Katalon Studio\E1\E1.prj
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config T:\Katalon Studio\E1\E1.prj
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-08-24 10:09:07.315
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ex64'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+рту 24, 2018 10:09:08 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:17 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:17 -0000
+рту 24, 2018 10:09:08 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:17 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:17 -0000
+рту 24, 2018 10:09:08 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:18 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:18 -0000
+рту 24, 2018 10:09:08 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:18 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:18 -0000
+рту 24, 2018 10:09:08 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:17 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:17 -0000
+рту 24, 2018 10:09:08 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:18 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:18 -0000
+рту 24, 2018 10:09:08 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:17 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:17 -0000
+рту 24, 2018 10:09:08 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:18 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:18 -0000
+рту 24, 2018 10:09:09 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:18 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:18 -0000
+рту 24, 2018 10:09:09 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:19 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:19 -0000
+рту 24, 2018 10:09:09 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:19 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:19 -0000
+рту 24, 2018 10:09:09 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:19 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:19 -0000
+рту 24, 2018 10:09:09 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:19 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:19 -0000
+рту 24, 2018 10:09:09 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:19 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:19 -0000
+рту 24, 2018 10:09:09 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:19 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:19 -0000
+рту 24, 2018 10:09:09 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:19 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:19 -0000
+рту 24, 2018 10:09:10 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:20 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:20 -0000
+рту 24, 2018 10:09:10 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:20 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:20 -0000
+рту 24, 2018 10:09:10 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:20 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:20 -0000
+рту 24, 2018 10:09:10 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:20 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:20 -0000
+рту 24, 2018 10:09:11 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:21 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:21 -0000
+рту 24, 2018 10:09:11 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:21 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:21 -0000
+рту 24, 2018 10:09:11 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Fri, 24 Aug 2018 08:09:21 -0000". Invalid 'expires' attribute: Fri, 24 Aug 2018 08:09:21 -0000
+рту 24, 2018 10:09:11 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Tue, 24 Aug 2038 07:09:21 -0000; secure; HttpOnly". Invalid 'expires' attribute: Tue, 24 Aug 2038 07:09:21 -0000
+Warning: NLS missing message: COMMAND_NAME_OPEN in: com.kms.katalon.composer.components.impl.constants.composerComponentsImplMessages
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-08-24 10:10:21.906
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProjectDescription(GroovyUtil.java:522)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProject(GroovyUtil.java:150)
+	at com.kms.katalon.controller.ProjectController.openProjectForUI(ProjectController.java:72)
+	at com.kms.katalon.composer.project.handlers.OpenProjectHandler$1.run(OpenProjectHandler.java:142)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: T:\Katalon Studio\E1 overlaps the workspace location: T:\Katalon Studio\E1\config
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-08-24 10:10:21.916
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-08-24 10:10:21.916
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-08-24 10:10:21.916
+!MESSAGE T:\Katalon Studio\E1 overlaps the workspace location: T:\Katalon Studio\E1\config
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-08-24 10:10:46.854
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProjectDescription(GroovyUtil.java:522)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProject(GroovyUtil.java:150)
+	at com.kms.katalon.controller.ProjectController.openProjectForUI(ProjectController.java:72)
+	at com.kms.katalon.composer.project.handlers.OpenProjectHandler$1.run(OpenProjectHandler.java:142)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: T:\Katalon Studio\E1 overlaps the workspace location: T:\Katalon Studio\E1\config
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-08-24 10:10:46.864
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-08-24 10:10:46.864
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-08-24 10:10:46.864
+!MESSAGE T:\Katalon Studio\E1 overlaps the workspace location: T:\Katalon Studio\E1\config
+katalon.versionNumber=5.6.1
+katalon.buildNumber=1
+Could not find element with Id 'com.kms.katalon.composer.webservice.handledmenuitem.webServiceRequest'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Could not find element with Id 'com.kms.katalon.composer.mobile.dynamicmenucontribution.ios'
+Warning: NLS unused message: Key in: com.kms.katalon.composer.project.constants.composerProjectMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.testcase.constants.composerTestcaseMessages
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Warning: NLS unused message: PA_LBL_CREATED_DATE in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: PA_LBL_LAST_UPDATED in: com.kms.katalon.composer.testsuite.constants.composerTestsuiteMessages
+Warning: NLS unused message: Key in: com.kms.katalon.composer.objectrepository.constant.composerObjectRepositoryMessages
+Warning: NLS unused message: ACTIVATED_PROP_NAME in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATE_INFO_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_CODE_INVALID in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ACTIVATION_COLLECT_FAIL_MESSAGE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: DIA_TITLE_FUNCTIONS_INTRODUCTION in: com.kms.katalon.constants.messages
+Warning: NLS unused message: ERR_CONSOLE_MODE in: com.kms.katalon.constants.messages
+Warning: NLS unused message: REQUEST_CODE_PROP_NAME in: com.kms.katalon.constants.messages
+!SESSION 2018-08-29 08:24:41.111 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_102
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Framework arguments:  T:\Katalon Studio\E1\E1.prj
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data config T:\Katalon Studio\E1\E1.prj
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-08-29 08:24:47.677
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\ex64'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+рту 29, 2018 8:24:48 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:51 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:51 -0000
+рту 29, 2018 8:24:48 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:51 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:51 -0000
+рту 29, 2018 8:24:48 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:51 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:51 -0000
+рту 29, 2018 8:24:48 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:51 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:51 -0000
+рту 29, 2018 8:24:48 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:51 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:51 -0000
+рту 29, 2018 8:24:48 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:51 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:51 -0000
+рту 29, 2018 8:24:48 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:51 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:51 -0000
+рту 29, 2018 8:24:48 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:51 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:51 -0000
+рту 29, 2018 8:24:49 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:52 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:52 -0000
+рту 29, 2018 8:24:49 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:52 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:52 -0000
+рту 29, 2018 8:24:49 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:52 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:52 -0000
+рту 29, 2018 8:24:49 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:52 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:52 -0000
+рту 29, 2018 8:24:49 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:52 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:52 -0000
+рту 29, 2018 8:24:49 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:52 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:52 -0000
+рту 29, 2018 8:24:49 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:52 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:52 -0000
+рту 29, 2018 8:24:49 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:52 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:52 -0000
+рту 29, 2018 8:24:50 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:53 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:53 -0000
+рту 29, 2018 8:24:50 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:53 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:53 -0000
+рту 29, 2018 8:24:50 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:53 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:53 -0000
+рту 29, 2018 8:24:50 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:53 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:53 -0000
+рту 29, 2018 8:24:51 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:54 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:54 -0000
+рту 29, 2018 8:24:51 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:54 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:54 -0000
+рту 29, 2018 8:24:52 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: has_recent_activity=1; path=/; expires=Wed, 29 Aug 2018 06:24:54 -0000". Invalid 'expires' attribute: Wed, 29 Aug 2018 06:24:54 -0000
+рту 29, 2018 8:24:52 AM org.apache.http.client.protocol.ResponseProcessCookies processCookies
+WARNING: Invalid cookie header: "Set-Cookie: logged_in=no; domain=.github.com; path=/; expires=Sun, 29 Aug 2038 05:24:54 -0000; secure; HttpOnly". Invalid 'expires' attribute: Sun, 29 Aug 2038 05:24:54 -0000
+Warning: NLS missing message: COMMAND_NAME_OPEN in: com.kms.katalon.composer.components.impl.constants.composerComponentsImplMessages
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2018-08-29 08:25:16.189
+!MESSAGE 
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProjectDescription(GroovyUtil.java:522)
+	at com.kms.katalon.groovy.util.GroovyUtil.initGroovyProject(GroovyUtil.java:150)
+	at com.kms.katalon.controller.ProjectController.openProjectForUI(ProjectController.java:72)
+	at com.kms.katalon.composer.project.handlers.OpenProjectHandler$1.run(OpenProjectHandler.java:142)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: T:\Katalon Studio\E1 overlaps the workspace location: T:\Katalon Studio\E1\config
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2018-08-29 08:25:16.190
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2018-08-29 08:25:16.190
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2018-08-29 08:25:16.190
+!MESSAGE T:\Katalon Studio\E1 overlaps the workspace location: T:\Katalon Studio\E1\config

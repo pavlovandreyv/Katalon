@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Authorization" time="15" tests="1" failures="0" errors="0">
+   <testsuite name="Authorization" tests="1" failures="0" errors="0" time="15" timestamp="2018-08-28 12:54:20" hostname="ex64 - ex64" id="Test Suites/Scenario1/Authorization">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Authorization\\20180828_125057"/>
+         <property name="logFiles" value="T:\\Katalon Studio\\E1\\Reports\\Scenario1\\Authorization\\20180828_125057\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="ex64 - ex64"/>
+         <property name="os" value="Windows 7 64bit"/>
+         <property name="katalonVersion" value="5.6.1.1"/>
+         <property name="browser" value="Firefox 61.0"/>
+         <property name="hostAddress" value="192.168.20.109"/>
+         <property name="sessionId" value="fbc0a475-ace8-490b-9798-4a54354964ad"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 7"/>
+      </properties>
+      <testcase name="Test Cases/Base/Authorization" classname="Test Cases/Base/Authorization" status="PASSED">
+         <system-out><![CDATA[2018-08-28 12:54:20 - [TEST_CASE][PASSED] - Test Cases/Base/Authorization: Test Cases/Base/Authorization
+
+2018-08-28 12:54:20 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'http://192.168.20.68/edo'
+
+2018-08-28 12:54:27 - [MESSAGE][PASSED] - Browser is opened with url: 'http://192.168.20.68/edo'
+
+2018-08-28 12:54:27 - [TEST_STEP][PASSED] - deleteAllCookies: Delete all cookies successfully
+
+2018-08-28 12:54:28 - [MESSAGE][PASSED] - Delete all cookies successfully
+
+2018-08-28 12:54:28 - [TEST_STEP][PASSED] - refresh: Refresh successfully
+
+2018-08-28 12:54:29 - [MESSAGE][PASSED] - Refresh successfully
+
+2018-08-28 12:54:29 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-08-28 12:54:29 - [MESSAGE][PASSED] - Current window maximized
+
+2018-08-28 12:54:29 - [TEST_STEP][PASSED] - setText: Text 'autoui16' is set on object 'Object Repository/page_authorization/input_login'
+
+2018-08-28 12:54:29 - [MESSAGE][PASSED] - Text 'autoui16' is set on object 'Object Repository/page_authorization/input_login'
+
+2018-08-28 12:54:29 - [TEST_STEP][PASSED] - setText: Text 'Gfhjkm123' is set on object 'Object Repository/page_authorization/input_password'
+
+2018-08-28 12:54:29 - [MESSAGE][PASSED] - Text 'Gfhjkm123' is set on object 'Object Repository/page_authorization/input_password'
+
+2018-08-28 12:54:29 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/page_authorization/button_come' is clicked on
+
+2018-08-28 12:54:33 - [MESSAGE][PASSED] - Object: 'Object Repository/page_authorization/button_come' is clicked on
+
+2018-08-28 12:54:33 - [TEST_STEP][PASSED] - waitForElementPresent: Object 'Object Repository/page_home/span_exit' is present
+
+2018-08-28 12:54:33 - [MESSAGE][PASSED] - Object 'Object Repository/page_home/span_exit' is present]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-08-28 12:54:20 - [TEST_SUITE][PASSED] - Authorization: Test Cases/Base/Authorization]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

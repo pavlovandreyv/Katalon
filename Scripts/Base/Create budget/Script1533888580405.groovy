@@ -74,10 +74,10 @@ WebUiBuiltInKeywords.click(findTestObject('document_budget/dictionary_KBK/check_
 WebUiBuiltInKeywords.click(findTestObject('document_budget/dictionary_KBK/btn_select'))
 
 'Ожидание: модальный контрол'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/modal_Budget'), 60)
-
-'Ожидание: модальный контрол'
 WebUiBuiltInKeywords.waitForElementNotPresent(findTestObject('special/modal_Budget'), 60)
+
+'Ожидание: модального контрола'
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/modal fade'), 60)
 
 'Ввести сумму лимита'
 WebUiBuiltInKeywords.setText(findTestObject('document_budget/input_limitAmount'), GlobalVariable.limitAmount)
