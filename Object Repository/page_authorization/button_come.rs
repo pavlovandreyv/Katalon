@@ -6,12 +6,12 @@
    <elementGuidId>4bbdde96-efc3-4b72-8f25-05e6c7f2e004</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//*[(text() = 'Войти' or . = 'Войти')]</value>
+         <key>XPATH</key>
+         <value>//button[text()='Войти']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//button[contains(text(),'Войти')]</value>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Войти' or . = 'Войти')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

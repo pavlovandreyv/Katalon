@@ -5,8 +5,178 @@
    <tag></tag>
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
+      <description>Логин нового пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Логин', 1)</initValue>
+      <name>Login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Пароль нового пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Пароль', 1)</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
       <description>Адрес тестового сервера</description>
-      <initValue>findTestData('Excel/Server').getValue('Server', 1)</initValue>
+      <initValue>findTestData('Test data.xlsx/Tab_Server').getValue('Server', 1)</initValue>
       <name>Server</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Организация нового пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Организация', 1)</initValue>
+      <name>Organization</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Имя нового пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Имя', 1)</initValue>
+      <name>Name</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Фамилия нового пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Фамилия', 1)</initValue>
+      <name>Surname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Отчество нового пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Отчество', 1)</initValue>
+      <name>Patronymic</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Должность нового пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Должность', 1)</initValue>
+      <name>Position</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Электронная почта нового пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('E-mail', 1)</initValue>
+      <name>Email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Номер телефона нового пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Телефон', 1)</initValue>
+      <name>Phone</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Год для формирования Бюджета, ПЗ</description>
+      <initValue>'2018'</initValue>
+      <name>BudgetYear</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Для Бюджета Источник финансирования</description>
+      <initValue>'Бюджетные средства'</initValue>
+      <name>sourceFinancing</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Для Бюджета КБК</description>
+      <initValue>'30301138930090059244'</initValue>
+      <name>KBK</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Для Бюджета Сумма лимита</description>
+      <initValue>'1000000'</initValue>
+      <name>limitAmount</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Для ППЗ ОКПД2</description>
+      <initValue>'01.11.11.111'</initValue>
+      <name>OKPD2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Для ППЗ Наименование закупки</description>
+      <initValue>'Пшеница'</initValue>
+      <name>NameObjectPurchase</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Для ППЗ Сумма финансирования</description>
+      <initValue>'100000'</initValue>
+      <name>AmountFinance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Для ППЗ &quot;Обоснование соответствия объекта&quot;</description>
+      <initValue>'ТЗ'</initValue>
+      <name>conformiti</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Сменить руководителя подразделения при регистрации нового пользователя?</description>
+      <initValue>false</initValue>
+      <name>ChangeChief</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Способ определения поставщика</description>
+      <initValue>'Открытый конкурс'</initValue>
+      <name>MethodSuppler</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Обоснование способа определения поставщика</description>
+      <initValue>'п. 1.1 ФЗ 44'</initValue>
+      <name>RationaleMethodSupplier</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Обоснование метода</description>
+      <initValue>'ТЗ п.1.'</initValue>
+      <name>RathionaleMethod</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Сумма ППГ</description>
+      <initValue>'10000'</initValue>
+      <name>AmountPPG</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Планируемый срок (сроки отдельных этапов) поставки товаров (выполнения работ, оказания услуг)</description>
+      <initValue>'23.08.2018'</initValue>
+      <name>PlannedPerod</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Планируемый срок исполнения</description>
+      <initValue>'22.08.2018'</initValue>
+      <name>PlannedPerformance</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Плангируемый срок размещения</description>
+      <initValue>'21.08.2018'</initValue>
+      <name>PlannedPlacement</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Адрес доставки</description>
+      <initValue>'г. Чебоксары, ул. Ярославская, 27'</initValue>
+      <name>Address</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Путь до файла1</description>
+      <initValue>'\\Test Data\\file\\file1.jpeg'</initValue>
+      <name>File1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Путь до файла2</description>
+      <initValue>'\\Test Data\\file\\file2.txt'</initValue>
+      <name>File2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Путь до файла3</description>
+      <initValue>'\\Test Data\\file\\file3.rtf'</initValue>
+      <name>File3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>1й контрагент</description>
+      <initValue>'НАО &quot;ПИИ ГЕО&quot; /  ЗАО «Проектно-изыскательский институт ГЕО»'</initValue>
+      <name>Contractor1</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>2й контрагент</description>
+      <initValue>'ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ПРОИЗВОДСТВЕННО-КОММЕРЧЕСКАЯ ФИРМА &quot;СОЛИД&quot;'</initValue>
+      <name>Contractor2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>3й контрагент</description>
+      <initValue>'АРХАНГЕЛЬСКИЙ АРКТИЧЕСКИЙ КОМПЛЕКСНЫЙ АВАРИЙНО-СПАСАТЕЛЬНЫЙ ЦЕНТР МЧС РОССИИ (ФИЛИАЛ ФЕДЕРАЛЬНОГО ГОСУДАРСТВЕННОГО КАЗЕННОГО УЧРЕЖДЕНИЯ &quot;СЕВЕРО-ЗАПАДНЫЙ РЕГИОНАЛЬНЫЙ ПОИСКОВО-СПАСАТЕЛЬНЫЙ ОТРЯД МЧС РОССИИ&quot;)'</initValue>
+      <name>Contractor3</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Логин администратора</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Логин', 2)</initValue>
+      <name>LoginAdmin</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Пароль администратора</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Пароль', 2)</initValue>
+      <name>PasswordAdmin</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

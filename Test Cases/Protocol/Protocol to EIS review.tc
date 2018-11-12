@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Отправка протокола в ЕИС</description>
+   <name>Protocol to EIS review</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ebdbde08-7b81-450f-b3e0-d428602a0c02</testCaseGuid>
+</TestCaseEntity>

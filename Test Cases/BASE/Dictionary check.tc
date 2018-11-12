@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Выбрать из справочника первое попавшееся значение</description>
+   <name>Dictionary check</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9236ab81-adf2-461b-a227-308322852cd2</testCaseGuid>
+</TestCaseEntity>

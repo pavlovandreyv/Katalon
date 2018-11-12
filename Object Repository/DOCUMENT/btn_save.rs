@@ -7,13 +7,14 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
+         <value>//*[text() = 'Сохранить']</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@class = 'btn btn-default btn-md' and (text() = 'Сохранить' or . = 'Сохранить')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

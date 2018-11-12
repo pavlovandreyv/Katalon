@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Постановка на маршрут утверждения Извещения</description>
+   <name>New route appruval Notice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>078d277b-5264-4bde-b0d0-4f9106bfe1cf</testCaseGuid>
+</TestCaseEntity>

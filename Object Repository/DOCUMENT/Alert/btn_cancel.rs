@@ -4,7 +4,17 @@
    <name>btn_cancel</name>
    <tag></tag>
    <elementGuidId>08df05eb-4fe6-4d38-8939-5faa99b40198</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and (text() = 'Закрыть' or . = 'Закрыть')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@class='btn btn-default'][text()='Закрыть']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

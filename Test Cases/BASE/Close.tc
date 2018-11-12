@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Выйти и закрыть браузер</description>
+   <name>Close</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0b53bb7-aec2-4c27-9320-210fd9f8530c</testCaseGuid>
+</TestCaseEntity>

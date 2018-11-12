@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Отправить извещение в ЕИС</description>
+   <name>Notice to EIS</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b7085444-5099-4958-8305-36a3722f82e7</testCaseGuid>
+</TestCaseEntity>

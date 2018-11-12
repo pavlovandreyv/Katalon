@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Открыть Извещение</description>
+   <name>Open protocol review</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ac3d73f4-fab6-48e3-a794-ae97fc4d5d0b</testCaseGuid>
+</TestCaseEntity>

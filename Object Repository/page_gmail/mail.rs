@@ -7,14 +7,14 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//span[(text() = 'Регистрация в Е1 Закупки' or . = 'Регистрация в Е1 Закупки')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Регистрация в Е1 Закупки')]</value>
+         <value>//span[@title='Регистрация в Е1 Закупки']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

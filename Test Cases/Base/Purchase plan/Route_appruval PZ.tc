@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Утверждение ПЗ</description>
-   <name>Route_appruval PZ</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>d4940cc6-8c74-4f2b-acd9-dba224d2d777</testCaseGuid>
-</TestCaseEntity>

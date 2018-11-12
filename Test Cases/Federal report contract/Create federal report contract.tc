@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Создать исполнение контракта</description>
+   <name>Create federal report contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c52fc36d-703d-4a72-9388-138fe8ab011b</testCaseGuid>
+</TestCaseEntity>

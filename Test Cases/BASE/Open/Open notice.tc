@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Открыть Извещение</description>
+   <name>Open notice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>85dcac32-94dc-446e-b3d7-8824e6c303a5</testCaseGuid>
+</TestCaseEntity>

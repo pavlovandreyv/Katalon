@@ -4,7 +4,17 @@
    <name>btn_forApproval</name>
    <tag></tag>
    <elementGuidId>149f1faf-f719-40b0-b9d5-5188d86f6ba9</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[(text() = 'На утверждение' or . = 'На утверждение')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[(text() = 'На утверждение' or . = 'На согласование')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -32,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>handleLinkAction(this, '#actionDialog', event, undefined, undefined);</value>
+      <value>return false;</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>

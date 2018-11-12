@@ -4,7 +4,17 @@
    <name>btn_OK</name>
    <tag></tag>
    <elementGuidId>526f0b3a-0e38-4539-95cd-9e6347512895</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@type = 'button' and @id = 'btn-ok_from_modal' and (text() = 'ОК' or . = 'ОК')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='btn-ok_from_modal']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

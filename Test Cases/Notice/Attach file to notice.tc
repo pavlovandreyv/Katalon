@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Прикрепить файл к извещению</description>
+   <name>Attach file to notice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>53b2e9a8-78c3-4287-b14a-25eedaed4b3a</testCaseGuid>
+</TestCaseEntity>

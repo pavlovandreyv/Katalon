@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Авторизоваться Администратором</description>
+   <name>AuthorizationAdmin</name>
+   <tag>authorization</tag>
+   <comment></comment>
+   <testCaseGuid>c70058fb-a5dc-407c-a26a-078055d6e778</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Создать заявку участника</description>
+   <name>Create application</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a2c775dc-c057-466d-b361-a0ac7a128063</testCaseGuid>
+</TestCaseEntity>

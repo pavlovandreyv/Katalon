@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Создать протокол</description>
+   <name>Create protocol envelop</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>c0a82104-665e-456b-a2d6-68e942b59426</testCaseGuid>
+</TestCaseEntity>

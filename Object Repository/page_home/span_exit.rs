@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Выход')]</value>
+         <value>//span[text()='Выход']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
