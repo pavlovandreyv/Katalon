@@ -24,35 +24,37 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 'Открыть браузер'
 WebUI.openBrowser('https://mail.yandex.ru')
 
-WebUI.waitForElementPresent(findTestObject('yandex/In'), 0)
+WebUI.maximizeWindow()
+
+WebUI.waitForElementPresent(findTestObject('yandex.ru/In'), 0)
 
 'Нажать "Вход"'
-WebUI.click(findTestObject('yandex/In'))
+WebUI.click(findTestObject('yandex.ru/In'))
 
-WebUI.waitForElementPresent(findTestObject('yandex/Login'), 0)
+WebUI.waitForElementPresent(findTestObject('yandex.ru/Login'), 0)
 
 'Ввести Логин'
-WebUI.setText(findTestObject('yandex/Login'), 'test.cognitive')
+WebUI.setText(findTestObject('yandex.ru/Login'), 'test.cognitive')
 
 'Ввести Пароль'
-WebUI.setText(findTestObject('yandex/Password'), 'cognitiv')
+WebUI.setText(findTestObject('yandex.ru/Password'), 'cognitiv')
 
 'Нажать Войти'
-WebUI.click(findTestObject('yandex/Sign in'))
+WebUI.click(findTestObject('yandex.ru/Sign in'))
 
-WebUI.waitForElementPresent(findTestObject('page_gmail/mail'), 0)
+WebUI.waitForElementPresent(findTestObject('gmail.com/mail'), 0)
 
 'Открыть письмо активации'
-WebUI.click(findTestObject('page_gmail/mail'))
+WebUI.click(findTestObject('gmail.com/mail'))
 
 'Получить url активационной ссылки для перехода внутри 1й вкладки'
-url_activation = WebUiBuiltInKeywords.getAttribute(findTestObject('page_gmail/mail_url'), 'href')
+url_activation = WebUiBuiltInKeywords.getAttribute(findTestObject('gmail.com/mail_url'), 'href')
 
 'Перейти по ссылке активации пользователя'
 WebUiBuiltInKeywords.navigateToUrl(url_activation)
 
 'Проверка успешного перехода по url'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_gmail/message_pass'), 120)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('gmail.com/message_pass'), 120)
 
 'Закрыть браузер'
 WebUI.closeBrowser()

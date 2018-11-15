@@ -6,11 +6,15 @@
    <elementGuidId>2903d7dc-8c48-4e14-843d-873822a12369</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@name='login']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[@id = 'content-login-username']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

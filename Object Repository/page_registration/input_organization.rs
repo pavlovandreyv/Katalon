@@ -4,7 +4,17 @@
    <name>input_organization</name>
    <tag></tag>
    <elementGuidId>d939d589-ec40-4923-ae61-1b0fbf77544b</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@class='chosen-search-input']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;Organization_chosen&quot;)/div[@class=&quot;chosen-drop&quot;]/div[@class=&quot;chosen-search&quot;]/input[@class=&quot;chosen-search-input&quot;][count(. | //input[@type = 'text']) = count(//input[@type = 'text'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

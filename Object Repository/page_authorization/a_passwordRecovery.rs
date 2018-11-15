@@ -6,11 +6,15 @@
    <elementGuidId>08ca8721-0df7-4f3a-ac5b-2b9cb9166093</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//a[text() = 'Восстановление пароля']</value>
+      </entry>
+      <entry>
          <key>BASIC</key>
          <value>//*[(text() = 'Восстановление пароля' or . = 'Восстановление пароля')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>

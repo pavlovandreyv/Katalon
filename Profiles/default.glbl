@@ -170,13 +170,8 @@
       <name>Contractor3</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Логин администратора</description>
-      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Логин', 2)</initValue>
-      <name>LoginAdmin</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Пароль администратора</description>
-      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Пароль', 2)</initValue>
-      <name>PasswordAdmin</name>
+      <description>Выбор: регистрировать без ЭП</description>
+      <initValue>false</initValue>
+      <name>registrationEP</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

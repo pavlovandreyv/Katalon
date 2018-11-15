@@ -4,7 +4,7 @@
    <name>Contract execution to EIS</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-12T16:32:39</lastRun>
+   <lastRun>2018-11-12T17:58:02</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>

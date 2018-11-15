@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>activate_test_1</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description>Логин администратора</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Логин', 1)</initValue>
+      <name>Login</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Пароль администратора</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Пароль', 1)</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Адрес тестового сервера</description>
+      <initValue>findTestData('Test data.xlsx/Tab_Server').getValue('Server', 1)</initValue>
+      <name>Server</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Фамилия активируемого пользователя</description>
+      <initValue>findTestData('Test data.xlsx/Tab_User').getValue('Фамилия', 2)</initValue>
+      <name>Surname</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description>Выбор рабочих групп</description>
+      <initValue>2</initValue>
+      <name>WorkGroup</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

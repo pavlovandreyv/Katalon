@@ -26,7 +26,7 @@ WebUiBuiltInKeywords.waitForAlert(60)
 WebUI.acceptAlert()
 
 'Установить чек напротив выбранного сертификата'
-WebUiBuiltInKeywords.click(findTestObject('my_tasks/radio_certificate'))
+WebUiBuiltInKeywords.click(findTestObject('dialog_EP/radio_certificate'))
 
 'Завершить выбор сертификата'
 WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Alert/btn_OK'))

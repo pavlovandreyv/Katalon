@@ -4,7 +4,17 @@
    <name>massage_pass</name>
    <tag></tag>
    <elementGuidId>e16b4e64-fe71-40f9-ace0-a4e4dc57c98d</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[contains(text(),'Ссылка для подтверждения регистрации отправлена на вашу электронную почту.')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[(text() = 'Ссылка для подтверждения регистрации отправлена на вашу электронную почту. Перейти на страницу входа.' or . = 'Ссылка для подтверждения регистрации отправлена на вашу электронную почту. Перейти на страницу входа.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -38,7 +38,7 @@ WebUiBuiltInKeywords.setText(findTestObject('page_authorization/input_login'), G
 WebUiBuiltInKeywords.setText(findTestObject('page_authorization/input_password'), GlobalVariable.Password)
 
 'Нажать на кнопку "Вход"'
-WebUiBuiltInKeywords.click(findTestObject('page_authorization/button_come'))
+WebUiBuiltInKeywords.click(findTestObject('page_authorization/btn_logIn'))
 
 'Ожидание доступности кнопки "Выход"'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_home/span_exit'), 60)

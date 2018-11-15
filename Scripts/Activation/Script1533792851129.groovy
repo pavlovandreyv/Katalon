@@ -19,9 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Авторизация администратором'
-WebUI.callTestCase(findTestCase('BASE/AuthorizationAdmin'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Переход на вкладку администрирования'
 WebUI.click(findTestObject('page_home/span_administration'))
@@ -35,23 +36,42 @@ WebUiBuiltInKeywords.setText(findTestObject('page_administration/page_activation
 'Выбор активируемого пользователя'
 WebUI.sendKeys(findTestObject('page_administration/page_activation/input_user'), Keys.chord(Keys.ENTER))
 
-'Развернуть список рабочих групп'
-WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+switch (GlobalVariable.WorkGroup) {
+    case 1:
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
 
-'Выбор рабочей группы'
-WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/item_IZ44fz'), FailureHandling.STOP_ON_FAILURE)
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('workgroup/item_IZ44fz'), FailureHandling.STOP_ON_FAILURE)
 
-'Развернуть список рабочих групп'
-WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
 
-'Выбор рабочей группы'
-WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/item_approve44fz'), FailureHandling.STOP_ON_FAILURE)
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('workgroup/item_approve44fz'), FailureHandling.STOP_ON_FAILURE)
 
-'Развернуть список рабочих групп'
-WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
 
-'Выбор рабочей группы'
-WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/item_agreement44fz'), FailureHandling.STOP_ON_FAILURE)
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('workgroup/item_approveS44fz'), FailureHandling.STOP_ON_FAILURE)
+
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('workgroup/item_chief44fz'), FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case 2:
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('workgroup/item_user44fz'), FailureHandling.STOP_ON_FAILURE)
+
+        break
+}
 
 'Активация пользователя'
 WebUiBuiltInKeywords.click(findTestObject('page_administration/page_activation/button_save'))

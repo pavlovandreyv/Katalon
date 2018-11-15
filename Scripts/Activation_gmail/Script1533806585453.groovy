@@ -24,31 +24,31 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('https://mail.google.com')
 
 'Ввод email\r\n'
-WebUI.setText(findTestObject('page_gmail/input_email'), 'test.cognitive@gmail.com')
+WebUI.setText(findTestObject('gmail.com/input_email'), 'test.cognitive@gmail.com')
 
 'Далее'
-WebUiBuiltInKeywords.sendKeys(findTestObject('page_gmail/input_email'), Keys.chord(Keys.ENTER))
+WebUiBuiltInKeywords.sendKeys(findTestObject('gmail.com/input_email'), Keys.chord(Keys.ENTER))
 
 'Проверка доступности поля пароля'
-WebUI.waitForElementPresent(findTestObject('page_gmail/input_password'), 60)
+WebUI.waitForElementPresent(findTestObject('gmail.com/input_password'), 60)
 
 'Ввод пароля'
-WebUiBuiltInKeywords.setText(findTestObject('page_gmail/input_password'), 'TestDepartment2016')
+WebUiBuiltInKeywords.setText(findTestObject('gmail.com/input_password'), 'TestDepartment2016')
 
 'Далее'
-WebUiBuiltInKeywords.sendKeys(findTestObject('page_gmail/input_password'), Keys.chord(Keys.ENTER))
+WebUiBuiltInKeywords.sendKeys(findTestObject('gmail.com/input_password'), Keys.chord(Keys.ENTER))
 
 'Открыть письмо с активационной ссылкой'
-WebUiBuiltInKeywords.click(findTestObject('page_gmail/mail'))
+WebUiBuiltInKeywords.click(findTestObject('gmail.com/mail'))
 
 'Получить url активационной ссылки для перехода внутри 1й вкладки'
-url_activation = WebUiBuiltInKeywords.getAttribute(findTestObject('page_gmail/mail_url'), 'href')
+url_activation = WebUiBuiltInKeywords.getAttribute(findTestObject('gmail.com/mail_url'), 'href')
 
 'Перейти по ссылке активации пользователя'
 WebUiBuiltInKeywords.navigateToUrl(url_activation)
 
 'Проверка успешного перехода по url'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_gmail/message_pass'), 120)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('gmail.com/message_pass'), 120)
 
 'Закрыть браузер'
 WebUI.closeBrowser()

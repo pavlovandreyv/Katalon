@@ -33,17 +33,7 @@ WebUI.waitForElementPresent(findTestObject('document_notice/btn_approval'), 0)
 'Развернуть адресную книгу Утверждающего'
 WebUI.click(findTestObject('document_notice/btn_approval'))
 
-'Ожидание элементов адресной книги'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Dictionary_check/check_item'), 0)
-
-'Выбрать первого в списке Сотрудника'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/check_item'))
-
-'Завершить выбор'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/btn_select'))
-
-'Ожидание закрытия диалога адресной книги'
-WebUI.waitForElementNotPresent(findTestObject('DOCUMENT/Dictionary_check/btn_find'), 0)
+WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Переход на вкладку Порядок проведения процедуры'
 WebUI.click(findTestObject('document_notice/menu_PPP'))
