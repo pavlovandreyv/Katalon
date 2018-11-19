@@ -5,4 +5,25 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5fddaa43-fee1-4131-a1c0-ed5736077fd1</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('File1', 1)</defaultValue>
+      <description></description>
+      <id>058256e8-f703-4cbd-955a-4ec7c9b190d8</id>
+      <masked>false</masked>
+      <name>File1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('File2', 1)</defaultValue>
+      <description></description>
+      <id>0f4be5df-ff0f-428f-9f2b-b9638e1f3e7c</id>
+      <masked>false</masked>
+      <name>File2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('File3', 1)</defaultValue>
+      <description></description>
+      <id>a09c3569-53b8-48c9-855d-dfb90b8ba874</id>
+      <masked>false</masked>
+      <name>File3</name>
+   </variable>
 </TestCaseEntity>

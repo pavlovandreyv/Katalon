@@ -5,4 +5,88 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>9a02681f-e4c8-46bc-bd5d-b59eb226dd3a</testCaseGuid>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>80ca654c-4c31-40ac-bd12-3c0547250c4e</id>
+      <masked>false</masked>
+      <name>RegistrationEP</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Organization', 1)</defaultValue>
+      <description></description>
+      <id>10e39d6b-f8de-4def-83d2-9b2eee62d501</id>
+      <masked>false</masked>
+      <name>Organization</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Surname', 1)</defaultValue>
+      <description></description>
+      <id>cb5ac666-f12c-4d10-a01c-fdbf7e1833aa</id>
+      <masked>false</masked>
+      <name>Surname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Name', 1)</defaultValue>
+      <description></description>
+      <id>c83758d5-d305-4b9d-86bc-c03767e4426e</id>
+      <masked>false</masked>
+      <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Patronymic', 1)</defaultValue>
+      <description></description>
+      <id>d4df1d89-f988-4fe7-b107-98ca3ef253f0</id>
+      <masked>false</masked>
+      <name>Patronymic</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Position', 1)</defaultValue>
+      <description></description>
+      <id>a2dc637d-ebe7-461b-869d-6ceae74ae348</id>
+      <masked>false</masked>
+      <name>Position</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Email', 1)</defaultValue>
+      <description></description>
+      <id>5bc4067d-7f04-40db-b5e2-f04f2901a9e8</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Phone', 1)</defaultValue>
+      <description></description>
+      <id>9ca04b03-b212-4f02-8ba5-89098d204005</id>
+      <masked>false</masked>
+      <name>Phone</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Login', 1)</defaultValue>
+      <description></description>
+      <id>23a70d07-4520-4100-8487-0ae58495e300</id>
+      <masked>false</masked>
+      <name>Login</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Password', 1)</defaultValue>
+      <description></description>
+      <id>97ace46f-95ac-4f1e-9938-fa9dcf786fec</id>
+      <masked>false</masked>
+      <name>Password</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>b839600a-fa63-42b1-8f21-c7a026772e8c</id>
+      <masked>false</masked>
+      <name>ChangeChief</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>2a3cadba-35fc-48d7-a38b-f101c9775306</id>
+      <masked>false</masked>
+      <name>DeleteAllCookies</name>
+   </variable>
 </TestCaseEntity>

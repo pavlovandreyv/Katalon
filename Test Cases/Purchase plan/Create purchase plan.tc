@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e5925130-7bb7-480f-96a0-257a5086f75a</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('BudgetYear', 1)</defaultValue>
+      <description></description>
+      <id>46c12100-4450-432b-902e-94feb96d0a58</id>
+      <masked>false</masked>
+      <name>BudgetYear</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Login', 1)</defaultValue>
+      <description></description>
+      <id>0b715db9-857f-4149-a8c3-d6e1d6ffcf25</id>
+      <masked>false</masked>
+      <name>Login</name>
+   </variable>
 </TestCaseEntity>

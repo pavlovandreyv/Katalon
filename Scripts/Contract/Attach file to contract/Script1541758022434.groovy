@@ -21,30 +21,24 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Адрес файла 1'
-new_file1 = (System.getProperty('user.dir') + GlobalVariable.File1)
-
-'Авторизоваться'
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Открыть контракт'
-WebUI.callTestCase(findTestCase('BASE/Open/Open contract'), [:], FailureHandling.STOP_ON_FAILURE)
+new_file1 = (System.getProperty('user.dir') + File1)
 
 'Ожидание контрола'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/Toolbar_horizon/btn_attachFile'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_attachFile'), 60)
 
 'Нажать на кнопку "Прикрепить файл"'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_attachFile'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_attachFile'))
 
 'Ожидание контрола'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/File/btn_selectFile'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File/btn_selectFile'), 60)
 
 'Загрузить Файл 1'
-WebUI.uploadFile(findTestObject('DOCUMENT/File/btn_selectFile'), new_file1)
+WebUI.uploadFile(findTestObject('BASE/File/btn_selectFile'), new_file1)
 
 'Завершить редактирование прикрепления файлов нажатием на кнопку "ОК"'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Alert/btn_OK'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Alert/btn_OK'))
 
-WebUI.waitForElementNotPresent(findTestObject('DOCUMENT/File/btn_selectFile'), 60)
+WebUI.waitForElementNotPresent(findTestObject('BASE/File/btn_selectFile'), 60)
 
 WebUI.closeBrowser()
 

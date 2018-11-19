@@ -14,16 +14,16 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Ожидание искомого значения'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Dictionary_check/check_item'), 180)
+WebUI.waitForElementPresent(findTestObject('BASE/Dictionary_check/check_item'), 180)
 
 'Установить чек напротив найденного значения'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/check_item'))
+WebUI.click(findTestObject('BASE/Dictionary_check/check_item'))
 
 'Завершить выбор контрагента'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/btn_select'))
+WebUI.click(findTestObject('BASE/Dictionary_check/btn_select'))
 
 'Ожидание'
-WebUI.waitForElementNotPresent(findTestObject('DOCUMENT/Dictionary_check/btn_select'), 0)
+WebUI.waitForElementNotPresent(findTestObject('BASE/Dictionary_check/btn_select'), 0)
 
 'Ожидание'
 WebUI.waitForElementPresent(findTestObject('special/x-mask x-border-box2'), 0)

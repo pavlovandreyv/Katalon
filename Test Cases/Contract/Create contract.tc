@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>5f4fe630-734d-4057-acfc-8fb7ec83cb69</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('AmountPPG', 1)</defaultValue>
+      <description></description>
+      <id>173ae6d0-9980-491d-8ec4-f81df258ce55</id>
+      <masked>false</masked>
+      <name>AmountPPG</name>
+   </variable>
 </TestCaseEntity>

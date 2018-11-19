@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>022ff4bb-31e4-4452-bb3d-d441e1c69308</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('Address', 1)</defaultValue>
+      <description></description>
+      <id>6adaeaab-c095-410d-8942-adca0191808e</id>
+      <masked>false</masked>
+      <name>Address</name>
+   </variable>
 </TestCaseEntity>

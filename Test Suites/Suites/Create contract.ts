@@ -4,7 +4,7 @@
    <name>Create contract</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-12T17:58:01</lastRun>
+   <lastRun>2018-11-19T11:49:52</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -12,9 +12,63 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>f0947a97-c04c-4b34-a6ac-37e179764889</testSuiteGuid>
    <testCaseLink>
+      <guid>19323650-1fb6-4f85-9a02-320043e35186</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BASE/Authorization</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17b320b1-1dc6-4561-8e3f-9e6d2173db87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9fed6bf-a35f-4c63-9a99-5bc306f5c375</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e6c4cdd5-2da3-43dd-8599-604e181b2311</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>aa8f660c-5e7d-4a96-bc31-22485da40614</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BASE/Open/Open position schedule plan</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7e7a7c03-9c62-4370-af4e-5b1d2a40a144</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>720ce2af-d897-4b48-8e71-806e8b7f4df3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Contract/Create contract</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>173ae6d0-9980-491d-8ec4-f81df258ce55</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>e3623122-f7dc-40a0-8d6f-c5fe83425705</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Contract/Attach file to contract</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>5a35d61d-556d-4673-a4d1-2a69bb277b37</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

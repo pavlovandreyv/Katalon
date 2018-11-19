@@ -5,4 +5,32 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>1dc131c4-03f7-4d50-b543-2bd290a81930</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('OKPD2', 1)</defaultValue>
+      <description></description>
+      <id>12cdd6d9-2409-4394-ba60-d7653e090d21</id>
+      <masked>false</masked>
+      <name>OKPD2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('NameObjectPurchase', 1)</defaultValue>
+      <description></description>
+      <id>4157c29d-f09b-4b14-84ae-404bb6a91752</id>
+      <masked>false</masked>
+      <name>NameObjectPurchase</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('AmountFinance', 1)</defaultValue>
+      <description></description>
+      <id>3405929b-6de9-4bd3-b730-5e1760c16919</id>
+      <masked>false</masked>
+      <name>AmountFinance</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('Conformiti', 1)</defaultValue>
+      <description></description>
+      <id>e12987c2-0b1e-413d-8088-cbb92b9ec660</id>
+      <masked>false</masked>
+      <name>Conformiti</name>
+   </variable>
 </TestCaseEntity>

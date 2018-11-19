@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>b5aea7b1-b358-4485-b3a2-f2fdbe9865a8</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('BudgetYear', 1)</defaultValue>
+      <description></description>
+      <id>a2a41c73-ee35-4cdb-8c19-3ce0420c2e98</id>
+      <masked>false</masked>
+      <name>BudgetYear</name>
+   </variable>
 </TestCaseEntity>

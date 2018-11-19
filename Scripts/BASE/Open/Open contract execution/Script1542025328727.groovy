@@ -30,7 +30,7 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_request/link_all
 WebUiBuiltInKeywords.click(findTestObject('menu_request/link_all'))
 
 'Изменить значение реквизита поискового документа'
-new_object = WebUI.modifyObjectProperty(findTestObject('DOCUMENT/object'), 'text', 'equals', '1212600384618000003', true)
+new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', '1212600384618000003', true)
 
 'Ожидание доступности документа'
 WebUiBuiltInKeywords.waitForElementPresent(new_object, 60)
@@ -41,12 +41,12 @@ url_object = WebUiBuiltInKeywords.getAttribute(new_object, 'href')
 'Перейти по скопированному url'
 WebUI.navigateToUrl(url_object)
 
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Toolbar_vertical/tab_executionsContracts'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_vertical/tab_executionsContracts'), 0)
 
-WebUI.click(findTestObject('DOCUMENT/Toolbar_vertical/tab_executionsContracts'))
+WebUI.click(findTestObject('BASE/Toolbar_vertical/tab_executionsContracts'))
 
 'Изменить значение реквизита поискового документа'
-new_object = WebUI.modifyObjectProperty(findTestObject('DOCUMENT/object'), 'text', 'equals', 'Информация об исполнении', 
+new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', 'Информация об исполнении', 
     true)
 
 'Ожидание доступности документа'

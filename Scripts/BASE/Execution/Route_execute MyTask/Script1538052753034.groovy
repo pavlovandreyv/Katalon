@@ -20,9 +20,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-'Авторизоваться'
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'Перейти на вкладку утверждения'
 WebUI.navigateToUrl(GlobalVariable.Server + '/Performer/Tasks')
 
@@ -42,7 +39,7 @@ WebUiBuiltInKeywords.click(findTestObject('my_tasks/action_Performance'))
 WebUI.waitForElementPresent(findTestObject('special/modal-loading-wrapper'), 0)
 
 'Подтвердить действие исполнения'
-WebUI.click(findTestObject('DOCUMENT/Alert/btn_OK'))
+WebUI.click(findTestObject('BASE/Alert/btn_OK'))
 
 'Ожидание завершения операции утверждения'
 WebUiBuiltInKeywords.waitForElementNotPresent(findTestObject('my_tasks/action_myTask'), 60)

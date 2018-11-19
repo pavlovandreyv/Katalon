@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Регистрация бюджета</description>
+   <name>Create budget</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>66486910-1af5-4234-94df-a232d1fa1e1b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('BudgetYear', 1)</defaultValue>
+      <description></description>
+      <id>2397e964-86a8-43ec-ab39-9fa245933ecf</id>
+      <masked>false</masked>
+      <name>BudgetYear</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('SourceFinancing', 1)</defaultValue>
+      <description></description>
+      <id>8ecfc0be-f801-4735-b4cd-a6f5d2ec28b1</id>
+      <masked>false</masked>
+      <name>SourceFinancing</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('KBK', 1)</defaultValue>
+      <description></description>
+      <id>c1855a58-480d-4f4f-ad31-038731541091</id>
+      <masked>false</masked>
+      <name>KBK</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('limitAmount', 1)</defaultValue>
+      <description></description>
+      <id>d81ecd63-db29-4206-b25f-3c45a9ed45ac</id>
+      <masked>false</masked>
+      <name>limitAmount</name>
+   </variable>
+</TestCaseEntity>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Новый протокол</description>
-   <name>New route appruval Protocol envelop</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a2c6d700-f003-4466-8786-8a0ddadcb209</testCaseGuid>
-</TestCaseEntity>

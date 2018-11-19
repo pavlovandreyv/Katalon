@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Активация нового пользователя</description>
+   <name>Activation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fd12035d-5b15-46a6-afad-27da7636053b</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Surname', 1)</defaultValue>
+      <description></description>
+      <id>c8f11777-68f6-415a-a4fa-a4d06962d858</id>
+      <masked>false</masked>
+      <name>Surname</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('WorkGroup', 1)</defaultValue>
+      <description></description>
+      <id>107b3527-ae95-472e-8ae7-6084b1207b23</id>
+      <masked>false</masked>
+      <name>WorkGroup</name>
+   </variable>
+</TestCaseEntity>

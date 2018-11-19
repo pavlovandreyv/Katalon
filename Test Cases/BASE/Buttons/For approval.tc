@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Отправить &quot;На утверждение&quot;</description>
+   <name>For approval</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8c83808d-1aee-46b9-875d-765ca3162bea</testCaseGuid>
+</TestCaseEntity>

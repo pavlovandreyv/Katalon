@@ -20,10 +20,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Ожидание меню Планирование'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_home/span_planning'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_home/span_planning'), 60)
 
 'Перейти по меню Планирование\r\n'
-WebUI.click(findTestObject('page_home/span_planning'))
+WebUI.click(findTestObject('Pages/page_home/span_planning'))
 
 'Ожидание меню "Позиции план-графика"'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_planning/a_positionSchedulePlan'), 60)
@@ -38,8 +38,7 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_request/link_all
 WebUiBuiltInKeywords.click(findTestObject('menu_request/link_all'))
 
 'Изменить значение реквизита документа'
-new_object = WebUI.modifyObjectProperty(findTestObject('DOCUMENT/object'), 'text', 'equals', GlobalVariable.NameObjectPurchase, 
-    true)
+new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', NameObjectPurchase, true)
 
 'Ожидание доступности документа с определенным значением'
 WebUiBuiltInKeywords.waitForElementPresent(new_object, 60)

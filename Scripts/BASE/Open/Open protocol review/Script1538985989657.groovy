@@ -20,10 +20,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Ожидание доступности меню "Осуществление закупки"'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_home/span_purchase'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_home/span_purchase'), 60)
 
 'Нажать на меню "Осуществление закупки"'
-WebUiBuiltInKeywords.click(findTestObject('page_home/span_purchase'))
+WebUiBuiltInKeywords.click(findTestObject('Pages/page_home/span_purchase'))
 
 'Ожидание'
 WebUI.waitForElementPresent(findTestObject('menu_request/menu_notice'), 0)
@@ -38,7 +38,7 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_request/link_all
 WebUiBuiltInKeywords.click(findTestObject('menu_request/link_all'))
 
 'Изменить значение реквизита поискового документа'
-new_object = WebUI.modifyObjectProperty(findTestObject('DOCUMENT/object'), 'text', 'equals', 'Протокол рассмотрения и оценки заявок на участие в открытом конкурсе', 
+new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', 'Протокол рассмотрения и оценки заявок на участие в открытом конкурсе', 
     true)
 
 'Ожидание доступности документа'

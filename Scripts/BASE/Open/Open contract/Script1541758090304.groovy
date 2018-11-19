@@ -30,7 +30,7 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_request/link_all
 WebUiBuiltInKeywords.click(findTestObject('menu_request/link_all'))
 
 'Изменить значение реквизита поискового документа'
-new_object = WebUI.modifyObjectProperty(findTestObject('DOCUMENT/object'), 'text', 'equals', '1212600384618000003', true)
+new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', '1212600384618000003', true)
 
 'Ожидание доступности документа'
 WebUiBuiltInKeywords.waitForElementPresent(new_object, 60)

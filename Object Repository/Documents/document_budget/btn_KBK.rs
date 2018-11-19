@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>btn_KBK</name>
+   <tag></tag>
+   <elementGuidId>c6cea295-9ec4-4f37-b7c2-4bd8eeef883a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class='table-content']/*[@class='table-edit-row']//button[@id = 'registerKBK' and @type = 'button' and (text() = '...' or . = '...')]</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//button[@id = 'registerKBK' and @type = 'button' and (text() = '...' or . = '...') and @class = 'table-content']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>registerKBK</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-url</name>
+      <type>Main</type>
+      <value>/edo/Dictionary/GetJson?dictionaryName=Коды бюджетной классификации&amp;showCodeColumn=True</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-fields</name>
+      <type>Main</type>
+      <value>&amp;dictFieldsInfo={&quot;DictionaryFieldInfoList&quot;:[{&quot;EditName&quot;:&quot;registerKBK&quot;,&quot;DictColumnName&quot;:&quot;code&quot;,&quot;ShowAsDisplayText&quot;:true,&quot;DictColumnWidth&quot;:&quot;&quot;,&quot;ShowAsDictionaryColumn&quot;:true}]}</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dictionary-selection-start-level</name>
+      <type>Main</type>
+      <value>1</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dict-name</name>
+      <type>Main</type>
+      <value>Коды бюджетной классификации</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>...</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;regcard-tlcInfo&quot;)/div[@class=&quot;panel panel-default&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row row-container clearfix&quot;]/div[@class=&quot;col-xs-12 column-container&quot;]/div[@class=&quot;table-edit-wrapper&quot;]/div[@class=&quot;table-edit&quot;]/div[@class=&quot;table-content&quot;]/div[@class=&quot;table-edit-row&quot;]/div[@class=&quot;table-edit-columns right-actions-offset&quot;]/div[@class=&quot;table-edit-column text&quot;]/div[@class=&quot;documentView-field-value form-group&quot;]/div[@id=&quot;ist_fin-registerKBKtree&quot;]/span[@class=&quot;input-group-btn&quot;]/button[@id=&quot;registerKBK&quot;]</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>table-content</value>
+   </webElementProperties>
+</WebElementEntity>

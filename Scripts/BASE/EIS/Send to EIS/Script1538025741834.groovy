@@ -21,26 +21,26 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Нажать "Отправить в ЕИС"'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_senToEIS'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_senToEIS'))
 
 'Ввести логин'
-WebUiBuiltInKeywords.setText(findTestObject('DOCUMENT/EIS/input_loginEIS'), GlobalVariable.LoginAdmin, FailureHandling.CONTINUE_ON_FAILURE)
+WebUiBuiltInKeywords.setText(findTestObject('BASE/EIS/input_loginEIS'), 'Логин', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Ввести пароль'
-WebUiBuiltInKeywords.setText(findTestObject('DOCUMENT/EIS/input_passwordEIS'), GlobalVariable.PasswordAdmin, FailureHandling.CONTINUE_ON_FAILURE)
+WebUiBuiltInKeywords.setText(findTestObject('BASE/EIS/input_passwordEIS'), 'Пароль', FailureHandling.CONTINUE_ON_FAILURE)
 
 'Подтвердить отправку'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Alert/btn_OK'), FailureHandling.CONTINUE_ON_FAILURE)
+WebUiBuiltInKeywords.click(findTestObject('BASE/Alert/btn_OK'), FailureHandling.CONTINUE_ON_FAILURE)
 
 'Ожидание диалога с ошибкой отправки'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/EIS/msg_error'), 60, FailureHandling.CONTINUE_ON_FAILURE)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/EIS/msg_error'), 60, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/modal-loading-wrapper'), 60)
 
 WebUI.takeScreenshot()
 
 'Закрыть окно отправки'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Alert/btn_cancel'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Alert/btn_cancel'))
 
 'Обновить страницу'
 WebUiBuiltInKeywords.refresh()

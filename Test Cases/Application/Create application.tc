@@ -5,4 +5,39 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a2c775dc-c057-466d-b361-a0ac7a128063</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('Contractor1', 1)</defaultValue>
+      <description></description>
+      <id>320fdd72-d230-4dd8-ad89-7a67db3e23d7</id>
+      <masked>false</masked>
+      <name>Contractor1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('NameObjectPurchase', 1)</defaultValue>
+      <description></description>
+      <id>10e82c62-c6d5-48b7-9e13-da04263b6157</id>
+      <masked>false</masked>
+      <name>NameObjectPurchase</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('AmountPPG', 1)</defaultValue>
+      <description></description>
+      <id>fc0650de-5870-423f-8f31-766e1ab849ee</id>
+      <masked>false</masked>
+      <name>AmountPPG</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('Contractor2', 1)</defaultValue>
+      <description></description>
+      <id>910b132c-1149-49c8-8e92-f69f050a1223</id>
+      <masked>false</masked>
+      <name>Contractor2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('Contractor3', 1)</defaultValue>
+      <description></description>
+      <id>5d601f4d-f9d6-4fb9-92d5-51603ac011d8</id>
+      <masked>false</masked>
+      <name>Contractor3</name>
+   </variable>
 </TestCaseEntity>

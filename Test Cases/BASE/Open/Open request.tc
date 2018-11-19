@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>a121a9be-1745-4904-8cf2-7f73b4a61800</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('NameObjectPurchase', 1)</defaultValue>
+      <description></description>
+      <id>64635b6c-e8de-4e42-8cae-47da5937d55e</id>
+      <masked>false</masked>
+      <name>NameObjectPurchase</name>
+   </variable>
 </TestCaseEntity>

@@ -21,42 +21,36 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import groovy.time.TimeCategory as TimeCategory
 
-'Авторизоваться'
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Открыть Контракт'
-WebUI.callTestCase(findTestCase('BASE/Open/Open contract'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Toolbar_horizon/btn_addExecutionContract'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_addExecutionContract'), 0)
 
 'Нажать на кнопку "Создать исполнение контракта"'
-WebUI.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_addExecutionContract'))
+WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_addExecutionContract'))
 
-WebUI.waitForElementPresent(findTestObject('document_contractExecution/btn_typeDoc'), 0)
+WebUI.waitForElementPresent(findTestObject('Documents/document_contractExecution/btn_typeDoc'), 0)
 
-WebUI.click(findTestObject('document_contractExecution/btn_typeDoc'))
-
-WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('document_contractExecution/input_numberExe'), '1234567890')
-
-WebUI.click(findTestObject('document_contractExecution/btn_stageContract'))
+WebUI.click(findTestObject('Documents/document_contractExecution/btn_typeDoc'))
 
 WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('DOCUMENT/Toolbar_vertical/tab_executionContract'))
+WebUI.setText(findTestObject('Documents/document_contractExecution/input_numberExe'), '1234567890')
 
-WebUI.waitForElementPresent(findTestObject('document_contractExecution/btn_addDoc'), 0)
-
-WebUI.click(findTestObject('document_contractExecution/btn_addDoc'))
-
-WebUI.check(findTestObject('document_contractExecution/input_radio'))
-
-WebUI.click(findTestObject('document_contractExecution/btn_codDoc'))
+WebUI.click(findTestObject('Documents/document_contractExecution/btn_stageContract'))
 
 WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('document_contractExecution/input_nameDoc'), 'Платежный документ №123000')
+WebUI.click(findTestObject('BASE/Toolbar_vertical/tab_executionContract'))
+
+WebUI.waitForElementPresent(findTestObject('Documents/document_contractExecution/btn_addDoc'), 0)
+
+WebUI.click(findTestObject('Documents/document_contractExecution/btn_addDoc'))
+
+WebUI.check(findTestObject('Documents/document_contractExecution/input_radio'))
+
+WebUI.click(findTestObject('Documents/document_contractExecution/btn_codDoc'))
+
+WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Documents/document_contractExecution/input_nameDoc'), 'Платежный документ №123000')
 
 'Определение дат для заполнения вкладки Исполнение'
 use(TimeCategory, { 
@@ -68,25 +62,25 @@ use(TimeCategory, {
 'Смена формата даты Планируемый срок размещения'
 DateDoc = date1.format('dd.MM.yyyy')
 
-WebUI.setText(findTestObject('document_contractExecution/input_dateDoc'), DateDoc.toString())
+WebUI.setText(findTestObject('Documents/document_contractExecution/input_dateDoc'), DateDoc.toString())
 
-WebUI.setText(findTestObject('document_contractExecution/input_numberDoc'), '1234567890')
+WebUI.setText(findTestObject('Documents/document_contractExecution/input_numberDoc'), '1234567890')
 
-WebUI.click(findTestObject('document_contractExecution/btn_addItem'))
+WebUI.click(findTestObject('Documents/document_contractExecution/btn_addItem'))
 
-WebUI.waitForElementPresent(findTestObject('document_contractExecution/btn_nameItem'), 0)
+WebUI.waitForElementPresent(findTestObject('Documents/document_contractExecution/btn_nameItem'), 0)
 
-WebUI.click(findTestObject('document_contractExecution/btn_nameItem'))
+WebUI.click(findTestObject('Documents/document_contractExecution/btn_nameItem'))
 
 WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('document_contractExecution/input_numberItem'), '1')
+WebUI.setText(findTestObject('Documents/document_contractExecution/input_numberItem'), '1')
 
-WebUI.setText(findTestObject('document_contractExecution/input_price'), '10000')
+WebUI.setText(findTestObject('Documents/document_contractExecution/input_price'), '10000')
 
-WebUI.click(findTestObject('DOCUMENT/btn_save'))
+WebUI.click(findTestObject('BASE/btn_save'))
 
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/btn_edit'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/btn_edit'), 0)
 
 WebUI.closeBrowser()
 

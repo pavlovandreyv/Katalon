@@ -20,60 +20,42 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-'Авторизация'
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Открыть Извещение'
-WebUI.callTestCase(findTestCase('BASE/Open/Open notice'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Toolbar_horizon/btn_createApp'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_createApp'), 0)
 
 'Создать заявку участника'
-WebUI.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_createApp'))
+WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createApp'))
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('document_application/input_numberApp'), 0)
+WebUI.waitForElementPresent(findTestObject('Documents/document_application/input_numberApp'), 0)
 
 'Ввести номер заявки'
-WebUI.setText(findTestObject('document_application/input_numberApp'), '1')
+WebUI.setText(findTestObject('Documents/document_application/input_numberApp'), '1')
 
 'Раскрыть справочник Контрагентов'
-WebUI.click(findTestObject('document_application/btn_nameApp'))
+WebUI.click(findTestObject('Documents/document_application/btn_nameApp'))
 
-'Установить чек на первом списке Контрагенте'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Dictionary_check/input_find'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Dictionary_check/input_find'), 0)
 
 'В поле поиска ввести наименование первого контрагента'
-WebUI.setText(findTestObject('DOCUMENT/Dictionary_check/input_find'), GlobalVariable.Contractor1)
+WebUI.setText(findTestObject('BASE/Dictionary_check/input_find'), Contractor1)
 
 'Нажать найти'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/btn_find'))
+WebUI.click(findTestObject('BASE/Dictionary_check/btn_find'))
 
-'Ожидание искомого значения'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Dictionary_check/check_item'), 0)
-
-'Установить чек на найденном контрагенте'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/check_item'))
-
-'Завершить выбор контрагента'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/btn_select'))
-
-'Ожидание'
-WebUI.waitForElementNotPresent(findTestObject('DOCUMENT/Dictionary_check/btn_select'), 0)
+WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Сохранить заявку участника'
-WebUI.click(findTestObject('DOCUMENT/btn_save'))
+WebUI.click(findTestObject('BASE/btn_save'))
 
 'Ожидание завершения регистрации доступностью кнопки редактирования'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/btn_edit'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/btn_edit'), 0)
 
 'Перейти на вкладку Извещения'
-WebUI.click(findTestObject('document_application/tab_notice'))
+WebUI.click(findTestObject('Documents/document_application/tab_notice'))
 
 'Изменить значение реквизита поискового документа'
-new_object = WebUI.modifyObjectProperty(findTestObject('DOCUMENT/object'), 'text', 'equals', GlobalVariable.NameObjectPurchase, 
-    true)
+new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', NameObjectPurchase, true)
 
 'Ожидание доступности документа'
 WebUiBuiltInKeywords.waitForElementPresent(new_object, 60)
@@ -85,91 +67,71 @@ url_object = WebUiBuiltInKeywords.getAttribute(new_object, 'href')
 WebUI.navigateToUrl(url_object)
 
 'Нажать на кнопку Заявка участника'
-WebUI.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_createApp'))
+WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createApp'))
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('document_application/input_numberApp'), 0)
+WebUI.waitForElementPresent(findTestObject('Documents/document_application/input_numberApp'), 0)
 
 'Ввести номер заявки участника'
-WebUI.setText(findTestObject('document_application/input_numberApp'), '2')
+WebUI.setText(findTestObject('Documents/document_application/input_numberApp'), '2')
 
 'Ввести Предлагаемую цену'
-WebUI.setText(findTestObject('document_application/input_availablePrice'), GlobalVariable.AmountPPG.toString())
+WebUI.setText(findTestObject('Documents/document_application/input_availablePrice'), AmountPPG)
 
 'Раскрыть список контрагентов'
-WebUI.click(findTestObject('document_application/btn_nameApp'))
+WebUI.click(findTestObject('Documents/document_application/btn_nameApp'))
 
 'Установить чек на первом списке Контрагенте'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Dictionary_check/input_find'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Dictionary_check/input_find'), 0)
 
 'Ввести в поле поиска наименование 2го контрагента'
-WebUI.setText(findTestObject('DOCUMENT/Dictionary_check/input_find'), GlobalVariable.Contractor2)
+WebUI.setText(findTestObject('BASE/Dictionary_check/input_find'), Contractor2)
 
 'Нажать найти контрагента'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/btn_find'))
+WebUI.click(findTestObject('BASE/Dictionary_check/btn_find'))
 
-'Ожидание искомого значения'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Dictionary_check/check_item'), 0)
-
-'Установить чек напротив найденного контрагента'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/check_item'))
-
-'Завершить выбор контрагента'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/btn_select'))
-
-'Ожидание'
-WebUI.waitForElementNotPresent(findTestObject('DOCUMENT/Dictionary_check/btn_select'), 0)
+WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Нажать Сохранить документ'
-WebUI.click(findTestObject('DOCUMENT/btn_save'))
+WebUI.click(findTestObject('BASE/btn_save'))
 
 'Ожидание завершения регистрации'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/btn_edit'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/btn_edit'), 0)
 
 'Перейти по скопированному url'
 WebUI.navigateToUrl(url_object)
 
 'Создать Заявку участника'
-WebUI.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_createApp'))
+WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createApp'))
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('document_application/input_numberApp'), 0)
+WebUI.waitForElementPresent(findTestObject('Documents/document_application/input_numberApp'), 0)
 
 'Установить номер заявки'
-WebUI.setText(findTestObject('document_application/input_numberApp'), '3')
+WebUI.setText(findTestObject('Documents/document_application/input_numberApp'), '3')
 
 'Ввести Предлагаемую цену'
-WebUI.setText(findTestObject('document_application/input_availablePrice'), GlobalVariable.AmountPPG - 1000.toString())
+WebUI.setText(findTestObject('Documents/document_application/input_availablePrice'), AmountPPG - 1000.toString())
 
 'Раскрыть список контрагентов'
-WebUI.click(findTestObject('document_application/btn_nameApp'))
+WebUI.click(findTestObject('Documents/document_application/btn_nameApp'))
 
 'Установить чек на первом списке Контрагенте'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Dictionary_check/input_find'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Dictionary_check/input_find'), 0)
 
 'В поле поиска ввести наименование 3го контрагента'
-WebUI.setText(findTestObject('DOCUMENT/Dictionary_check/input_find'), GlobalVariable.Contractor3)
+WebUI.setText(findTestObject('BASE/Dictionary_check/input_find'), Contractor3)
 
 'Нажать на кнопку Найти'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/btn_find'))
+WebUI.click(findTestObject('BASE/Dictionary_check/btn_find'))
 
-'Ожидание искомого значения'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Dictionary_check/check_item'), 0)
-
-'Установить чек напротив найденного значения'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/check_item'))
-
-'Завершить выбор контрагента'
-WebUI.click(findTestObject('DOCUMENT/Dictionary_check/btn_select'))
-
-'Ожидание'
-WebUI.waitForElementNotPresent(findTestObject('DOCUMENT/Dictionary_check/btn_select'), 0)
+WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Нажать кнопку Сохранить'
-WebUI.click(findTestObject('DOCUMENT/btn_save'))
+WebUI.click(findTestObject('BASE/btn_save'))
 
 'Ожидание завершения регистрации доступностью кнопки редактирования'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/btn_edit'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/btn_edit'), 0)
 
 'Закрыть браузер'
 WebUI.closeBrowser()

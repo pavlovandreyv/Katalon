@@ -19,7 +19,9 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Авторизоваться'
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('BASE/Authorization'), [('Login') : findTestData('Test data.xlsx/Tab_Variables_User').getValue('default', 1)
+        , ('Password') : findTestData('Test data.xlsx/Tab_Variables_User').getValue('default', 2), ('DeleteAllCookies') : false], 
+    FailureHandling.STOP_ON_FAILURE)
 
 'Открыть протокол Вскрытия'
 WebUI.callTestCase(findTestCase('BASE/Open/Open protocol review'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -31,16 +33,16 @@ WebUI.callTestCase(findTestCase('BASE/EIS/Send to EIS'), [:], FailureHandling.CO
 WebUI.callTestCase(findTestCase('BASE/EIS/Update from EIS'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Ожидание доступности следущего контрола'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/Toolbar_vertical/menu_route'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Toolbar_vertical/menu_route'), 60)
 
 'Перейти на вкладку Маршрута'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Toolbar_vertical/menu_route'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_vertical/menu_route'))
 
 'Ожидание доступности меню действий'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/routs/action_route'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Route/action_route'), 60)
 
 'Развернуть меню действий над Поручением'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/routs/action_route'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Route/action_route'))
 
 'Выбрать Отчитаться об исполнении'
 WebUiBuiltInKeywords.click(findTestObject('my_tasks/action_Performance'))
@@ -49,10 +51,10 @@ WebUiBuiltInKeywords.click(findTestObject('my_tasks/action_Performance'))
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/modal-loading-wrapper'), 60)
 
 'Завершить исполнение'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Alert/btn_OK'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Alert/btn_OK'))
 
 'Ожидание завершения операции'
-WebUiBuiltInKeywords.waitForElementNotPresent(findTestObject('DOCUMENT/routs/action_route'), 60)
+WebUiBuiltInKeywords.waitForElementNotPresent(findTestObject('BASE/Route/action_route'), 60)
 
 WebUI.closeBrowser()
 

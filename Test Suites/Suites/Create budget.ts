@@ -4,7 +4,7 @@
    <name>Create budget</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-12T17:37:55</lastRun>
+   <lastRun>2018-11-16T15:11:18</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -12,9 +12,57 @@
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <testSuiteGuid>7c98af75-daff-4881-b70c-0eb581cc8eff</testSuiteGuid>
    <testCaseLink>
+      <guid>b8d6fe01-95a8-4b0a-ae8b-26189c4c0d8f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BASE/Authorization</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17b320b1-1dc6-4561-8e3f-9e6d2173db87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9fed6bf-a35f-4c63-9a99-5bc306f5c375</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e6c4cdd5-2da3-43dd-8599-604e181b2311</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
       <guid>13b77271-0410-4f03-b67f-d7ad20538959</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Create budget</testCaseId>
+      <testCaseId>Test Cases/Budget/Create budget</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2397e964-86a8-43ec-ab39-9fa245933ecf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8ecfc0be-f801-4735-b4cd-a6f5d2ec28b1</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>c1855a58-480d-4f4f-ad31-038731541091</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>d81ecd63-db29-4206-b25f-3c45a9ed45ac</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

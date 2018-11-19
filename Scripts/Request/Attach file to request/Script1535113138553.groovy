@@ -20,91 +20,85 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Адрес файла 1'
-new_file1 = (System.getProperty('user.dir') + GlobalVariable.File1)
+new_file1 = (System.getProperty('user.dir') + File1)
 
 'Адрес файла 2'
-new_file2 = (System.getProperty('user.dir') + GlobalVariable.File2)
+new_file2 = (System.getProperty('user.dir') + File2)
 
 'Адрес файла 3'
-new_file3 = (System.getProperty('user.dir') + GlobalVariable.File3)
-
-'Авторизация Исполнителем 44 ФЗ'
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Открыть Заявку на размещение'
-WebUI.callTestCase(findTestCase('BASE/Open/Open request'), [:], FailureHandling.STOP_ON_FAILURE)
+new_file3 = (System.getProperty('user.dir') + File3)
 
 'Ожидание контрола'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/Toolbar_horizon/btn_attachFile'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_attachFile'), 60)
 
 'Нажать на кнопку "Прикрепить файл"'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_attachFile'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_attachFile'))
 
 'Ожидание контрола'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/File/btn_selectFile'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File/btn_selectFile'), 60)
 
 'Загрузить Файл 1'
-WebUI.uploadFile(findTestObject('DOCUMENT/File/btn_selectFile'), new_file1)
+WebUI.uploadFile(findTestObject('BASE/File/btn_selectFile'), new_file1)
 
 'Ожидание контрола'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('document_request/btn_selectCategory'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/btn_selectCategory'), 60)
 
 'Фокус на списке с категориями'
-WebUiBuiltInKeywords.click(findTestObject('document_request/btn_selectCategory'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/btn_selectCategory'))
 
 'Раскрыть список с категориями'
-WebUiBuiltInKeywords.click(findTestObject('document_request/list_category'), FailureHandling.STOP_ON_FAILURE)
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/list_category'), FailureHandling.STOP_ON_FAILURE)
 
 'Ожидание контрола\r\n'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('document_request/item_nameDescription'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/item_nameDescription'), 60)
 
 'Выбрать в списке значение'
-WebUiBuiltInKeywords.click(findTestObject('document_request/item_nameDescription'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/item_nameDescription'))
 
 'Ожидание'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/File/btn_selectFile'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File/btn_selectFile'), 60)
 
 'Загрузить Файл 2'
-WebUI.uploadFile(findTestObject('DOCUMENT/File/btn_selectFile'), new_file2)
+WebUI.uploadFile(findTestObject('BASE/File/btn_selectFile'), new_file2)
 
 'Ожидание '
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('document_request/btn_selectCategory'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/btn_selectCategory'), 60)
 
 'Фокус на контроле категорий'
-WebUiBuiltInKeywords.click(findTestObject('document_request/btn_selectCategory'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/btn_selectCategory'))
 
 'Раскрыть список с категориями'
-WebUiBuiltInKeywords.click(findTestObject('document_request/list_category'), FailureHandling.STOP_ON_FAILURE)
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/list_category'), FailureHandling.STOP_ON_FAILURE)
 
 'Ожидание значения'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('document_request/item_rationaleNMCK'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/item_rationaleNMCK'), 60)
 
 'Выбрать значение из списка'
-WebUiBuiltInKeywords.click(findTestObject('document_request/item_rationaleNMCK'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/item_rationaleNMCK'))
 
 'Ожидание '
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/File/btn_selectFile'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File/btn_selectFile'), 60)
 
 'Загрузить Файл 3'
-WebUI.uploadFile(findTestObject('DOCUMENT/File/btn_selectFile'), new_file3)
+WebUI.uploadFile(findTestObject('BASE/File/btn_selectFile'), new_file3)
 
 'Ожидание'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('document_request/btn_selectCategory'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/btn_selectCategory'), 60)
 
 'Фокус на контроле категорий'
-WebUiBuiltInKeywords.click(findTestObject('document_request/btn_selectCategory'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/btn_selectCategory'))
 
 'Раскрыть список с категориями'
-WebUiBuiltInKeywords.click(findTestObject('document_request/list_category'), FailureHandling.STOP_ON_FAILURE)
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/list_category'), FailureHandling.STOP_ON_FAILURE)
 
 'Ожидание'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('document_request/item_projectContract'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/item_projectContract'), 60)
 
 'Выбрать значение из списка с категориями'
-WebUiBuiltInKeywords.click(findTestObject('document_request/item_projectContract'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/item_projectContract'))
 
 'Завершить редактирование прикрепления файлов нажатием на кнопку "ОК"'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Alert/btn_OK'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Alert/btn_OK'))
 
 'Ожидание успешного завершения операции закрытием диалога'
 WebUiBuiltInKeywords.waitForElementNotPresent(findTestObject('special/modal-content'), 60)

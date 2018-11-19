@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Утверждение ПЗ</description>
+   <description>Утверждение</description>
    <name>Route_appruval MyTask</name>
    <tag></tag>
    <comment></comment>
    <testCaseGuid>d4940cc6-8c74-4f2b-acd9-dba224d2d777</testCaseGuid>
+   <variable>
+      <defaultValue>'U'</defaultValue>
+      <description></description>
+      <id>eb570175-d756-4780-a309-bef935898472</id>
+      <masked>false</masked>
+      <name>Appruval</name>
+   </variable>
 </TestCaseEntity>

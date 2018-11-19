@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Утверждение плана закупок согласно маршруту</description>
-   <name>Route_execute PZ</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>a9f1e318-f882-4251-9828-3d047e1d6bf7</testCaseGuid>
-</TestCaseEntity>

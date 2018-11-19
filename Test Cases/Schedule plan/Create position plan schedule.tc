@@ -5,4 +5,39 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>77c18581-54a3-414e-8314-374c16893dd9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('NameObjectPurchase', 1)</defaultValue>
+      <description></description>
+      <id>16f360b8-3707-4ee9-8d1f-23327c0a39eb</id>
+      <masked>false</masked>
+      <name>NameObjectPurchase</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('MethodSuppler', 1)</defaultValue>
+      <description></description>
+      <id>1039974f-9c2f-4610-b801-22b5de5ea9e1</id>
+      <masked>false</masked>
+      <name>MethodSuppler</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('RationaleMethodSupplier', 1)</defaultValue>
+      <description></description>
+      <id>e8b2480b-6bb6-463e-b69b-2123c933c4f1</id>
+      <masked>false</masked>
+      <name>RationaleMethodSupplier</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('RathionaleMethod', 1)</defaultValue>
+      <description></description>
+      <id>3670cbbc-61fb-4180-aca7-616f9d3bcad7</id>
+      <masked>false</masked>
+      <name>RathionaleMethod</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('AmountPPG', 1)</defaultValue>
+      <description></description>
+      <id>20380221-7f4a-468e-b25e-a1360f76e193</id>
+      <masked>false</masked>
+      <name>AmountPPG</name>
+   </variable>
 </TestCaseEntity>

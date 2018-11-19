@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Activation test_2_user</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-16T10:58:24</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>60</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>8eb30fe0-9fc2-4e8c-bfeb-57f5cc0bff32</testSuiteGuid>
+   <testCaseLink>
+      <guid>dfa4065a-76cc-42a0-98b4-9a718507357d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BASE/Authorization</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>d92470c4-8e69-4c7c-8439-786fcef291f8</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>4</value>
+         </iterationEntity>
+         <testDataId>Data Files/Test data.xlsx/Tab_Variables_User</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>d92470c4-8e69-4c7c-8439-786fcef291f8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Login</value>
+         <variableId>17b320b1-1dc6-4561-8e3f-9e6d2173db87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>d92470c4-8e69-4c7c-8439-786fcef291f8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Password</value>
+         <variableId>f9fed6bf-a35f-4c63-9a99-5bc306f5c375</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e6c4cdd5-2da3-43dd-8599-604e181b2311</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>7ef2724a-28ac-4467-a43c-eeadda4f621e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Registration/Activation</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>37a2d646-eb74-4f4b-b33f-ae8397aa9f46</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3</value>
+         </iterationEntity>
+         <testDataId>Data Files/Test data.xlsx/Tab_Variables_User</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>37a2d646-eb74-4f4b-b33f-ae8397aa9f46</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Surname</value>
+         <variableId>c8f11777-68f6-415a-a4fa-a4d06962d858</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>107b3527-ae95-472e-8ae7-6084b1207b23</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

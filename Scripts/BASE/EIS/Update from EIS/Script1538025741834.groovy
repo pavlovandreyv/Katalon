@@ -18,16 +18,19 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Нажать на кноку "Эмуляция отправки в ЕИС"'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_emulationEIS'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_emulationEIS'))
 
 'Ожидание: модальный контрол'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/modal-loading-wrapper'), 60)
 
 'Завершить постановку на маршрут'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/Alert/btn_OK'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Alert/btn_OK'))
 
 'Ожидание переключения статуса на "Отправлено в ЕИС"'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/Status/value_sendEIS'), 120)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Status/value_sendEIS'), 120)
+
+WebUI.refresh()
 

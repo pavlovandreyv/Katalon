@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Проверить, что текущий пользователь не руководитель подразделения и не входит в рабочую группу Администратора</description>
+   <name>Verified change chief</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>334c4bac-9059-471e-a546-5a08445c39b9</testCaseGuid>
+</TestCaseEntity>

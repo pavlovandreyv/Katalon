@@ -14,13 +14,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('page_home/span_exit'), 0)
+WebUI.waitForElementPresent(findTestObject('Pages/page_home/span_exit'), 0)
 
 'Нажатие на кнопку "Выход"'
-WebUI.click(findTestObject('page_home/span_exit'))
+WebUI.click(findTestObject('Pages/page_home/span_exit'))
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('page_authorization/input_login'), 0)
+WebUI.waitForElementPresent(findTestObject('Pages/page_authorization/input_login'), 0)
 
 'Закрыть браузер'
 WebUI.closeBrowser()

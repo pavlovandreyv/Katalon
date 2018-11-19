@@ -15,31 +15,25 @@ import internal.GlobalVariable as GlobalVariable
 import java.lang.System as System
 import groovy.time.TimeCategory as TimeCategory
 
-'Авторизоваться'
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Открыть Заявку на размещение'
-WebUI.callTestCase(findTestCase('BASE/Open/Open request'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Toolbar_horizon/btn_createNotice'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_createNotice'), 0)
 
 'Нажать Создать Извещение\r\n'
-WebUI.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_createNotice'))
+WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createNotice'))
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('document_notice/btn_approval'), 0)
+WebUI.waitForElementPresent(findTestObject('Documents/document_notice/btn_approval'), 0)
 
 'Развернуть адресную книгу Утверждающего'
-WebUI.click(findTestObject('document_notice/btn_approval'))
+WebUI.click(findTestObject('Documents/document_notice/btn_approval'))
 
 WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 
 'Переход на вкладку Порядок проведения процедуры'
-WebUI.click(findTestObject('document_notice/menu_PPP'))
+WebUI.click(findTestObject('Documents/document_notice/menu_PPP'))
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('document_notice/input_plannedPlacementPeriod'), 0)
+WebUI.waitForElementPresent(findTestObject('Documents/document_notice/input_plannedPlacementPeriod'), 0)
 
 'Определение дат для заполнения вкладки Порядок проведения процедуры'
 use(TimeCategory, { 
@@ -55,31 +49,34 @@ CDate = today.format('dd.MM.yyyy')
 EndDate = EndDate.format('dd.MM.yyyy')
 
 'Заполнение Планируемый срок размещения'
-WebUI.setText(findTestObject('document_notice/input_plannedPlacementPeriod'), CDate.toString())
+WebUI.setText(findTestObject('Documents/document_notice/input_plannedPlacementPeriod'), CDate.toString())
 
 'Заполнение Дата окончания подачи заявок'
-WebUI.setText(findTestObject('document_notice/input_dateEndRequest'), EndDate.toString())
+WebUI.setText(findTestObject('Documents/document_notice/input_dateEndRequest'), EndDate.toString())
 
 'Заполнить Дата рассмотрения заявок'
-WebUI.setText(findTestObject('document_notice/input_dateReview'), EndDate.toString())
+WebUI.setText(findTestObject('Documents/document_notice/input_dateReview'), EndDate.toString())
 
 'Переход на вкладку Представление документации'
-WebUI.click(findTestObject('document_notice/menu_provisionDocumentation'))
+WebUI.click(findTestObject('Documents/document_notice/menu_provisionDocumentation'))
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('document_notice/input_dateEndDocumentation'), 0)
+WebUI.waitForElementPresent(findTestObject('Documents/document_notice/input_dateEndDocumentation'), 0)
 
 'Заполнение Дата окончания предоставления документации'
-WebUI.setText(findTestObject('document_notice/input_dateEndDocumentation'), EndDate.toString())
+WebUI.setText(findTestObject('Documents/document_notice/input_dateEndDocumentation'), EndDate.toString())
 
 'Заполнение Место предоставления документации'
-WebUI.setText(findTestObject('document_notice/input_placeDocumentation'), GlobalVariable.Address)
+WebUI.setText(findTestObject('Documents/document_notice/input_placeDocumentation'), Address)
 
 'Нажать Сохранить'
-WebUI.click(findTestObject('DOCUMENT/btn_save'))
+WebUI.click(findTestObject('BASE/btn_save'))
 
 'Ожидание завершения регистрации доступностью кнопки Редактировать'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/btn_edit'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/btn_edit'), 0)
+
+WebUI.callTestCase(findTestCase('Notice/Attach file to notice'), [('File1') : findTestData('Test data.xlsx/Tab_Variables').getValue('File1', 1)], 
+    FailureHandling.STOP_ON_FAILURE)
 
 'Закрыть браузер'
 WebUI.closeBrowser()

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Регистрация бюджета</description>
-   <name>Create budget</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>66486910-1af5-4234-94df-a232d1fa1e1b</testCaseGuid>
-</TestCaseEntity>

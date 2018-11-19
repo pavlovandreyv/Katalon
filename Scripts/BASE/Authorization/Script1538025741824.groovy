@@ -22,7 +22,15 @@ import internal.GlobalVariable as GlobalVariable
 'Открыть браузер'
 WebUiBuiltInKeywords.openBrowser(GlobalVariable.Server)
 
-'Удалить куки браузера'
+if (DeleteAllCookies) {
+    'Очистить куки (в IE иногда с первого раза не чистит)'
+    for (def index : (0..4)) {
+        'Удалить куки'
+        WebUI.deleteAllCookies()
+    }
+}
+
+'Удалить куки'
 WebUI.deleteAllCookies()
 
 'Обновить страницу'
@@ -32,14 +40,14 @@ WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 WebUI.maximizeWindow()
 
 'Ввести логин'
-WebUiBuiltInKeywords.setText(findTestObject('page_authorization/input_login'), GlobalVariable.Login)
+WebUiBuiltInKeywords.setText(findTestObject('Pages/page_authorization/input_login'), Login)
 
 'Ввести пароль'
-WebUiBuiltInKeywords.setText(findTestObject('page_authorization/input_password'), GlobalVariable.Password)
+WebUiBuiltInKeywords.setText(findTestObject('Pages/page_authorization/input_password'), Password)
 
 'Нажать на кнопку "Вход"'
-WebUiBuiltInKeywords.click(findTestObject('page_authorization/btn_logIn'))
+WebUiBuiltInKeywords.click(findTestObject('Pages/page_authorization/btn_logIn'))
 
 'Ожидание доступности кнопки "Выход"'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_home/span_exit'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_home/span_exit'), 60)
 

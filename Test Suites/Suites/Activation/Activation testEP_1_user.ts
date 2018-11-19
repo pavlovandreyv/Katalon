@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Activation testEP_1_user</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-16T10:58:26</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>60</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>80aefc93-af59-47b4-b141-3c32025dc625</testSuiteGuid>
+   <testCaseLink>
+      <guid>6ce9e1cc-3318-4f28-8e68-a630b6c4483f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BASE/Authorization</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>7db160b4-58ba-4ab6-b6a5-a20cdb76a76f</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>5</value>
+         </iterationEntity>
+         <testDataId>Data Files/Test data.xlsx/Tab_Variables_User</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>7db160b4-58ba-4ab6-b6a5-a20cdb76a76f</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Login</value>
+         <variableId>17b320b1-1dc6-4561-8e3f-9e6d2173db87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9fed6bf-a35f-4c63-9a99-5bc306f5c375</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e6c4cdd5-2da3-43dd-8599-604e181b2311</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>9d729f3d-31ff-4a48-8e96-ba97b4643d18</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Registration/Activation</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>ff00c7f5-3c3e-465f-9037-d650665e26b7</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>6</value>
+         </iterationEntity>
+         <testDataId>Data Files/Test data.xlsx/Tab_Variables_User</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>ff00c7f5-3c3e-465f-9037-d650665e26b7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Surname</value>
+         <variableId>c8f11777-68f6-415a-a4fa-a4d06962d858</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ff00c7f5-3c3e-465f-9037-d650665e26b7</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>WorkGroup</value>
+         <variableId>107b3527-ae95-472e-8ae7-6084b1207b23</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

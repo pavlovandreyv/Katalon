@@ -5,4 +5,18 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>e5c7b2d4-b414-4905-9aa7-74210e99bddd</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('NameObjectPurchase', 1)</defaultValue>
+      <description></description>
+      <id>81825914-e114-44c2-ac94-e44a572c4ae4</id>
+      <masked>false</masked>
+      <name>NameObjectPurchase</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('AmountPPG', 1)</defaultValue>
+      <description></description>
+      <id>59d76ecd-7e74-4159-98a2-b776dbdcc8c6</id>
+      <masked>false</masked>
+      <name>AmountPPG</name>
+   </variable>
 </TestCaseEntity>

@@ -25,42 +25,56 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 'Открыть браузер'
 WebUI.openBrowser(GlobalVariable.Server)
 
+if (DeleteAllCookies) {
+    'Очистить куки (в IE иногда с первого раза не чистит)'
+    for (def index : (0..4)) {
+        'Удалить куки'
+        WebUI.deleteAllCookies()
+    }
+}
+
+'Удалить куки'
+WebUI.deleteAllCookies()
+
+'Обновить страницу'
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
+
 'Развернуть браузер на весь экран'
 WebUI.maximizeWindow()
 
 'Перейти в раздел Регистрации'
-WebUI.click(findTestObject('page_authorization/a_registration'))
+WebUI.click(findTestObject('Pages/page_authorization/a_registration'))
 
-WebUI.waitForElementPresent(findTestObject('page_registration/btn_registration'), 0)
+WebUI.waitForElementPresent(findTestObject('Pages/page_registration/btn_registration'), 0)
 
 'Выборка: регистрировать с загрузкой данных из Сертификата или без'
-switch (GlobalVariable.registrationEP) {
+switch (RegistrationEP) {
     case false:
         'Развернуть список организаций'
-        WebUI.click(findTestObject('page_registration/btn_organization'))
+        WebUI.click(findTestObject('Pages/page_registration/btn_organization'))
 
         'Ввести в поле поиска данные искомой организации'
-        WebUI.setText(findTestObject('page_registration/input_organization'), GlobalVariable.Organization)
+        WebUI.setText(findTestObject('Pages/page_registration/input_organization'), Organization)
 
         'Завершить выбор'
-        WebUI.sendKeys(findTestObject('page_registration/input_organization'), Keys.chord(Keys.ENTER))
+        WebUI.sendKeys(findTestObject('Pages/page_registration/input_organization'), Keys.chord(Keys.ENTER))
 
         'Ввести Фамилию'
-        WebUI.setText(findTestObject('page_registration/input_firstName'), GlobalVariable.Name)
+        WebUI.setText(findTestObject('Pages/page_registration/input_firstName'), Name)
 
         'Ввести Имя'
-        WebUI.setText(findTestObject('page_registration/input_lastName'), GlobalVariable.Surname)
+        WebUI.setText(findTestObject('Pages/page_registration/input_lastName'), Surname)
 
         'Ввести Отчество'
-        WebUI.setText(findTestObject('page_registration/input_middleName'), GlobalVariable.Patronymic)
+        WebUI.setText(findTestObject('Pages/page_registration/input_middleName'), Patronymic)
 
         'Ввести Должность'
-        WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_position'), GlobalVariable.Position)
+        WebUiBuiltInKeywords.setText(findTestObject('Pages/page_registration/input_position'), Position)
 
         break
     case true:
         'Нажать "Загрузить из ЭП"'
-        WebUI.click(findTestObject('page_registration/btn_pullEP'))
+        WebUI.click(findTestObject('Pages/page_registration/btn_pullEP'))
 
         'Выбрать сертификат\r\n'
         WebUI.callTestCase(findTestCase('BASE/Certificate selection'), [:], FailureHandling.STOP_ON_FAILURE)
@@ -71,31 +85,31 @@ switch (GlobalVariable.registrationEP) {
 }
 
 'Ввести электронную почту'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_email'), GlobalVariable.Email)
+WebUiBuiltInKeywords.setText(findTestObject('Pages/page_registration/input_email'), Email)
 
 'Ввести телефон'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_phone'), GlobalVariable.Phone)
+WebUiBuiltInKeywords.setText(findTestObject('Pages/page_registration/input_phone'), Phone)
 
 'Ввести логин'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_login'), GlobalVariable.Login)
+WebUiBuiltInKeywords.setText(findTestObject('Pages/page_registration/input_login'), Login)
 
 'Ввести пароль'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_password'), GlobalVariable.Password)
+WebUiBuiltInKeywords.setText(findTestObject('Pages/page_registration/input_password'), Password)
 
 'Ввести подтверждение пароля'
-WebUiBuiltInKeywords.setText(findTestObject('page_registration/input_passwordConfirm'), GlobalVariable.Password)
+WebUiBuiltInKeywords.setText(findTestObject('Pages/page_registration/input_passwordConfirm'), Password)
 
 'Условие для смены руководителя'
-if (GlobalVariable.ChangeChief) {
+if (ChangeChief) {
     'Установить чекбокс смены руководителя'
-    WebUI.click(findTestObject('page_registration/input_changeChief'), FailureHandling.CONTINUE_ON_FAILURE)
+    WebUI.click(findTestObject('Pages/page_registration/input_changeChief'), FailureHandling.CONTINUE_ON_FAILURE)
 }
 
 'Нажать на кнопку Зарегистрирвоать'
-WebUI.click(findTestObject('page_registration/btn_registration'))
+WebUI.click(findTestObject('Pages/page_registration/btn_registration'))
 
 'Ожидание успешной регистрации'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_registration/massage_pass'), 120)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_registration/massage_pass'), 120)
 
 'Закрыть браузер'
 WebUI.closeBrowser()

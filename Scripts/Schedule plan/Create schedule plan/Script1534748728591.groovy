@@ -19,11 +19,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Авторизоваться'
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'Перейти в режим Планирования'
-WebUI.click(findTestObject('page_home/span_planning'))
+WebUI.click(findTestObject('Pages/page_home/span_planning'))
 
 'Перейти на вкладку Планы графики'
 WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_schedulePlan'))
@@ -33,7 +30,7 @@ WebUiBuiltInKeywords.click(findTestObject('menu_planning/btn_newPurchasePlan'))
 
 'Изменить год на текущий'
 new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('menu_planning/page_year/radio_budgetYear'), 'value', 
-    'equals', GlobalVariable.BudgetYear, true)
+    'equals', BudgetYear, true)
 
 'Указать год финансирования'
 WebUiBuiltInKeywords.check(new_budgetYear)
@@ -42,33 +39,33 @@ WebUiBuiltInKeywords.check(new_budgetYear)
 WebUiBuiltInKeywords.click(findTestObject('menu_planning/page_year/button_OK'))
 
 'Развернуть список ответственного'
-WebUiBuiltInKeywords.click(findTestObject('document_purchasePlan/button_otv'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_purchasePlan/button_otv'))
 
 'В поисковое поле ввести текущего пользователя'
-WebUiBuiltInKeywords.setText(findTestObject('document_purchasePlan/input_otv'), GlobalVariable.Login)
+WebUiBuiltInKeywords.setText(findTestObject('Documents/document_purchasePlan/input_otv'), Login)
 
 'Установить чек напротив найденного сотрудника'
-WebUiBuiltInKeywords.click(findTestObject('document_purchasePlan/check_otv'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_purchasePlan/check_otv'))
 
 'Завершить выбор'
-WebUiBuiltInKeywords.click(findTestObject('document_purchasePlan/btn_select'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_purchasePlan/btn_select'))
 
 'Развернуть список Утверждающих'
-WebUiBuiltInKeywords.click(findTestObject('document_purchasePlan/button_utv'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_purchasePlan/button_utv'))
 
 'В поле поиска ввести текущего сотрудника'
-WebUiBuiltInKeywords.setText(findTestObject('document_purchasePlan/input_utv'), GlobalVariable.Login)
+WebUiBuiltInKeywords.setText(findTestObject('Documents/document_purchasePlan/input_utv'), Login)
 
 'Установить чек на найденном'
-WebUiBuiltInKeywords.click(findTestObject('document_purchasePlan/check_otv'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_purchasePlan/check_otv'))
 
 'Завершить выбор'
-WebUiBuiltInKeywords.click(findTestObject('document_purchasePlan/btn_select'))
+WebUiBuiltInKeywords.click(findTestObject('Documents/document_purchasePlan/btn_select'))
 
 'Сохранить документ'
-WebUiBuiltInKeywords.click(findTestObject('DOCUMENT/btn_save'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/btn_save'))
 
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('DOCUMENT/btn_edit'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/btn_edit'), 60)
 
 'Закрыть браузер'
 WebUI.closeBrowser()

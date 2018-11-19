@@ -20,34 +20,19 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-'Открыть браузер'
-WebUiBuiltInKeywords.openBrowser(GlobalVariable.Server)
+'Выбор: утверждение или согласование'
+switch (Appruval) {
+    case 'U':
+        'Перейти на вкладку Утверждения'
+        WebUI.navigateToUrl(GlobalVariable.Server + '/Performer/Confirmations')
 
-'Очистить куки (в IE иногда с первого раза не чистит)'
-for (def index : (0..5)) {
-    'Удалить куки'
-    WebUI.deleteAllCookies()
+        break
+    case 'S':
+        'Перейти на вкладку Согласования'
+        WebUI.navigateToUrl(GlobalVariable.Server + '/Performer/Approvals')
+
+        break
 }
-
-'Обновить страницу'
-WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
-
-'Развернуть браузер на весь экран'
-WebUI.maximizeWindow()
-
-'Ввести Логин'
-WebUiBuiltInKeywords.setText(findTestObject('page_authorization/input_login'), GlobalVariable.Login)
-
-'Ввести Пароль'
-WebUiBuiltInKeywords.setText(findTestObject('page_authorization/input_password'), GlobalVariable.Password)
-
-'Нажать Войти'
-WebUiBuiltInKeywords.click(findTestObject('page_authorization/btn_logIn'))
-
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_home/span_exit'), 60)
-
-'Перейти на вкладку Утверждения'
-WebUI.navigateToUrl(GlobalVariable.Server + '/Performer/Confirmations')
 
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/wait myTask_menu'), 60)
 

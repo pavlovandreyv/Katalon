@@ -13,26 +13,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-'Авторизоваться'
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Открыть извещение'
-WebUI.callTestCase(findTestCase('BASE/Open/Open notice'), [:], FailureHandling.STOP_ON_FAILURE)
-
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/Toolbar_horizon/btn_createProtocol'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_createProtocol'), 0)
 
 'Нажать Создать протокол'
-WebUI.click(findTestObject('DOCUMENT/Toolbar_horizon/btn_createProtocol'))
+WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createProtocol'))
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('document_protocol/tab_infoCommission'), 0)
+WebUI.waitForElementPresent(findTestObject('Documents/document_protocol/tab_infoCommission'), 0)
 
 'Нажать Сохранить документ'
-WebUI.click(findTestObject('DOCUMENT/btn_save'))
+WebUI.click(findTestObject('BASE/btn_save'))
 
 'Ожидание сохранения документа'
-WebUI.waitForElementPresent(findTestObject('DOCUMENT/btn_edit'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/btn_edit'), 0)
 
 'Закрыть браузер'
 WebUI.closeBrowser()

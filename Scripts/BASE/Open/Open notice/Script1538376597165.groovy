@@ -18,12 +18,13 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Ожидание доступности меню "Осуществление закупки"'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('page_home/span_purchase'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_home/span_purchase'), 60)
 
 'Нажать на меню "Осуществление закупки"'
-WebUiBuiltInKeywords.click(findTestObject('page_home/span_purchase'))
+WebUiBuiltInKeywords.click(findTestObject('Pages/page_home/span_purchase'))
 
 'Ожидание'
 WebUI.waitForElementPresent(findTestObject('menu_request/menu_notice'), 0)
@@ -37,16 +38,6 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_request/link_not
 'Перейти по подменю "Извещение о закупочной процедуре"'
 WebUiBuiltInKeywords.click(findTestObject('menu_request/link_notice'))
 
-'Изменить значение реквизита поискового документа'
-new_object = WebUI.modifyObjectProperty(findTestObject('DOCUMENT/object'), 'text', 'equals', GlobalVariable.NameObjectPurchase, 
-    true)
-
-'Ожидание доступности документа'
-WebUiBuiltInKeywords.waitForElementPresent(new_object, 60)
-
-'Скопировать url, для перехода внутри одной вкладки'
-url_object = WebUiBuiltInKeywords.getAttribute(new_object, 'href')
-
-'Перейти по скопированному url'
-WebUI.navigateToUrl(url_object)
+WebUI.callTestCase(findTestCase('BASE/Open object'), [('ObjectName') : findTestData('Test data.xlsx/Tab_Variables').getValue('NameObjectPurchase', 1)], 
+    FailureHandling.STOP_ON_FAILURE)
 
