@@ -21,12 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Логин от mail.cognitive.ru</description>
-      <initValue>'a.pavlov'</initValue>
+      <initValue>'test.cognitive'</initValue>
       <name>LoginMail</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description>Пароль от mail.cognitive.ru</description>
-      <initValue>'Artbkkthbcn1%'</initValue>
+      <initValue>'nV9AO6gPlM7k8wn'</initValue>
       <name>PasswordMail</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
