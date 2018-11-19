@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Активация пользователя</description>
-   <name>Recovery_mailCognitive</name>
-   <tag></tag>
-   <comment></comment>
-   <testCaseGuid>9aa91642-2b7a-445e-991e-744651e3085b</testCaseGuid>
-</TestCaseEntity>

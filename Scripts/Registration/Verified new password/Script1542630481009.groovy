@@ -20,6 +20,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
+import java.util.regex.Matcher as Matcher
+import java.util.regex.Pattern as Pattern
 
 WebUI.openBrowser('https://mail.cognitive.ru')
 
@@ -36,21 +38,30 @@ WebUI.setText(findTestObject('mail.cognitive.ru/input_password'), GlobalVariable
 'Войти\r\n'
 WebUI.click(findTestObject('mail.cognitive.ru/button_logIn'))
 
-WebUI.waitForElementPresent(findTestObject('mail.cognitive.ru/mail_E1'), 0)
+new_object = WebUI.modifyObjectProperty(findTestObject('mail.cognitive.ru/mail_E1'), 'text', 'equals', 'Новый пароль в Е1 Закупки', 
+    true)
+
+WebUI.waitForElementPresent(new_object, 0)
 
 'Открыть письмо активации'
-WebUI.doubleClick(findTestObject('mail.cognitive.ru/mail_E1'))
+WebUI.doubleClick(new_object)
 
-WebUI.waitForElementPresent(findTestObject('mail.cognitive.ru/a_E1'), 0)
+WebUI.waitForElementPresent(findTestObject('mail.cognitive.ru/mail_newPassword'), 0)
 
-'Получить url активационной ссылки для перехода внутри 1й вкладки'
-url_activation = WebUiBuiltInKeywords.getAttribute(findTestObject('mail.cognitive.ru/a_E1'), 'href')
+NewPassword = WebUI.getText(findTestObject('mail.cognitive.ru/mail_newPassword'))
 
-'Перейти по ссылке активации пользователя'
-WebUiBuiltInKeywords.navigateToUrl(url_activation)
+Pattern regexPat = Pattern.compile('Ваш новый пароль: (.*).')
 
-'Проверка успешной активации'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('gmail.com/message_pass'), 120)
+Matcher mat = regexPat.matcher(NewPassword)
+String psw="";
+if(mat.find())
+{
+	psw=mat.group(1);
+
+}
+
+WebUI.callTestCase(findTestCase('BASE/Authorization'), [('Login') : findTestData('Test data.xlsx/Tab_Variables_User').getValue('Login', 6)
+        , ('Password') : psw, ('DeleteAllCookies') : false], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

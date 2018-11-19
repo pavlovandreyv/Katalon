@@ -66,6 +66,15 @@
             <runConfigurationId>IE</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Suites/Authorization/Authorization EP</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>IE</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Suites/Registration/Registration testEP_1_user</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
@@ -76,6 +85,15 @@
          </configuration>
          <runEnabled>true</runEnabled>
          <testSuiteEntity>Test Suites/Suites/Registration/Registration testEP_2_user</testSuiteEntity>
+      </TestSuiteRunConfiguration>
+      <TestSuiteRunConfiguration>
+         <configuration>
+            <groupName>Web Desktop</groupName>
+            <profileName>default</profileName>
+            <runConfigurationId>Firefox</runConfigurationId>
+         </configuration>
+         <runEnabled>true</runEnabled>
+         <testSuiteEntity>Test Suites/Suites/Password recovery</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

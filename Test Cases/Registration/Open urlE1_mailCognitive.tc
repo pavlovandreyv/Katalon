@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Активация пользователя</description>
+   <name>Open urlE1_mailCognitive</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>27a3c4a4-e0bf-4f54-bd83-d763b79b75e0</testCaseGuid>
+   <variable>
+      <defaultValue>'Регистрация в Е1 Закупки'</defaultValue>
+      <description></description>
+      <id>39e14c84-9ca0-453e-b916-a381cf62f5cc</id>
+      <masked>false</masked>
+      <name>E1</name>
+   </variable>
+</TestCaseEntity>

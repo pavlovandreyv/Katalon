@@ -102,7 +102,13 @@
       <guid>1771db29-3158-4ed9-8607-6756b9f53cd2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registration/Activation_mailCognitive</testCaseId>
+      <testCaseId>Test Cases/Registration/Open urlE1_mailCognitive</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>39e14c84-9ca0-453e-b916-a381cf62f5cc</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>9133ea23-ae58-4789-8838-75f92edb4ef3</guid>

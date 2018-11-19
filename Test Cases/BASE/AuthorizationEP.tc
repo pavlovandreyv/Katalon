@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Авторизоваться по ЭП</description>
+   <name>AuthorizationEP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a523647-48cb-4c12-abb8-f262756e3aea</testCaseGuid>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>e9bb5af0-9d5b-4371-9616-e06a70d79b8f</id>
+      <masked>false</masked>
+      <name>DeleteAllCookies</name>
+   </variable>
+</TestCaseEntity>

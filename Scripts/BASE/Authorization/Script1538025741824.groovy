@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Открыть браузер'
 WebUiBuiltInKeywords.openBrowser(GlobalVariable.Server)

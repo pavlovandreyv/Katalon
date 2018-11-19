@@ -36,10 +36,12 @@ WebUI.setText(findTestObject('mail.cognitive.ru/input_password'), GlobalVariable
 'Войти\r\n'
 WebUI.click(findTestObject('mail.cognitive.ru/button_logIn'))
 
-WebUI.waitForElementPresent(findTestObject('mail.cognitive.ru/mail_E1'), 0)
+new_object = WebUI.modifyObjectProperty(findTestObject('mail.cognitive.ru/mail_E1'), 'text', 'equals', E1, true)
+
+WebUI.waitForElementPresent(new_object, 0)
 
 'Открыть письмо активации'
-WebUI.doubleClick(findTestObject('mail.cognitive.ru/mail_E1'))
+WebUI.doubleClick(new_object)
 
 WebUI.waitForElementPresent(findTestObject('mail.cognitive.ru/a_E1'), 0)
 

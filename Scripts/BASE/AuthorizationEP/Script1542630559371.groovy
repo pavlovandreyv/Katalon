@@ -20,7 +20,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
 'Открыть браузер'
-WebUI.openBrowser(GlobalVariable.Server)
+WebUiBuiltInKeywords.openBrowser(GlobalVariable.Server)
 
 if (DeleteAllCookies) {
     'Очистить куки (в IE иногда с первого раза не чистит)'
@@ -33,22 +33,16 @@ if (DeleteAllCookies) {
 'Удалить куки'
 WebUI.deleteAllCookies()
 
-'Обновить страницу'
-WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
-
 'Развернуть браузер на весь экран'
 WebUI.maximizeWindow()
 
-'Перейти в раздел Регистрации'
-WebUI.click(findTestObject('Pages/page_authorization/a_passwordRecovery'))
+'Обновить страницу'
+WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
-WebUI.waitForElementPresent(findTestObject('Pages/page_recovery/input_login'), 0)
+WebUI.click(findTestObject('Pages/page_authorization/btn_logInEP'))
 
-WebUI.setText(findTestObject('Pages/page_recovery/input_login'), LoginRecovery)
+WebUI.callTestCase(findTestCase('BASE/Certificate selection'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Pages/page_recovery/btn_recovery'))
-
-WebUI.waitForElementPresent(findTestObject('Pages/page_recovery/msg_pass'), 0)
-
-WebUI.closeBrowser()
+'Ожидание доступности кнопки "Выход"'
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_home/span_exit'), 60)
 

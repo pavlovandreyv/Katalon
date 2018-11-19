@@ -4,6 +4,7 @@
    <name>Password recovery</name>
    <tag></tag>
    <isRerun>false</isRerun>
+   <lastRun>2018-11-19T17:22:34</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -21,11 +22,38 @@
          <value></value>
          <variableId>c4d3e99f-a11c-48f5-96f9-153243a1c32b</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>376491ee-fc10-4367-8287-72d98faca48f</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>3c2c8e5a-8ed3-4361-a861-7cfde4d74056</guid>
+      <guid>bca7a8ac-bcd3-48fb-b350-c4f2a285846a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registration/Recovery_mailCognitive</testCaseId>
+      <testCaseId>Test Cases/Registration/Open urlE1_mailCognitive</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>2dcf361a-4387-413d-90a2-874a0417b673</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>1</value>
+         </iterationEntity>
+         <testDataId>Data Files/Test data.xlsx/Tab_Variables</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>2dcf361a-4387-413d-90a2-874a0417b673</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Notification</value>
+         <variableId>39e14c84-9ca0-453e-b916-a381cf62f5cc</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>0645fb13-10ad-499b-ab5d-a6c7d68513ec</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Registration/Verified new password</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
