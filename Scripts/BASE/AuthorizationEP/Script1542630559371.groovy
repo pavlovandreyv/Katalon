@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Открыть браузер'
 WebUiBuiltInKeywords.openBrowser(GlobalVariable.Server)
@@ -40,9 +41,4 @@ WebUI.maximizeWindow()
 WebUI.refresh(FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Pages/page_authorization/btn_logInEP'))
-
-WebUI.callTestCase(findTestCase('BASE/Certificate selection'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Ожидание доступности кнопки "Выход"'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_home/span_exit'), 60)
 

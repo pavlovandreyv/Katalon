@@ -93,7 +93,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Suites/Password recovery</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Suites/Change password/Recovery password</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

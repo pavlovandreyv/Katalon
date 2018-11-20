@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Password recovery</name>
+   <name>Recovery password</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-19T17:22:34</lastRun>
+   <lastRun>2018-11-20T15:03:10</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -15,7 +15,7 @@
       <guid>fd782ab3-d600-4436-9606-161d1155acd0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registration/Password recovery</testCaseId>
+      <testCaseId>Test Cases/Change password/Password recovery</testCaseId>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -54,6 +54,6 @@
       <guid>0645fb13-10ad-499b-ab5d-a6c7d68513ec</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Registration/Verified new password</testCaseId>
+      <testCaseId>Test Cases/Change password/Verified new password</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

@@ -4,7 +4,7 @@
    <name>Registration testEP_2_user</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-16T14:16:29</lastRun>
+   <lastRun>2018-11-20T15:03:10</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -96,6 +96,12 @@
          <type>SCRIPT_VARIABLE</type>
          <value>true</value>
          <variableId>2a3cadba-35fc-48d7-a38b-f101c9775306</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>4735ec21-29e0-4012-bb5c-4e281cb128e8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EP-xpath</value>
+         <variableId>3841fe8e-260c-464c-973e-cc004e41b169</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

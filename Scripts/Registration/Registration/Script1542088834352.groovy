@@ -76,8 +76,20 @@ switch (RegistrationEP) {
         'Нажать "Загрузить из ЭП"'
         WebUI.click(findTestObject('Pages/page_registration/btn_pullEP'))
 
-        'Выбрать сертификат\r\n'
-        WebUI.callTestCase(findTestCase('BASE/Certificate selection'), [:], FailureHandling.STOP_ON_FAILURE)
+        'Ожидание диалога подтверждения использования сертификатов'
+        WebUiBuiltInKeywords.waitForAlert(60)
+
+        'Нажать ОК'
+        WebUI.acceptAlert()
+
+        new_object = WebUI.modifyObjectProperty(findTestObject('dialog_EP/radio_certificate'), 'xpath', 'equals', CertName, 
+            true)
+
+        'Установить чек напротив выбранного сертификата'
+        WebUiBuiltInKeywords.click(new_object)
+
+        'Завершить выбор сертификата'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/Alert/btn_OK'))
 
         WebUI.waitForElementPresent(findTestObject('special/modal fade'), 0)
 

@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Ожидание диалога подтверждения использования сертификатов'
 WebUiBuiltInKeywords.waitForAlert(60)
@@ -25,8 +26,10 @@ WebUiBuiltInKeywords.waitForAlert(60)
 'Нажать ОК'
 WebUI.acceptAlert()
 
+new_object = WebUI.modifyObjectProperty(findTestObject('dialog_EP/radio_certificate'), 'xpath', 'equals', CertName, true)
+
 'Установить чек напротив выбранного сертификата'
-WebUiBuiltInKeywords.click(findTestObject('dialog_EP/radio_certificate'))
+WebUiBuiltInKeywords.click(new_object)
 
 'Завершить выбор сертификата'
 WebUiBuiltInKeywords.click(findTestObject('BASE/Alert/btn_OK'))

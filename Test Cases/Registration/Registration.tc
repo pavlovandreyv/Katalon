@@ -89,4 +89,11 @@
       <masked>false</masked>
       <name>DeleteAllCookies</name>
    </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('EP-xpath', 1)</defaultValue>
+      <description></description>
+      <id>3841fe8e-260c-464c-973e-cc004e41b169</id>
+      <masked>false</masked>
+      <name>CertName</name>
+   </variable>
 </TestCaseEntity>

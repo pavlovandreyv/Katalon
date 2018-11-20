@@ -4,7 +4,7 @@
    <name>Registration testEP_1_user</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-16T14:16:28</lastRun>
+   <lastRun>2018-11-20T15:03:10</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -97,6 +97,12 @@
          <value>true</value>
          <variableId>2a3cadba-35fc-48d7-a38b-f101c9775306</variableId>
       </variableLink>
+      <variableLink>
+         <testDataLinkId>4735ec21-29e0-4012-bb5c-4e281cb128e8</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>EP-xpath</value>
+         <variableId>3841fe8e-260c-464c-973e-cc004e41b169</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>5c7fbe95-5561-4b21-a966-f4841379bba1</guid>
@@ -111,13 +117,25 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>046cf1d1-50ff-4821-a640-1a67ac74e1d5</guid>
+      <guid>8e80c539-e449-4116-89a5-a2ff3450d2db</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BASE/Authorization</testCaseId>
+      <testCaseId>Test Cases/BASE/AuthorizationEP</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e9bb5af0-9d5b-4371-9616-e06a70d79b8f</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>a672d238-58d8-4846-98bd-fa862e17dbee</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BASE/Certificate selection</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>023b1fa3-55a8-4827-80ba-775887c8d880</id>
+         <id>9493013f-0b0c-4e54-af1f-8257d634ad15</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
             <value>5</value>
@@ -125,22 +143,10 @@
          <testDataId>Data Files/Test data.xlsx/Tab_Variables_User</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>023b1fa3-55a8-4827-80ba-775887c8d880</testDataLinkId>
+         <testDataLinkId>9493013f-0b0c-4e54-af1f-8257d634ad15</testDataLinkId>
          <type>DATA_COLUMN</type>
-         <value>Login</value>
-         <variableId>17b320b1-1dc6-4561-8e3f-9e6d2173db87</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>f9fed6bf-a35f-4c63-9a99-5bc306f5c375</variableId>
-      </variableLink>
-      <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
-         <variableId>e6c4cdd5-2da3-43dd-8599-604e181b2311</variableId>
+         <value>EP-xpath</value>
+         <variableId>92ae455f-d081-470b-ad2b-fa85c2526a2b</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>

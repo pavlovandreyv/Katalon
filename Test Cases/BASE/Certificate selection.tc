@@ -5,4 +5,11 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>076bfd32-0c16-48ef-85e1-29b6c75efee9</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('EP-xpath', 1)</defaultValue>
+      <description></description>
+      <id>92ae455f-d081-470b-ad2b-fa85c2526a2b</id>
+      <masked>false</masked>
+      <name>CertName</name>
+   </variable>
 </TestCaseEntity>
