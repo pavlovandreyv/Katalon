@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//img[contains(@alt,'Е1 Закупки')]</value>
+         <value>//img[@alt='Е1 Закупки']</value>
       </entry>
       <entry>
          <key>BASIC</key>

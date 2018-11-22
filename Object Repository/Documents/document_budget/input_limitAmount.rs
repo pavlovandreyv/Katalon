@@ -4,7 +4,17 @@
    <name>input_limitAmount</name>
    <tag></tag>
    <elementGuidId>6fce3136-f8ca-4c08-837b-14887e23d5a4</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name = 'ist_fin-limit-1']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//input[@name = 'ist_fin-limit-1' and @type = 'text']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

@@ -41,6 +41,13 @@ WebUiBuiltInKeywords.click(findTestObject('menu_planning/page_year/button_OK'))
 'Проверка доступности кнопки выбора источника финансирования'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_budget/btn_sourceFinancing'), 60)
 
+WebUI.takeScreenshot()
+
+'Дополнительные проверки при создании Бюджета'
+WebUI.callTestCase(findTestCase('Budget/Verify create budget'), [('BudgetYear') : findTestData('Test data.xlsx/Tab_Variables').getValue('BudgetYear', 1)
+        , ('Organization') : findTestData('Test data.xlsx/Tab_Variables_User').getValue('Organization', 1), ('GRBS') : findTestData('Test data.xlsx/Tab_Variables_User').getValue('GRBS', 1)], 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
 'Раскрыть справочник выбора источника финансирования'
 WebUI.click(findTestObject('Documents/document_budget/btn_sourceFinancing'))
 
@@ -82,9 +89,13 @@ WebUI.waitForElementNotPresent(findTestObject('special/modal-backdrop fade'), 60
 'Нажать кнопку "Сохранить" бюджет'
 WebUiBuiltInKeywords.click(findTestObject('BASE/btn_save'))
 
+WebUI.takeScreenshot()
+
 'Проверка успешного завершения регистрации бюджета'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/btn_edit'), 60)
 
 'Закрыть браузер'
 WebUI.closeBrowser()
+
+WebUI.takeScreenshot()
 

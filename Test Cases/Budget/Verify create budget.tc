@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Проверки при регистрации</description>
+   <name>Verify create budget</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d5431c5-fa8d-43b2-84e3-836de3faa7b6</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('BudgetYear', 1)</defaultValue>
+      <description></description>
+      <id>1e43f32b-b4f3-4c01-86c1-a42feb2e83c8</id>
+      <masked>false</masked>
+      <name>BudgetYear</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Organization', 1)</defaultValue>
+      <description></description>
+      <id>7d165a20-32a7-4839-951b-ae6c66a040ee</id>
+      <masked>false</masked>
+      <name>Organization</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('GRBS', 1)</defaultValue>
+      <description></description>
+      <id>339bca9b-11e7-4563-9731-55eafdc86f88</id>
+      <masked>false</masked>
+      <name>GRBS</name>
+   </variable>
+</TestCaseEntity>

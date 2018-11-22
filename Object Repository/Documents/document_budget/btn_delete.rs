@@ -4,7 +4,17 @@
    <name>btn_delete</name>
    <tag></tag>
    <elementGuidId>860b50dd-8a75-4920-8bc8-ee96382e526c</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='table-content']/div[@class='table-edit-row']//div[@title='Удалить строку']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@title = 'Удалить строку']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

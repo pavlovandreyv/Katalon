@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Изменить профиль</description>
+   <name>Change_profile</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3d41d07d-df80-42e4-b8c7-723e382d7cbc</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Surname', 8)</defaultValue>
+      <description></description>
+      <id>5ca850d7-fbaa-4474-8488-a8af4ad3f3d2</id>
+      <masked>false</masked>
+      <name>LastName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Name', 8)</defaultValue>
+      <description></description>
+      <id>3c875772-7de5-499f-878d-8c2fe19e6aee</id>
+      <masked>false</masked>
+      <name>FirstName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Patronymic', 8)</defaultValue>
+      <description></description>
+      <id>8565d18c-3db9-403a-a413-6ac914430d66</id>
+      <masked>false</masked>
+      <name>MiddleName</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Phone', 8)</defaultValue>
+      <description></description>
+      <id>3372be9e-e590-4e51-b295-db0490769aff</id>
+      <masked>false</masked>
+      <name>Phone</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Email', 8)</defaultValue>
+      <description></description>
+      <id>b0b977d7-cd2c-4c68-a7f0-3757810e2a79</id>
+      <masked>false</masked>
+      <name>Email</name>
+   </variable>
+</TestCaseEntity>

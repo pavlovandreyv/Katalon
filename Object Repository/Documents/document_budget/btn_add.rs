@@ -4,7 +4,17 @@
    <name>btn_add</name>
    <tag></tag>
    <elementGuidId>397d8a12-3ba3-4db6-a78a-a73bc1fa1692</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='ist_fin_deleted']/..//div[@title='Добавить новую строку']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//div[@title = 'Добавить новую строку']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
