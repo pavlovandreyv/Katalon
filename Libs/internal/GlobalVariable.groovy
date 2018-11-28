@@ -19,16 +19,6 @@ public class GlobalVariable {
     public static Object Server
      
     /**
-     * <p>Profile default : &#1051;&#1086;&#1075;&#1080;&#1085; &#1086;&#1090; &#1071;&#1085;&#1076;&#1077;&#1082;&#1089; &#1087;&#1086;&#1095;&#1090;&#1099;</p>
-     */
-    public static Object LoginYandex
-     
-    /**
-     * <p>Profile default : &#1055;&#1072;&#1088;&#1086;&#1083;&#1100; &#1086;&#1090; &#1071;&#1085;&#1076;&#1077;&#1082;&#1089; &#1087;&#1086;&#1095;&#1090;&#1099;</p>
-     */
-    public static Object PasswordYandex
-     
-    /**
      * <p>Profile default : &#1051;&#1086;&#1075;&#1080;&#1085; &#1086;&#1090; mail.cognitive.ru</p>
      */
     public static Object LoginMail
@@ -41,14 +31,12 @@ public class GlobalVariable {
 
     static {
         def allVariables = [:]        
-        allVariables.put('default', ['Server' : findTestData('Test data.xlsx/Tab_Global').getValue('Server', 1), 'LoginYandex' : findTestData('Test data.xlsx/Tab_Global').getValue('LoginYandex', 1), 'PasswordYandex' : findTestData('Test data.xlsx/Tab_Global').getValue('PasswordYandex', 1), 'LoginMail' : 'test.cognitive', 'PasswordMail' : 'nV9AO6gPlM7k8wn'])
+        allVariables.put('default', ['Server' : findTestData('Test data.xlsx/Tab_Global').getValue('Server', 1), 'LoginMail' : 'test.cognitive', 'PasswordMail' : 'nV9AO6gPlM7k8wn'])
         
         String profileName = RunConfiguration.getExecutionProfile()
         
         def selectedVariables = allVariables[profileName]
         Server = selectedVariables['Server']
-        LoginYandex = selectedVariables['LoginYandex']
-        PasswordYandex = selectedVariables['PasswordYandex']
         LoginMail = selectedVariables['LoginMail']
         PasswordMail = selectedVariables['PasswordMail']
         

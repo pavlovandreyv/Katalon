@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Создать положение о закупке</description>
+   <name>Create purchase regulation</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b344700c-94f4-4d37-a1d4-4f314d3c3a43</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables_User').getValue('Surname', 1)</defaultValue>
+      <description></description>
+      <id>f2216d40-0957-4e87-a56b-fc854f57b8e3</id>
+      <masked>false</masked>
+      <name>Approval</name>
+   </variable>
+</TestCaseEntity>

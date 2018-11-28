@@ -11,10 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@class = ' x-tree-checkbox']</value>
+         <value>//div[@class = ' x-tree-checkbox'][@class!='disabled']</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

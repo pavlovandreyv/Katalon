@@ -21,10 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Ожидание селектора'
-WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_vertical/menu_positionSchedulePlan'), 60)
+WebUI.waitForElementPresent(findTestObject('BASE/Tab/menu_positionSchedulePlan'), 60)
 
 'Перейти на вкладку позиции план-графика'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_vertical/menu_positionSchedulePlan'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Tab/menu_positionSchedulePlan'))
 
 'Изменить название закупки на определенный в профиле'
 url_ppz1 = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('Documents/document_purchasePlan/PPZ/a_urlPPZ'), 'text', 'equals', 
@@ -43,7 +43,7 @@ WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_newPosition'
 WebUiBuiltInKeywords.setText(findTestObject('Documents/document_positionPPG/input_namePosition'), NameObjectPurchase)
 
 'Перейти на вкладку Сумма выплат'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_vertical/menu_amountPayments'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Tab/menu_amountPayments'))
 
 'Ожидание следующего контрола'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_positionPPG/input_averagePrice'), 60)

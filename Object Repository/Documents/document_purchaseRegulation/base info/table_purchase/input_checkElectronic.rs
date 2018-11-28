@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_checkElectronic</name>
+   <tag></tag>
+   <elementGuidId>495a9164-7bff-4bc9-a3de-c8ce5df90cb1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='table-content']/div[@class='table-edit-row'][@data-rowkey='1']//input[contains(@name,'Spzak-ZakElForm')][@type='checkbox']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

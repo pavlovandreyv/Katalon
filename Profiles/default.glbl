@@ -10,16 +10,6 @@
       <name>Server</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
-      <description>Логин от Яндекс почты</description>
-      <initValue>findTestData('Test data.xlsx/Tab_Global').getValue('LoginYandex', 1)</initValue>
-      <name>LoginYandex</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description>Пароль от Яндекс почты</description>
-      <initValue>findTestData('Test data.xlsx/Tab_Global').getValue('PasswordYandex', 1)</initValue>
-      <name>PasswordYandex</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
       <description>Логин от mail.cognitive.ru</description>
       <initValue>'test.cognitive'</initValue>
       <name>LoginMail</name>

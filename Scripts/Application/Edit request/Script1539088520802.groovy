@@ -75,7 +75,7 @@ WebUI.waitForElementPresent(findTestObject('BASE/btn_edit'), 0)
 WebUI.waitForElementNotPresent(findTestObject('special/loading-image-small loading-image-shown'), 0)
 
 'Перейти на вкладку Протокола'
-WebUI.click(findTestObject('BASE/Toolbar_vertical/tab_protocol'))
+WebUI.click(findTestObject('BASE/Tab/tab_protocol'))
 
 WebUI.callTestCase(findTestCase('BASE/Open object'), [('ObjectName') : 'Протокол рассмотрения и оценки заявок на участие в открытом конкурсе'], 
     FailureHandling.STOP_ON_FAILURE)
@@ -125,7 +125,7 @@ WebUI.waitForElementPresent(findTestObject('BASE/btn_edit'), 0)
 WebUI.waitForElementNotPresent(findTestObject('special/loading-image-small loading-image-shown'), 0)
 
 'Перейти на вкладку Протокола'
-WebUI.click(findTestObject('BASE/Toolbar_vertical/tab_protocol'))
+WebUI.click(findTestObject('BASE/Tab/tab_protocol'))
 
 WebUI.callTestCase(findTestCase('BASE/Open object'), [('ObjectName') : 'Протокол рассмотрения и оценки заявок на участие в открытом конкурсе'], 
     FailureHandling.STOP_ON_FAILURE)

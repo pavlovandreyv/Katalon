@@ -19,15 +19,15 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
-WebUI.waitForElementPresent(findTestObject('menu_contract/m_contract'), 0)
+WebUI.waitForElementPresent(findTestObject('Menu/menu_contract/m_contract'), 0)
 
-WebUI.click(findTestObject('menu_contract/m_contract'))
+WebUI.click(findTestObject('Menu/menu_contract/m_contract'))
 
 'Ожидание'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_request/link_all'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Menu/menu_request/link_all'), 60)
 
 'Перейти по подменю "Все"'
-WebUiBuiltInKeywords.click(findTestObject('menu_request/link_all'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_request/link_all'))
 
 'Изменить значение реквизита поискового документа'
 new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', '1212600384618000003', true)

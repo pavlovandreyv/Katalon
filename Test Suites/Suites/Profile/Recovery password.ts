@@ -4,7 +4,7 @@
    <name>Recovery password</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T09:21:09</lastRun>
+   <lastRun>2018-11-23T08:39:01</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -16,10 +16,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile/Password recovery</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>222baa7d-df04-43e3-8ce9-b6e4d0ac6e06</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Test data.xlsx/Tab_Variables_User</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>222baa7d-df04-43e3-8ce9-b6e4d0ac6e06</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Login</value>
          <variableId>c4d3e99f-a11c-48f5-96f9-153243a1c32b</variableId>
       </variableLink>
       <variableLink>
@@ -46,14 +55,5 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Profile/Verified new password</testCaseId>
-      <testDataLink>
-         <combinationType>ONE</combinationType>
-         <id>2dcf361a-4387-413d-90a2-874a0417b673</id>
-         <iterationEntity>
-            <iterationType>SPECIFIC</iterationType>
-            <value>1</value>
-         </iterationEntity>
-         <testDataId>Data Files/Test data.xlsx/Tab_Variables</testDataId>
-      </testDataLink>
    </testCaseLink>
 </TestSuiteEntity>

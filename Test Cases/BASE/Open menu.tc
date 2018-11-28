@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Перейти по меню</description>
+   <name>Open menu</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2b4b2443-384f-4560-a232-94b80decb755</testCaseGuid>
+   <variable>
+      <defaultValue>'Планирование'</defaultValue>
+      <description></description>
+      <id>30c930bf-9ace-4a23-aae1-a86c8f6d77d0</id>
+      <masked>false</masked>
+      <name>MenuMain</name>
+   </variable>
+   <variable>
+      <defaultValue>'Планы закупок'</defaultValue>
+      <description></description>
+      <id>ca2d2482-08e8-4993-89ff-190797edc167</id>
+      <masked>false</masked>
+      <name>MenuLeft</name>
+   </variable>
+   <variable>
+      <defaultValue>'Все'</defaultValue>
+      <description></description>
+      <id>15aad6d7-31cb-46f7-bb1d-58d28a095c4f</id>
+      <masked>false</masked>
+      <name>MenuHorizontal</name>
+   </variable>
+</TestCaseEntity>

@@ -24,10 +24,10 @@ import org.openqa.selenium.Keys as Keys
 WebUI.callTestCase(findTestCase('BASE/EIS/Send to EIS'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 
 'Ожидание доступности следущего контрола'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Toolbar_vertical/menu_route'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Tab/tab_route'), 60)
 
 'Перейти на вкладку Маршрута'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_vertical/menu_route'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Tab/tab_route'))
 
 'Ожидание доступности меню действий'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Route/action_route'), 60)

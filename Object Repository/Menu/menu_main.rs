@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>menu_main</name>
+   <tag></tag>
+   <elementGuidId>ad6eba9d-a3ca-42b1-9bfc-86f2a15c334d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Планирование']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//span[(contains(text(), 'Планирование') or contains(., 'Планирование'))]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>contains</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Планирование</value>
+   </webElementProperties>
+</WebElementEntity>

@@ -4,7 +4,17 @@
    <name>input_workGroup</name>
    <tag></tag>
    <elementGuidId>841dcb97-eabd-4037-a07c-f51623273b2a</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;WorkGroup_chosen&quot;)/ul[@class=&quot;chosen-choices&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='WorkGroup_chosen']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

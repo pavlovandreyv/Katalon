@@ -61,14 +61,14 @@ if (mat.find()) {
 }
 
 WebUI.callTestCase(findTestCase('BASE/Authorization'), [('Login') : findTestData('Test data.xlsx/Tab_Variables_User').getValue(
-            'Login', 6), ('Password') : psw, ('DeleteAllCookies') : false], FailureHandling.STOP_ON_FAILURE)
+            'Login', 2), ('Password') : psw, ('DeleteAllCookies') : false], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('Profile/Change password'), [('Password') : psw, ('NewPassword') : findTestData('Test data.xlsx/Tab_Variables_User').getValue(
             'Password', 1), ('NewPasswordConfirm') : findTestData('Test data.xlsx/Tab_Variables_User').getValue('Password', 
             1)], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.callTestCase(findTestCase('BASE/Authorization'), [('Login') : findTestData('Test data.xlsx/Tab_Variables_User').getValue('Login', 6)
-        , ('Password') : findTestData('Test data.xlsx/Tab_Variables_User').getValue('Password', 1), ('DeleteAllCookies') : false], 
+WebUI.callTestCase(findTestCase('BASE/Authorization'), [('Login') : findTestData('Test data.xlsx/Tab_Variables_User').getValue(
+            'Login', 2), ('Password') : findTestData('Test data.xlsx/Tab_Variables_User').getValue('Password', 1), ('DeleteAllCookies') : false], 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()

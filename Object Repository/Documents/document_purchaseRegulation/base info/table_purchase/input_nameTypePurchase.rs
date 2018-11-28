@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_nameTypePurchase</name>
+   <tag></tag>
+   <elementGuidId>564c3bba-725b-4102-8af0-b7b21e496f67</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='table-content']/div[@class='table-edit-row'][@data-rowkey='1']//input[contains(@name,'Spzak-namesposzak')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>Create purchase regulation</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-26T09:06:48</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>60</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>397aa83b-ff2a-4620-af36-4bcb61593464</testSuiteGuid>
+   <testCaseLink>
+      <guid>91437332-f1a6-48ac-a707-e0c4dc606feb</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BASE/Authorization</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>17b320b1-1dc6-4561-8e3f-9e6d2173db87</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f9fed6bf-a35f-4c63-9a99-5bc306f5c375</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e6c4cdd5-2da3-43dd-8599-604e181b2311</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>8b8f6c14-2043-45f7-be64-06108a35413d</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Purchase regulation/Create purchase regulation</testCaseId>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>f2216d40-0957-4e87-a56b-fc854f57b8e3</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

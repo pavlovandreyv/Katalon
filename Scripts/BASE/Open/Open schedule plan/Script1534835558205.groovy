@@ -26,16 +26,16 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_home/span_
 WebUI.click(findTestObject('Pages/page_home/span_planning'))
 
 'Ожидание меню "Планы закупок"'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_planning/a_schedulePlan'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Menu/menu_planning/a_schedulePlan'), 60)
 
 'Перейти по меню План график'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_schedulePlan'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/a_schedulePlan'))
 
 'Ожидание меню Актуальные'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_planning/a_actual'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Menu/menu_planning/a_actual'), 60)
 
 'Перейти по меню Актуальные'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_actual'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/a_actual'))
 
 'Изменить значение реквизита документа'
 new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', BudgetYear, true)

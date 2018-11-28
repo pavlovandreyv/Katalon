@@ -24,6 +24,8 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 'Переход на вкладку администрирования'
 WebUI.click(findTestObject('Pages/page_home/span_administration'))
 
+WebUI.waitForElementPresent(findTestObject('Pages/page_administration/page_activation/user'), 0)
+
 'Разворачивание списка пользователей для активации\r\n'
 WebUI.click(findTestObject('Pages/page_administration/page_activation/user'))
 
@@ -32,6 +34,8 @@ WebUiBuiltInKeywords.setText(findTestObject('Pages/page_administration/page_acti
 
 'Выбор активируемого пользователя'
 WebUI.sendKeys(findTestObject('Pages/page_administration/page_activation/input_user'), Keys.chord(Keys.ENTER))
+
+WebUI.waitForElementPresent(findTestObject('Pages/page_administration/page_activation/input_workGroup'), 0)
 
 switch (WorkGroup) {
     case '1':
@@ -66,6 +70,40 @@ switch (WorkGroup) {
 
         'Выбор рабочей группы'
         WebUiBuiltInKeywords.click(findTestObject('BASE/workgroup/item_user44fz'), FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case '3':
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('Pages/page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/workgroup/item_IZ223fz'), FailureHandling.STOP_ON_FAILURE)
+
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('Pages/page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/workgroup/item_approval223fz'), FailureHandling.STOP_ON_FAILURE)
+
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('Pages/page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/workgroup/item_approveS223fz'), FailureHandling.STOP_ON_FAILURE)
+
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('Pages/page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/workgroup/item_chief223fz'), FailureHandling.STOP_ON_FAILURE)
+
+        break
+    case '4':
+        'Развернуть список рабочих групп'
+        WebUiBuiltInKeywords.click(findTestObject('Pages/page_administration/page_activation/input_workGroup'), FailureHandling.STOP_ON_FAILURE)
+
+        'Выбор рабочей группы'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/workgroup/item_user223fz'), FailureHandling.STOP_ON_FAILURE)
 
         break
 }

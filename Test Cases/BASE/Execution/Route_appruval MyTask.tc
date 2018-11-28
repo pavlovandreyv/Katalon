@@ -12,4 +12,11 @@
       <masked>false</masked>
       <name>Appruval</name>
    </variable>
+   <variable>
+      <defaultValue>true</defaultValue>
+      <description></description>
+      <id>a916303e-e8ad-45c8-a7ae-36078831db91</id>
+      <masked>false</masked>
+      <name>EP</name>
+   </variable>
 </TestCaseEntity>

@@ -4,7 +4,7 @@
    <name>Change_profile</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-22T09:21:09</lastRun>
+   <lastRun>2018-11-23T08:39:01</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -18,15 +18,15 @@
       <testCaseId>Test Cases/BASE/Authorization</testCaseId>
       <testDataLink>
          <combinationType>ONE</combinationType>
-         <id>ac5cbeec-2e6a-4b45-a9c7-a1f6bc5413b5</id>
+         <id>b1e4e09b-07e7-4612-bb16-596dc0b2ce87</id>
          <iterationEntity>
             <iterationType>SPECIFIC</iterationType>
-            <value>7</value>
+            <value>2</value>
          </iterationEntity>
          <testDataId>Data Files/Test data.xlsx/Tab_Variables_User</testDataId>
       </testDataLink>
       <variableLink>
-         <testDataLinkId>ac5cbeec-2e6a-4b45-a9c7-a1f6bc5413b5</testDataLinkId>
+         <testDataLinkId>b1e4e09b-07e7-4612-bb16-596dc0b2ce87</testDataLinkId>
          <type>DATA_COLUMN</type>
          <value>Login</value>
          <variableId>17b320b1-1dc6-4561-8e3f-9e6d2173db87</variableId>

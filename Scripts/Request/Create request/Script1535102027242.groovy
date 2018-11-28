@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('Documents/document_request/input_sourceFinancing')
 WebUiBuiltInKeywords.setText(findTestObject('Documents/document_request/input_placeDelivery'), Address)
 
 'Перйти на вкладку "Контактная информация"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_vertical/menu_contactInfo'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Tab/menu_contactInfo'))
 
 'Ожидание доступности поля Дополнительная контактная информация'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/input_additionalContactInfo'), 60)

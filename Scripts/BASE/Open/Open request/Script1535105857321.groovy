@@ -26,10 +26,10 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_home/span_
 WebUiBuiltInKeywords.click(findTestObject('Pages/page_home/span_purchase'))
 
 'Ожидание меню "Черновики"'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_request/link_all'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Menu/menu_request/link_all'), 60)
 
 'Перейти по меню "Черновики"'
-WebUiBuiltInKeywords.click(findTestObject('menu_request/link_all'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_request/link_all'))
 
 'Изменить значение реквизита поискового документа'
 new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', NameObjectPurchase, true)

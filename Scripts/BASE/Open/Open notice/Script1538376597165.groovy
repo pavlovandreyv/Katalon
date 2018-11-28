@@ -27,16 +27,16 @@ WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Pages/page_home/span_
 WebUiBuiltInKeywords.click(findTestObject('Pages/page_home/span_purchase'))
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('menu_request/menu_notice'), 0)
+WebUI.waitForElementPresent(findTestObject('Menu/menu_request/menu_notice'), 0)
 
 'Перейти на вкладку "Извещения о закупочной процедуре"'
-WebUI.click(findTestObject('menu_request/menu_notice'))
+WebUI.click(findTestObject('Menu/menu_request/menu_notice'))
 
 'Ожидание'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('menu_request/link_notice'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Menu/menu_request/link_notice'), 60)
 
 'Перейти по подменю "Извещение о закупочной процедуре"'
-WebUiBuiltInKeywords.click(findTestObject('menu_request/link_notice'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_request/link_notice'))
 
 WebUI.callTestCase(findTestCase('BASE/Open object'), [('ObjectName') : findTestData('Test data.xlsx/Tab_Variables').getValue('NameObjectPurchase', 1)], 
     FailureHandling.STOP_ON_FAILURE)

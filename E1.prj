@@ -4,7 +4,7 @@
    <name>E1</name>
    <tag></tag>
    <UUID>41db2f17-1748-4eed-a059-7a337cab70a6</UUID>
-   <migratedVersion>5.7.0</migratedVersion>
+   <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
    <sourceContent>
       <sourceFolderList>
@@ -18,6 +18,9 @@
          </systemFolderConfiguration>
          <systemFolderConfiguration>
             <url>Include/features</url>
+         </systemFolderConfiguration>
+         <systemFolderConfiguration>
+            <url>Include/config</url>
          </systemFolderConfiguration>
       </systemFolderList>
    </sourceContent>

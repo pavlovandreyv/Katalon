@@ -23,20 +23,20 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.click(findTestObject('Pages/page_home/span_planning'))
 
 'Перейти на вкладку Плана закупок'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_purchasePlan'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/a_purchasePlan'))
 
 'Нажать на кнопку "Создать план закупок"'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/btn_newPurchasePlan'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/btn_newPurchasePlan'))
 
 'Указать год бюджета плана закупок'
-new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('menu_planning/page_year/radio_budgetYear'), 'value', 
+new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('Menu/menu_planning/page_year/radio_budgetYear'), 'value', 
     'equals', BudgetYear, true)
 
 'Указать год бюджета плана закупок'
 WebUiBuiltInKeywords.check(new_budgetYear)
 
 'Завершить выбор года'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/page_year/button_OK'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/page_year/button_OK'))
 
 'Развернуть список Ответственных'
 WebUiBuiltInKeywords.click(findTestObject('Documents/document_purchasePlan/button_otv'))

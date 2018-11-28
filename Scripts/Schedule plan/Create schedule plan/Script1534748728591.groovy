@@ -23,20 +23,20 @@ import internal.GlobalVariable as GlobalVariable
 WebUI.click(findTestObject('Pages/page_home/span_planning'))
 
 'Перейти на вкладку Планы графики'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_schedulePlan'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/a_schedulePlan'))
 
 'Нажать Создать план-график'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/btn_newPurchasePlan'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/btn_newPurchasePlan'))
 
 'Изменить год на текущий'
-new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('menu_planning/page_year/radio_budgetYear'), 'value', 
+new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('Menu/menu_planning/page_year/radio_budgetYear'), 'value', 
     'equals', BudgetYear, true)
 
 'Указать год финансирования'
 WebUiBuiltInKeywords.check(new_budgetYear)
 
 'Завершить выбор года'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/page_year/button_OK'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/page_year/button_OK'))
 
 'Развернуть список ответственного'
 WebUiBuiltInKeywords.click(findTestObject('Documents/document_purchasePlan/button_otv'))

@@ -38,7 +38,7 @@ WebUI.click(findTestObject('Documents/document_contractExecution/btn_stageContra
 
 WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('BASE/Toolbar_vertical/tab_executionContract'))
+WebUI.click(findTestObject('BASE/Tab/tab_executionContract'))
 
 WebUI.waitForElementPresent(findTestObject('Documents/document_contractExecution/btn_addDoc'), 0)
 

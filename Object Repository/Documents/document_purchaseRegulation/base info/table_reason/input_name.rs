@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_name</name>
+   <tag></tag>
+   <elementGuidId>8b2f9bba-2728-4993-8a84-e98f6e777c27</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@class='table-content']/div[@class='table-edit-row'][@data-rowkey='1']//input[contains(@name,'OsnOneWinner-NameOsn')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+</WebElementEntity>

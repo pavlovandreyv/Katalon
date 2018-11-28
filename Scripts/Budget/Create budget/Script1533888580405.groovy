@@ -26,17 +26,17 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 WebUiBuiltInKeywords.click(findTestObject('Pages/page_home/span_planning'))
 
 'Нажать на кнопку "Сформировать бюджет"'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/a_newBudget'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/a_newBudget'))
 
 'Изменить год бюджета'
-new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('menu_planning/page_year/radio_budgetYear'), 'value', 
+new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('Menu/menu_planning/page_year/radio_budgetYear'), 'value', 
     'equals', BudgetYear, true)
 
 'Выбрать бюджет'
 WebUiBuiltInKeywords.check(new_budgetYear)
 
 'Нажать кнопку подтверждения формирования бюджета'
-WebUiBuiltInKeywords.click(findTestObject('menu_planning/page_year/button_OK'))
+WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/page_year/button_OK'))
 
 'Проверка доступности кнопки выбора источника финансирования'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_budget/btn_sourceFinancing'), 60)
@@ -70,12 +70,6 @@ WebUiBuiltInKeywords.setText(findTestObject('Documents/document_budget/dictionar
 WebUiBuiltInKeywords.click(findTestObject('BASE/Dictionary_check/btn_find'))
 
 WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
-
-'Ожидание: модальный контрол'
-not_run: WebUiBuiltInKeywords.waitForElementNotPresent(findTestObject('special/modal_Budget'), 60)
-
-'Ожидание: модального контрола'
-not_run: WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/modal fade'), 60)
 
 'Ввести сумму лимита'
 WebUiBuiltInKeywords.setText(findTestObject('Documents/document_budget/input_limitAmount'), limitAmount)

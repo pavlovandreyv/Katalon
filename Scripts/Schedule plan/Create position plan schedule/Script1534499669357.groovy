@@ -24,7 +24,7 @@ import groovy.time.TimeCategory as TimeCategory
 import java.lang.System as System
 
 'Перейти на вкладку позиции плана закупок'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_vertical/menu_positionPurchasePlan'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Tab/menu_positionPurchasePlan'))
 
 'Изменить название закупки на определенный в профиле'
 url_ppz1 = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('Documents/document_purchasePlan/PPZ/a_urlPPZ'), 'text', 'equals', 
@@ -88,7 +88,7 @@ WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.S
 WebUiBuiltInKeywords.setText(findTestObject('Documents/document_PPG/input_amountPPG'), AmountPPG)
 
 'Перейти на вкладку "Дополнительные сведения"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_vertical/menu_additionalInfo'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Tab/menu_additionalInfo'))
 
 'Ожидание доступности кнопки "Банковское сопровождение контракта"'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_PPG/btn_bankSupportContract'), 60)
