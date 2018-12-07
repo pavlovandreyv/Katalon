@@ -56,7 +56,7 @@ WebUI.setText(findTestObject('BASE/Dictionary_check/input_find'), 'Единст�
 WebUI.click(findTestObject('BASE/Dictionary_check/btn_find'))
 
 'to do: удалить после правок EZAKUP-623'
-WebUI.delay(2, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(3, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)
 

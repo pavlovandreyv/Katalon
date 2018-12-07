@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Обновить из ЭТП</description>
+   <name>Update from ETP</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d2f276fb-c6b9-469b-b416-60fd011b1fc7</testCaseGuid>
+</TestCaseEntity>

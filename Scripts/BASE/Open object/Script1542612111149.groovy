@@ -20,15 +20,27 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
-'Изменить значение реквизита поискового документа'
-new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', ObjectName, true)
+switch (Any) {
+    case false:
+        'Изменить значение реквизита поискового документа'
+        new_object = WebUI.modifyObjectProperty(findTestObject('BASE/object'), 'text', 'equals', ObjectName, true)
 
-'Ожидание доступности документа'
-WebUiBuiltInKeywords.waitForElementPresent(new_object, 60)
+        'Ожидание доступности документа'
+        WebUiBuiltInKeywords.waitForElementPresent(new_object, 60)
 
-'Скопировать url, для перехода внутри одной вкладки'
-url_object = WebUiBuiltInKeywords.getAttribute(new_object, 'href')
+        'Скопировать url, для перехода внутри одной вкладки'
+        url_object = WebUiBuiltInKeywords.getAttribute(new_object, 'href')
 
-'Перейти по скопированному url'
-WebUI.navigateToUrl(url_object)
+        'Перейти по скопированному url'
+        WebUI.navigateToUrl(url_object)
+
+        break
+    case true:
+        url2_object = WebUI.getAttribute(findTestObject('BASE/all_object'), 'href')
+
+        'Перейти по скопированному url'
+        WebUI.navigateToUrl(url2_object)
+
+        break
+}
 

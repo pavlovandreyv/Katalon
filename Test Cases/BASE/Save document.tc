@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Сохранить документ</description>
+   <name>Save document</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>8a35aae2-e9bf-416a-9c14-a88a281b9a74</testCaseGuid>
+</TestCaseEntity>

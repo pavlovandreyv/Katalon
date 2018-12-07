@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ввести данные в извещение</description>
+   <name>223 Enter data notice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>07f1f6f1-ec15-4818-9cd3-3446e7a26a02</testCaseGuid>
+</TestCaseEntity>

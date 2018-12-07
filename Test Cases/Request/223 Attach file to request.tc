@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Присоединить файл</description>
+   <name>223 Attach file to request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>fba63e09-a494-48b6-aa07-63680eb1ee38</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('File1', 1)</defaultValue>
+      <description></description>
+      <id>00d52147-31c3-4726-815b-e9194522f1b7</id>
+      <masked>false</masked>
+      <name>File1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('File2', 1)</defaultValue>
+      <description></description>
+      <id>b08b224e-ce7c-49db-bc7d-a54e76141a50</id>
+      <masked>false</masked>
+      <name>File2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('File3', 1)</defaultValue>
+      <description></description>
+      <id>bcd4b3d4-d964-4bf8-9332-83e732f1b3ed</id>
+      <masked>false</masked>
+      <name>File3</name>
+   </variable>
+   <variable>
+      <defaultValue>44</defaultValue>
+      <description></description>
+      <id>673f7ee0-892a-4660-8e91-f5f252b167ec</id>
+      <masked>false</masked>
+      <name>FZ</name>
+   </variable>
+</TestCaseEntity>

@@ -26,4 +26,11 @@
       <masked>false</masked>
       <name>File3</name>
    </variable>
+   <variable>
+      <defaultValue>44</defaultValue>
+      <description></description>
+      <id>22a08b90-a9ee-44bc-bfd5-e66af1e92856</id>
+      <masked>false</masked>
+      <name>FZ</name>
+   </variable>
 </TestCaseEntity>

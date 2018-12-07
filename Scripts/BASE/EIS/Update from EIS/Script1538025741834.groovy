@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Нажать на кноку "Эмуляция отправки в ЕИС"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_emulationEIS'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Button/btn_emulationEIS'))
 
 'Ожидание: модальный контрол'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('special/modal-loading-wrapper'), 60)

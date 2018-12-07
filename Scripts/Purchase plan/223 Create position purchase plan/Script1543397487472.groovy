@@ -38,6 +38,8 @@ WebUI.setText(findTestObject('Documents/document_PPZ/223/base info/input_datePub
 
 WebUI.setText(findTestObject('Documents/document_PPZ/223/base info/input_dateExecution'), Date22.toString())
 
+WebUI.waitForElementNotPresent(findTestObject('special/modal-backdrop fade'), 0)
+
 WebUI.click(findTestObject('Documents/document_PPZ/223/base info/btn_typePurchase'))
 
 WebUI.callTestCase(findTestCase('BASE/Dictionary check'), [:], FailureHandling.STOP_ON_FAILURE)

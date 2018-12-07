@@ -21,10 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Ожидание кнопки "Создать заявку на размещение"'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_createRequest'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Button/btn_createRequest'), 60)
 
 'Нажать на кнопку "Создать заявку на размещение"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_createRequest'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Button/btn_createRequest'))
 
 'Ожидание кнопки "Утверждающего"'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/btn_appruval'), 60)
@@ -41,7 +41,7 @@ WebUI.setText(findTestObject('Documents/document_request/input_sourceFinancing')
 WebUiBuiltInKeywords.setText(findTestObject('Documents/document_request/input_placeDelivery'), Address)
 
 'Перйти на вкладку "Контактная информация"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Tab/menu_contactInfo'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Tab/tab_contactInfo'))
 
 'Ожидание доступности поля Дополнительная контактная информация'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/input_additionalContactInfo'), 60)

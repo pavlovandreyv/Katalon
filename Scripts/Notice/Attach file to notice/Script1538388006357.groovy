@@ -24,10 +24,10 @@ import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as Cucumber
 new_file1 = (System.getProperty('user.dir') + File1)
 
 'Ожидание контрола'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_attachFile'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Button/btn_attachFile'), 60)
 
 'Нажать на кнопку "Прикрепить файл"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_attachFile'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Button/btn_attachFile'))
 
 'Ожидание контрола'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File/btn_selectFile'), 60)

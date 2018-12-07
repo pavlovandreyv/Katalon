@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Отредактировать заявк на размещение</description>
+   <name>223 Edit request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d24d2e08-c2fd-4bbd-a6cb-a2385b5a4c1b</testCaseGuid>
+</TestCaseEntity>

@@ -4,7 +4,7 @@
    <name>Route_approvalS MyTask</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-28T12:46:26</lastRun>
+   <lastRun>2018-12-06T11:29:20</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>
@@ -16,10 +16,19 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BASE/Authorization</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>058e32ca-7c31-4f08-9e15-aab14be1fa25</id>
+         <iterationEntity>
+            <iterationType>SPECIFIC</iterationType>
+            <value>3</value>
+         </iterationEntity>
+         <testDataId>Data Files/Test data.xlsx/Tab_Variables_User</testDataId>
+      </testDataLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>058e32ca-7c31-4f08-9e15-aab14be1fa25</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Login</value>
          <variableId>17b320b1-1dc6-4561-8e3f-9e6d2173db87</variableId>
       </variableLink>
       <variableLink>

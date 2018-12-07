@@ -4,7 +4,7 @@
    <name>223 Create position purchase plan</name>
    <tag></tag>
    <isRerun>false</isRerun>
-   <lastRun>2018-11-28T12:23:03</lastRun>
+   <lastRun>2018-12-06T08:49:16</lastRun>
    <mailRecipient></mailRecipient>
    <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>60</pageLoadTimeout>

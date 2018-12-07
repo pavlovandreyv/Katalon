@@ -15,9 +15,9 @@ import internal.GlobalVariable as GlobalVariable
 import java.lang.System as System
 import groovy.time.TimeCategory as TimeCategory
 
-WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_federalReportContract'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Button/btn_federalReportContract'), 0)
 
-WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_federalReportContract'))
+WebUI.click(findTestObject('BASE/Button/btn_federalReportContract'))
 
 WebUI.waitForElementPresent(findTestObject('Documents/document_federalReportContract/btn_chief'), 0)
 
@@ -48,7 +48,7 @@ WebUI.setText(findTestObject('Documents/document_federalReportContract/input_doc
 
 WebUI.click(findTestObject('BASE/btn_save'))
 
-WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_showContract'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Button/btn_showContract'), 0)
 
 WebUI.closeBrowser()
 

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Создать контракт/договор</description>
+   <name>Create contract</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bbabd3be-24d9-412f-9878-3cb4145794de</testCaseGuid>
+</TestCaseEntity>

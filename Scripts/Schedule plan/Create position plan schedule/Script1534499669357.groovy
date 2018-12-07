@@ -37,7 +37,7 @@ url_ppz2 = WebUI.getAttribute(url_ppz1, 'href')
 WebUiBuiltInKeywords.navigateToUrl(url_ppz2)
 
 'Нажать на кнопку "Создать позицию ПГ"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_newPPG'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Button/btn_newPPG'))
 
 'Ожидание доступности 1го реквизита для ввода на форме ППГ'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_PPG/inpute_descriptionObjectPurchase'), 60)

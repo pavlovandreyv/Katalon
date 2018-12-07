@@ -51,6 +51,6 @@
       <guid>69ec4095-0a59-4e94-bd04-53663d6fbb4f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BASE/Execution/Route_execute</testCaseId>
+      <testCaseId>Test Cases/BASE/Execution/Route_executeEIS</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>

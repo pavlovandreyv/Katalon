@@ -29,11 +29,11 @@ WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/a_purchasePlan'))
 WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/btn_newPurchasePlan'))
 
 'Указать год бюджета плана закупок'
-new_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('Menu/menu_planning/page_year/radio_budgetYear'), 'value', 
-    'equals', BudgetYear, true)
+object_budgetYear = WebUiBuiltInKeywords.modifyObjectProperty(findTestObject('Menu/menu_planning/page_year/radio_budgetYear'), 
+    'value', 'equals', BudgetYear, true)
 
 'Указать год бюджета плана закупок'
-WebUiBuiltInKeywords.check(new_budgetYear)
+WebUiBuiltInKeywords.check(object_budgetYear)
 
 'Завершить выбор года'
 WebUiBuiltInKeywords.click(findTestObject('Menu/menu_planning/page_year/button_OK'))

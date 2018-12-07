@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Создать заявку на размещение</description>
+   <name>223 Create request</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>4a596c01-35d0-4c74-a2da-b6d8e81415ff</testCaseGuid>
+</TestCaseEntity>

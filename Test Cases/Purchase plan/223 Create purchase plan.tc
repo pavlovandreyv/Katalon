@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>223 Create purchase plan</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9b325afc-06d9-4fa5-8add-8a5d2bede9f1</testCaseGuid>
+   <variable>
+      <defaultValue>findTestData('Test data.xlsx/Tab_Variables').getValue('BudgetYear', 1)</defaultValue>
+      <description></description>
+      <id>7b570285-1deb-4772-9d06-ac598dd70594</id>
+      <masked>false</masked>
+      <name>BudgetYear</name>
+   </variable>
+</TestCaseEntity>

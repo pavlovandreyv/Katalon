@@ -19,8 +19,10 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKe
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 
+WebUI.waitForElementPresent(findTestObject('BASE/Button/btn_forApproval'), 0)
+
 'Нажать на кнопку "На утверждение"'
-WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_forApproval'))
+WebUI.click(findTestObject('BASE/Button/btn_forApproval'))
 
 'Ожидание скрытия перекрывающих кнопку "Ок" элементов'
 WebUI.waitForElementPresent(findTestObject('special/modal-loading-wrapper'), 60)
@@ -29,7 +31,7 @@ WebUI.waitForElementPresent(findTestObject('special/modal-loading-wrapper'), 60)
 WebUI.click(findTestObject('BASE/Alert/btn_OK'))
 
 'Проверка успешности операции'
-WebUiBuiltInKeywords.waitForElementNotPresent(findTestObject('BASE/Toolbar_horizon/btn_forApproval'), 60)
+WebUiBuiltInKeywords.waitForElementNotPresent(findTestObject('BASE/Button/btn_forApproval'), 60)
 
 'Закрыть браузер'
 WebUI.closeBrowser()

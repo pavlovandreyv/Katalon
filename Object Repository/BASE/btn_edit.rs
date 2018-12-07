@@ -4,7 +4,17 @@
    <name>btn_edit</name>
    <tag></tag>
    <elementGuidId>dba45392-46fb-440e-95f2-eb2a872f1a6d</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@title = 'Редактировать' and (text() = 'Редактировать' or . = 'Редактировать')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@title = 'Редактировать']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>

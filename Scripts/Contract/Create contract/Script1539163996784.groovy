@@ -21,9 +21,9 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import groovy.time.TimeCategory as TimeCategory
 
-WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_createContract'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Button/btn_createContract'), 0)
 
-WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createContract'))
+WebUI.click(findTestObject('BASE/Button/btn_createContract'))
 
 WebUI.waitForElementPresent(findTestObject('Documents/document_contract/input_numberContract'), 0)
 

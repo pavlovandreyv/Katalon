@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Добавить сведения об исполнении</description>
+   <name>223 Create contract execution</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>3c506ba3-d457-460f-9a6f-4349c96777bd</testCaseGuid>
+</TestCaseEntity>

@@ -21,10 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 import groovy.time.TimeCategory as TimeCategory
 
-WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_addExecutionContract'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Button/btn_addExecutionContract'), 0)
 
 'Нажать на кнопку "Создать исполнение контракта"'
-WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_addExecutionContract'))
+WebUI.click(findTestObject('BASE/Button/btn_addExecutionContract'))
 
 WebUI.waitForElementPresent(findTestObject('Documents/document_contractExecution/btn_typeDoc'), 0)
 

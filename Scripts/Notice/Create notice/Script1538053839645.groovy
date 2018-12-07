@@ -16,10 +16,10 @@ import java.lang.System as System
 import groovy.time.TimeCategory as TimeCategory
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_createNotice'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Button/btn_createNotice'), 0)
 
 'Нажать Создать Извещение\r\n'
-WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createNotice'))
+WebUI.click(findTestObject('BASE/Button/btn_createNotice'))
 
 'Ожидание'
 WebUI.waitForElementPresent(findTestObject('Documents/document_notice/btn_approval'), 0)

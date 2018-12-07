@@ -37,7 +37,7 @@ url_ppz2 = WebUI.getAttribute(url_ppz1, 'href')
 WebUiBuiltInKeywords.navigateToUrl(url_ppz2)
 
 'Нажать на кнопку "Создать позицию"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_newPosition'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Button/btn_newPosition'))
 
 'Ввести название позиции из профиля'
 WebUiBuiltInKeywords.setText(findTestObject('Documents/document_positionPPG/input_namePosition'), NameObjectPurchase)

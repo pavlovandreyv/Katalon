@@ -18,6 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
+import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Адрес файла 1'
 new_file1 = (System.getProperty('user.dir') + File1)
@@ -29,10 +30,10 @@ new_file2 = (System.getProperty('user.dir') + File2)
 new_file3 = (System.getProperty('user.dir') + File3)
 
 'Ожидание контрола'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_attachFile'), 60)
+WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/Button/btn_attachFile'), 60)
 
 'Нажать на кнопку "Прикрепить файл"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_attachFile'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Button/btn_attachFile'))
 
 'Ожидание контрола'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File/btn_selectFile'), 60)
@@ -49,11 +50,24 @@ WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/btn_select
 'Раскрыть список с категориями'
 WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/list_category'), FailureHandling.STOP_ON_FAILURE)
 
-'Ожидание контрола\r\n'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/item_nameDescription'), 60)
+switch (FZ) {
+    case 44:
+        'Ожидание контрола\r\n'
+        WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File category/item_nameDescription'), 60)
 
-'Выбрать в списке значение'
-WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/item_nameDescription'))
+        'Выбрать в списке значение'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/File category/item_nameDescription'))
+
+        break
+    case 223:
+        'Ожидание контрола\r\n'
+        WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File category/item_technicalAssignment'), 60)
+
+        'Выбрать в списке значение'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/File category/item_technicalAssignment'))
+
+        break
+}
 
 'Ожидание'
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File/btn_selectFile'), 60)
@@ -70,11 +84,24 @@ WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/btn_select
 'Раскрыть список с категориями'
 WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/list_category'), FailureHandling.STOP_ON_FAILURE)
 
-'Ожидание значения'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/item_rationaleNMCK'), 60)
+switch (FZ) {
+    case 44:
+        'Ожидание значения'
+        WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File category/item_rationaleNMCK'), 60)
 
-'Выбрать значение из списка'
-WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/item_rationaleNMCK'))
+        'Выбрать значение из списка'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/File category/item_rationaleNMCK'))
+
+        break
+    case 223:
+        'Ожидание значения'
+        WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File category/item_NMCD'), 60)
+
+        'Выбрать значение из списка'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/File category/item_NMCD'))
+
+        break
+}
 
 'Ожидание '
 WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File/btn_selectFile'), 60)
@@ -91,11 +118,24 @@ WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/btn_select
 'Раскрыть список с категориями'
 WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/list_category'), FailureHandling.STOP_ON_FAILURE)
 
-'Ожидание'
-WebUiBuiltInKeywords.waitForElementPresent(findTestObject('Documents/document_request/item_projectContract'), 60)
+switch (FZ) {
+    case 44:
+        'Ожидание'
+        WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File category/item_projectContract'), 60)
 
-'Выбрать значение из списка с категориями'
-WebUiBuiltInKeywords.click(findTestObject('Documents/document_request/item_projectContract'))
+        'Выбрать значение из списка с категориями'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/File category/item_projectContract'))
+
+        break
+    case 223:
+        'Ожидание'
+        WebUiBuiltInKeywords.waitForElementPresent(findTestObject('BASE/File category/item_projectContract223'), 60)
+
+        'Выбрать значение из списка с категориями'
+        WebUiBuiltInKeywords.click(findTestObject('BASE/File category/item_projectContract223'))
+
+        break
+}
 
 'Завершить редактирование прикрепления файлов нажатием на кнопку "ОК"'
 WebUiBuiltInKeywords.click(findTestObject('BASE/Alert/btn_OK'))

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Создать извещение</description>
+   <name>223 Create notice</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ef3a3531-0610-4fcf-b594-b04360b1bd67</testCaseGuid>
+</TestCaseEntity>

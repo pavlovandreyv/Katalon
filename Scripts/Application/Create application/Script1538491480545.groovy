@@ -21,10 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_createApp'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Button/btn_createApp'), 0)
 
 'Создать заявку участника'
-WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createApp'))
+WebUI.click(findTestObject('BASE/Button/btn_createApp'))
 
 'Ожидание'
 WebUI.waitForElementPresent(findTestObject('Documents/document_application/input_numberApp'), 0)
@@ -67,7 +67,7 @@ url_object = WebUiBuiltInKeywords.getAttribute(new_object, 'href')
 WebUI.navigateToUrl(url_object)
 
 'Нажать на кнопку Заявка участника'
-WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createApp'))
+WebUI.click(findTestObject('BASE/Button/btn_createApp'))
 
 'Ожидание'
 WebUI.waitForElementPresent(findTestObject('Documents/document_application/input_numberApp'), 0)
@@ -102,7 +102,7 @@ WebUI.waitForElementPresent(findTestObject('BASE/btn_edit'), 0)
 WebUI.navigateToUrl(url_object)
 
 'Создать Заявку участника'
-WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createApp'))
+WebUI.click(findTestObject('BASE/Button/btn_createApp'))
 
 'Ожидание'
 WebUI.waitForElementPresent(findTestObject('Documents/document_application/input_numberApp'), 0)

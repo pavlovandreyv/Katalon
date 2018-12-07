@@ -26,7 +26,7 @@ WebUiBuiltInKeywords.waitForAlert(60)
 'Нажать ОК'
 WebUI.acceptAlert()
 
-new_object = WebUI.modifyObjectProperty(findTestObject('dialog_EP/radio_certificate'), 'xpath', 'equals', CertName, true)
+new_object = WebUI.modifyObjectProperty(findTestObject('Dialog/dialog_EP/radio_certificate'), 'xpath', 'equals', CertName, true)
 
 'Установить чек напротив выбранного сертификата'
 WebUiBuiltInKeywords.click(new_object)

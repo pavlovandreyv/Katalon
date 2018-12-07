@@ -21,7 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Нажать "Отправить в ЕИС"'
-WebUiBuiltInKeywords.click(findTestObject('BASE/Toolbar_horizon/btn_senToEIS'))
+WebUiBuiltInKeywords.click(findTestObject('BASE/Button/btn_senToEIS'))
 
 'Ввести логин'
 WebUiBuiltInKeywords.setText(findTestObject('BASE/EIS/input_loginEIS'), 'Логин', FailureHandling.CONTINUE_ON_FAILURE)

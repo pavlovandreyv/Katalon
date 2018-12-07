@@ -68,8 +68,8 @@ WebUI.verifyElementPresent(findTestObject('BASE/Tab/tab_route'), 0)
 WebUI.verifyElementAttributeValue(findTestObject('BASE/Tab/tab_lastVersions'), 'style', 'display: none;', 0)
 
 'Проверка кнопки "Присоединить файлы"'
-WebUI.verifyElementPresent(findTestObject('BASE/Toolbar_horizon/btn_attachFile'), 0)
+WebUI.verifyElementPresent(findTestObject('BASE/Button/btn_attachFile'), 0)
 
 'Проверка кнопки "На утверждение'
-WebUI.verifyElementPresent(findTestObject('BASE/Toolbar_horizon/btn_forApproval'), 0)
+WebUI.verifyElementPresent(findTestObject('BASE/Button/btn_forApproval'), 0)
 

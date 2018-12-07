@@ -82,7 +82,7 @@ switch (RegistrationEP) {
         'Нажать ОК'
         WebUI.acceptAlert()
 
-        new_object = WebUI.modifyObjectProperty(findTestObject('dialog_EP/radio_certificate'), 'xpath', 'equals', CertName, 
+        new_object = WebUI.modifyObjectProperty(findTestObject('Dialog/dialog_EP/radio_certificate'), 'xpath', 'equals', CertName, 
             true)
 
         'Установить чек напротив выбранного сертификата'

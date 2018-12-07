@@ -156,7 +156,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Suites/Route_execute MyTask</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Suites/Notice/Route_execute Notice</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -192,7 +192,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Suites/Route_execute MyTask</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Suites/Notice/Route_execute Notice</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -318,7 +318,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Suites/Contract/Create contract execution</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Suites/Contract execution/Create contract execution</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -327,7 +327,7 @@
             <runConfigurationId>Firefox</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Suites/Contract/Contract execution to EIS</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Suites/Contract execution/Contract execution to EIS</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

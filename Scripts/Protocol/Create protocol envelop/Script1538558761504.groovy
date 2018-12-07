@@ -21,10 +21,10 @@ import internal.GlobalVariable as GlobalVariable
 import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
 
 'Ожидание'
-WebUI.waitForElementPresent(findTestObject('BASE/Toolbar_horizon/btn_createProtocol'), 0)
+WebUI.waitForElementPresent(findTestObject('BASE/Button/btn_createProtocol'), 0)
 
 'Нажать Создать протокол'
-WebUI.click(findTestObject('BASE/Toolbar_horizon/btn_createProtocol'))
+WebUI.click(findTestObject('BASE/Button/btn_createProtocol'))
 
 'Ожидание'
 WebUI.waitForElementPresent(findTestObject('Documents/document_protocol/tab_infoCommission'), 0)

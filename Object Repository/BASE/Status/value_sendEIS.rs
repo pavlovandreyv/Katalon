@@ -6,12 +6,12 @@
    <elementGuidId>1408b75b-6e96-47c6-91af-daa26f9e4c8d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[(@data-name = 'Статус' or @data-name='Статус контракта' ) and (text() = 'Отправлено в ЕИС' or .= 'Подача заявок' or .= 'Исполнение' or .='Контракт завершен')]</value>
-      </entry>
-      <entry>
          <key>BASIC</key>
          <value>//div[@data-name = 'Статус' and (text() = 'Отправлено в ЕИС' or . = 'Отправлено в ЕИС')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[(@data-name = 'Статус' or @data-name='Статус контракта' ) and (text() = 'Отправлено в ЕИС' or .= 'Подача заявок' or .= 'Исполнение' or .='Контракт завершен' or .='Закупка завершена')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

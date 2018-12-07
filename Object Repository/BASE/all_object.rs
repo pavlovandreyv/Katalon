@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
+         <value>//a[@class = 'search-result-cell-value']</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(@class,'search-result-cell-value')][text()]</value>
+         <value>//*[@class = 'search-result-cell-value']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -22,5 +22,12 @@
       <name>class</name>
       <type>Main</type>
       <value>search-result-cell-value</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
    </webElementProperties>
 </WebElementEntity>

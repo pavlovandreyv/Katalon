@@ -4,7 +4,17 @@
    <name>btn_newPurchasePlan</name>
    <tag></tag>
    <elementGuidId>c0f9d4ec-4617-4257-b797-928f1e4c3b15</elementGuidId>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//a[@class = 'btn btn-default btn-md' and (text() = 'Сформировать план' or . = 'Сформировать план')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[text() = 'Сформировать план']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
